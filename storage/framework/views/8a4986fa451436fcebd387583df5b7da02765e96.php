@@ -1,13 +1,13 @@
-@extends('fontend.index')
-@section('content')
+
+<?php $__env->startSection('content'); ?>
     <div class="main wide-page paidmedia digital-page wide-page_dark-sticky webstrategy-page b2b-ndpage home_page">
 
         <div class="hero-section hero-section_wide hero-section_webstrategy hero-section_b2b hero-section_home">
             
            
-             @foreach($row_head as $row)
-                @include('fontend/layout/'.$row->style)
-            @endforeach
+             <?php $__currentLoopData = $row_head; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $row): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                <?php echo $__env->make('fontend/layout/'.$row->style, \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+            <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
             
             <div class="container">
 
@@ -1985,4 +1985,6 @@
                 </div>
             </div>
         </section>
-@endsection('content')
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('fontend.index', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH E:\xampp\htdocs\jpostar\resources\views/fontend/home.blade.php ENDPATH**/ ?>

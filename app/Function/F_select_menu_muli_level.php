@@ -11,17 +11,7 @@ function F_select_menu_muli_level($data,$parent = 0,$str = ""){
       <option value="<?php echo $id_menu ?>">
       	<?php 
             echo $str;
-            if($type_menu == 'cat'){
-               echo $val-> f_cat -> name;
-            }elseif($type_menu == 'custome'){
-               echo $val-> name;
-            }elseif($type_menu == 'post'){
-                if($val-> name != ''){
-                  echo $val-> name;
-               }else{
-                  echo $val-> f_post -> title;
-               }
-            }
+            echo $val-> name;
          ?>
       </option>  
 <?php

@@ -7,10 +7,10 @@
     <meta name="theme-color" content="#121212">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <link rel="shortcut icon" href="{{asset('wp-content/themes/ninjapromo/favicon.ico')}}">
-    <link rel="icon" type="image/png" sizes="16x16" href="{{asset('wp-content/themes/ninjapromo/favicon-16x16.png')}}">
-    <link rel="icon" type="image/png" sizes="32x32" href="{{asset('wp-content/themes/ninjapromo/favicon-32x32.png')}}">
-    <link rel="apple-touch-icon" sizes="180x180" href="{{asset('wp-content/themes/ninjapromo/apple-touch-icon.png')}}">
+    <link rel="shortcut icon" href="<?php echo e(asset('wp-content/themes/ninjapromo/favicon.ico')); ?>">
+    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo e(asset('wp-content/themes/ninjapromo/favicon-16x16.png')); ?>">
+    <link rel="icon" type="image/png" sizes="32x32" href="<?php echo e(asset('wp-content/themes/ninjapromo/favicon-32x32.png')); ?>">
+    <link rel="apple-touch-icon" sizes="180x180" href="<?php echo e(asset('wp-content/themes/ninjapromo/apple-touch-icon.png')); ?>">
 
     <link rel="canonical" href="jpostar.finance" />
 
@@ -21,7 +21,7 @@
         }
 
     </style>
-    <link rel="preload" href="{{asset('wp-content/plugins/rate-my-post/public/css/fonts/ratemypost.ttf')}}"
+    <link rel="preload" href="<?php echo e(asset('wp-content/plugins/rate-my-post/public/css/fonts/ratemypost.ttf')); ?>"
         type="font/ttf" as="font" crossorigin="anonymous">
      <title>Ninjapromo</title>
     <meta property="og:locale" content="en_US" />
@@ -33,7 +33,7 @@
     <meta name="twitter:card" content="summary_large_image" />
     <!-- / Yoast SEO plugin. -->
 
-    <link rel='stylesheet' id='formidable-css' href="{{asset('wp-content/cache/wpfc-minified/79cvd698/6lokc.css')}}" media='all' />
+    <link rel='stylesheet' id='formidable-css' href="<?php echo e(asset('wp-content/cache/wpfc-minified/79cvd698/6lokc.css')); ?>" media='all' />
     <style id='classic-theme-styles-inline-css'>
         /*! This file is auto-generated */
         .wp-block-button__link {
@@ -53,7 +53,7 @@
         }
 
     </style>
-    <link rel='stylesheet' id='rate-my-post-css' href="{{asset('wp-content/cache/wpfc-minified/qxrpejwu/6lokc.css')}}" media='all' />
+    <link rel='stylesheet' id='rate-my-post-css' href="<?php echo e(asset('wp-content/cache/wpfc-minified/qxrpejwu/6lokc.css')); ?>" media='all' />
     <style id='global-styles-inline-css'>
         :root {
             --wp--preset--aspect-ratio--square: 1;
@@ -380,9 +380,9 @@
         }
 
     </style>
-    <link rel='stylesheet' id='contact-form-7-css' href="{{asset('wp-content/cache/wpfc-minified/e4om50w6/6lokc.css')}}" media='all' />
-    <link rel='stylesheet' id='stc-tax-style-css' href="{{asset('wp-content/cache/wpfc-minified/qj2h8x7b/6lokc.css')}}" media='all' />
-    <link rel='stylesheet' id='moove_gdpr_frontend-css' href="{{asset('wp-content/cache/wpfc-minified/6jbslpf4/6lokc.css')}}" media='all' />
+    <link rel='stylesheet' id='contact-form-7-css' href="<?php echo e(asset('wp-content/cache/wpfc-minified/e4om50w6/6lokc.css')); ?>" media='all' />
+    <link rel='stylesheet' id='stc-tax-style-css' href="<?php echo e(asset('wp-content/cache/wpfc-minified/qj2h8x7b/6lokc.css')); ?>" media='all' />
+    <link rel='stylesheet' id='moove_gdpr_frontend-css' href="<?php echo e(asset('wp-content/cache/wpfc-minified/6jbslpf4/6lokc.css')); ?>" media='all' />
     <style id='moove_gdpr_frontend-inline-css'>
         #moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-tab-main h3.tab-title,
         #moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-tab-main span.tab-title,
@@ -596,21 +596,21 @@
     </style>
 
  
-    <link rel="icon" href="{{asset('wp-content/uploads/2024/08/cropped-favicon-512-1-32x32.png')}}"
+    <link rel="icon" href="<?php echo e(asset('wp-content/uploads/2024/08/cropped-favicon-512-1-32x32.png')); ?>"
         sizes="32x32" />
-    <link rel="icon" href="{{asset('wp-content/uploads/2024/08/cropped-favicon-512-1-192x192.png')}}"
+    <link rel="icon" href="<?php echo e(asset('wp-content/uploads/2024/08/cropped-favicon-512-1-192x192.png')); ?>"
         sizes="192x192" />
     <link rel="apple-touch-icon"
-        href="{{asset('wp-content/uploads/2024/08/cropped-favicon-512-1-180x180.png')}}" />
+        href="<?php echo e(asset('wp-content/uploads/2024/08/cropped-favicon-512-1-180x180.png')); ?>" />
     <meta name="msapplication-TileImage"
-        content="{{asset('wp-content/uploads/2024/08/cropped-favicon-512-1-270x270.png')}}" />
+        content="<?php echo e(asset('wp-content/uploads/2024/08/cropped-favicon-512-1-270x270.png')); ?>" />
 
-    <link rel="stylesheet" href="{{asset('wp-content/cache/wpfc-minified/f5c2iyi1/6lokc.css')}}">
+    <link rel="stylesheet" href="<?php echo e(asset('wp-content/cache/wpfc-minified/f5c2iyi1/6lokc.css')); ?>">
 
-    <link href="{{asset('wp-content/cache/wpfc-minified/9htow4fr/6lokc.css')}}" rel="stylesheet" />
-    <link rel="stylesheet" href="{{asset('wp-content/cache/wpfc-minified/8apuj06w/6lokc.css')}}">
-    <link rel="stylesheet" href="{{asset('wp-content/cache/wpfc-minified/qi1wppyd/6lokc.css')}}">
-    <link rel="stylesheet" href="{{asset('wp-content/cache/wpfc-minified/6onkqdaf/6lokc.css')}}">
+    <link href="<?php echo e(asset('wp-content/cache/wpfc-minified/9htow4fr/6lokc.css')); ?>" rel="stylesheet" />
+    <link rel="stylesheet" href="<?php echo e(asset('wp-content/cache/wpfc-minified/8apuj06w/6lokc.css')); ?>">
+    <link rel="stylesheet" href="<?php echo e(asset('wp-content/cache/wpfc-minified/qi1wppyd/6lokc.css')); ?>">
+    <link rel="stylesheet" href="<?php echo e(asset('wp-content/cache/wpfc-minified/6onkqdaf/6lokc.css')); ?>">
 
 
 </head>
@@ -676,20 +676,20 @@
             line-height: 1.3;
         }
 
-        @media screen and (min-width: 900px) {
+        @media  screen and (min-width: 900px) {
             .web3testimon-section .web3testimon-section__head_rait {
                 font-size: 1.5rem;
                 line-height: 1.25;
             }
         }
 
-        @media screen and (min-width: 768px) {
+        @media  screen and (min-width: 768px) {
             .web3option-section .web3preference-count {
                 font-size: 3rem;
             }
         }
 
-        @media screen and (min-width: 1100px) {
+        @media  screen and (min-width: 1100px) {
             .nsprice .package-include__title {
                 width: 14rem;
                 min-width: 14rem;
@@ -716,7 +716,7 @@
 
             
        
-          @yield('content')
+          <?php echo $__env->yieldContent('content'); ?>
         <div class="modal js-modal" data-modal="video_youtube0">
             <button class="btn modal__bg js-modal-close" type="button" aria-label="Close modal"></button>
             <div class="modal__wrap animated">
@@ -757,9 +757,9 @@
     </div>
 
 
-     @foreach($row_footer as $row)
-        @include('fontend/layout/'.$row->style)
-    @endforeach
+     <?php $__currentLoopData = $row_footer; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $row): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+        <?php echo $__env->make('fontend/layout/'.$row->style, \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+    <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
    
     <div class="modal js-modal" data-modal="video">
         <button class="btn modal__bg js-modal-close" type="button" aria-label="Close modal"></button>
@@ -780,8 +780,8 @@
 
 
 
-     <script src="{{asset('wp-content/themes/ninjapromo/build/js/lib.min.js')}}"></script>
-    <script src="{{asset('wp-content/themes/ninjapromo/build/js/mmenu.all.js')}}"></script>
+     <script src="<?php echo e(asset('wp-content/themes/ninjapromo/build/js/lib.min.js')); ?>"></script>
+    <script src="<?php echo e(asset('wp-content/themes/ninjapromo/build/js/mmenu.all.js')); ?>"></script>
     <script>
         jQuery(function () {
             jQuery('#menumobile').mmenu({
@@ -794,15 +794,15 @@
 
     </script>
 
-    <script src="{{asset('wp-content/themes/ninjapromo/build/js/amazonmenu.js?ver=1.27')}}"></script>
+    <script src="<?php echo e(asset('wp-content/themes/ninjapromo/build/js/amazonmenu.js?ver=1.27')); ?>"></script>
 
-    <script src="{{asset('wp-content/themes/ninjapromo/build/js/intlTelInput.min.js?ver=1.01')}}"></script>
+    <script src="<?php echo e(asset('wp-content/themes/ninjapromo/build/js/intlTelInput.min.js?ver=1.01')); ?>"></script>
     
 
-    <script src="{{asset('wp-content/themes/ninjapromo/build/js/custom.js?ver=3.43')}}"></script>
+    <script src="<?php echo e(asset('wp-content/themes/ninjapromo/build/js/custom.js?ver=3.43')); ?>"></script>
 
 
-    <script src="{{asset('wp-content/themes/ninjapromo/build/js/affix.js')}}"></script>
+    <script src="<?php echo e(asset('wp-content/themes/ninjapromo/build/js/affix.js')); ?>"></script>
     <script>
         jQuery(window).on('load', function () {
             var width_page_n = jQuery(window).width();
@@ -862,12 +862,12 @@
         }
 
     </style>
-    <script src="{{asset('wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6')}}" id="wp-hooks-js">
+    <script src="<?php echo e(asset('wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6')); ?>" id="wp-hooks-js">
     </script>
-    <script src="{{asset('wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6')}}" id="wp-i18n-js">
+    <script src="<?php echo e(asset('wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6')); ?>" id="wp-i18n-js">
     </script>
   
-    <script src="{{asset('wp-content/plugins/wp-smushit/app/assets/js/smush-lazy-load.min.js?ver=3.18.1')}}"
+    <script src="<?php echo e(asset('wp-content/plugins/wp-smushit/app/assets/js/smush-lazy-load.min.js?ver=3.18.1')); ?>"
         id="smush-lazy-load-js"></script>
  
    
@@ -892,7 +892,7 @@
             <div class="moove-gdpr-modal-left-content">
 
                 <div class="moove-gdpr-company-logo-holder">
-                    <img data-src="{{asset('wp-content/uploads/2025/06/logo-ninjacookie.svg')}}" alt=""
+                    <img data-src="<?php echo e(asset('wp-content/uploads/2025/06/logo-ninjacookie.svg')); ?>" alt=""
                         width="300" height="49" class="img-responsive lazyload"
                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                         style="--smush-placeholder-width: 300px; --smush-placeholder-aspect-ratio: 300/49;" />
@@ -1029,7 +1029,7 @@
         jQuery(document).ready(function ($) {});
 
     </script>
-    <script src="{{asset('wp-content/themes/ninjapromo/build/js/content.js')}}"></script>
+    <script src="<?php echo e(asset('wp-content/themes/ninjapromo/build/js/content.js')); ?>"></script>
  
  
  
@@ -1316,3 +1316,4 @@
 
 <!-- WP Fastest Cache file was created in 0.875 seconds, on June 23, 2025 @ 9:29 pm -->
 <!-- need to refresh to see cached version -->
+<?php /**PATH E:\xampp\htdocs\jpostar\resources\views/fontend/index.blade.php ENDPATH**/ ?>

@@ -94,24 +94,19 @@ class Controller extends BaseController
          }
          $index_meta = $cat -> index_meta;
 
-         if($cat->type){
-            $cat_type = 'cat_'.$cat->type;
-         }else{
-            $cat_type = 'catPost';
-         }
-
-         return view('fontend/cat',['page_type'=>'cat', 'url'=>$url,'index_meta'=>$index_meta,'des'=>$des,'key'=>$key,'title'=>$title,'post_list'=>$post_list,'cat'=>$cat]);
+        
+         return view('fontend/cat_'.$cat->type,['page_type'=>'cat', 'url'=>$url,'index_meta'=>$index_meta,'des'=>$des,'key'=>$key,'title'=>$title,'post_list'=>$post_list,'cat'=>$cat]);
     }
 
     public function get_post($url){
-        $post = M_post::where('url',$url)->first();
+       $post = M_post::where('url',$url)->first();
         if($post == ''){return 'Link không tồn tại';}
 
         $post_cat = M_post_cat::where('post_id',$post->id)->first();
-        $cat = M_cat::find($post_cat->cat_id);
+       $cat = M_cat::find($post_cat->cat_id);
         // $comment_list = M_comment::where('post_id',$post->id)->paginate(10);
 
-        $post_relate = M_post::whereHas('f_cat', function($q_cat) use ($cat){$q_cat->where('cat_id', $cat->id);})->where('post.status','on')->orderby('created_at','desc')->limit(20)->get();
+        $post_relate = M_post::whereHas('f_cat', function($q_cat) use ($cat){$q_cat->where('cat_id', $cat->id);})->where('post.status','on')->orderby('created_at','desc')->limit(30)->get();
  
         if($post->title_seo == ''){
            $title = $post->title;
@@ -127,7 +122,7 @@ class Controller extends BaseController
         $key = $post->key_seo;
         $post_type = $post->F_post_type->url;
 
-        return view('fontend/post',['page_type'=>'post',  'post_relate'=>$post_relate,'title'=>$title,'key'=>$key,'des'=>$des,'post' =>$post]);
+        return view('fontend/post_news',['page_type'=>'post',  'post_relate'=>$post_relate,'title'=>$title,'key'=>$key,'des'=>$des,'post' =>$post]);
     }
 
 

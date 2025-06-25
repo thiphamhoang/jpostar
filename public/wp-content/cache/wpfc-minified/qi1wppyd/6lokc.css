@@ -23716,7 +23716,7 @@ div#arr4 {
 }
 
 .home_page .web3cta-section:before {
-    background-image: url(/wp-content/themes/ninjapromo/assets/newhome/homenew_bg01.png);
+    background-image: url(../../../../wp-content/themes/ninjapromo/assets/newhome/homenew_bg01.png);
     background-position: bottom right;
     background-size: contain;
     top: -220px;

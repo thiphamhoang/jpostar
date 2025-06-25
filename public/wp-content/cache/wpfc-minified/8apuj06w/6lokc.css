@@ -5460,7 +5460,7 @@
     font-family: "DM Sans";
     font-style: normal;
     font-weight: 400;
-    src: local(""), url(/wp-content/themes/ninjapromo/assets/fonts/dm-sans-v6-latin-regular.woff2) format("woff2"), url(/wp-content/themes/ninjapromo/assets/fonts/dm-sans-v6-latin-regular.woff) format("woff");
+    src: local(""), url(../../../../wp-content/themes/ninjapromo/assets/fonts/dm-sans-v6-latin-regular.woff2) format("woff2"), url(../../../../wp-content/themes/ninjapromo/assets/fonts/dm-sans-v6-latin-regular.woff) format("woff");
     font-display: swap
 }
 
@@ -5468,7 +5468,7 @@
     font-family: "DM Sans";
     font-style: normal;
     font-weight: 500;
-    src: local(""), url(/wp-content/themes/ninjapromo/assets/fonts/dm-sans-v6-latin-500.woff2) format("woff2"), url(/wp-content/themes/ninjapromo/assets/fonts/dm-sans-v6-latin-500.woff) format("woff");
+    src: local(""), url(../../../../wp-content/themes/ninjapromo/assets/fonts/dm-sans-v6-latin-500.woff2) format("woff2"), url(../../../../wp-content/themes/ninjapromo/assets/fonts/dm-sans-v6-latin-500.woff) format("woff");
     font-display: swap
 }
 
@@ -5476,7 +5476,7 @@
     font-family: "DM Sans";
     font-style: normal;
     font-weight: 700;
-    src: local(""), url(/wp-content/themes/ninjapromo/assets/fonts/dm-sans-v6-latin-700.woff2) format("woff2"), url(/wp-content/themes/ninjapromo/assets/fonts/dm-sans-v6-latin-700.woff) format("woff");
+    src: local(""), url(../../../../wp-content/themes/ninjapromo/assets/fonts/dm-sans-v6-latin-700.woff2) format("woff2"), url(../../../../wp-content/themes/ninjapromo/assets/fonts/dm-sans-v6-latin-700.woff) format("woff");
     font-display: swap
 }
 
@@ -5484,7 +5484,7 @@
     font-family: "DM Sans";
     font-style: italic;
     font-weight: 400;
-    src: local(""), url(/wp-content/themes/ninjapromo/assets/fonts/dm-sans-v6-latin-italic.woff2) format("woff2"), url(/wp-content/themes/ninjapromo/assets/fonts/dm-sans-v6-latin-italic.woff) format("woff");
+    src: local(""), url(../../../../wp-content/themes/ninjapromo/assets/fonts/dm-sans-v6-latin-italic.woff2) format("woff2"), url(../../../../wp-content/themes/ninjapromo/assets/fonts/dm-sans-v6-latin-italic.woff) format("woff");
     font-display: swap
 }
 
@@ -5492,7 +5492,7 @@
     font-family: "DM Sans";
     font-style: italic;
     font-weight: 500;
-    src: local(""), url(/wp-content/themes/ninjapromo/assets/fonts/dm-sans-v6-latin-500italic.woff2) format("woff2"), url(/wp-content/themes/ninjapromo/assets/fonts/dm-sans-v6-latin-500italic.woff);
+    src: local(""), url(../../../../wp-content/themes/ninjapromo/assets/fonts/dm-sans-v6-latin-500italic.woff2) format("woff2"), url(../../../../wp-content/themes/ninjapromo/assets/fonts/dm-sans-v6-latin-500italic.woff);
     font-display: swap
 }
 
@@ -5500,7 +5500,7 @@
     font-family: "DM Sans";
     font-style: italic;
     font-weight: 700;
-    src: local(""), url(/wp-content/themes/ninjapromo/assets/fonts/dm-sans-v6-latin-700italic.woff2) format("woff2"), url(/wp-content/themes/ninjapromo/assets/fonts/dm-sans-v6-latin-700italic.woff) format("woff");
+    src: local(""), url(../../../../wp-content/themes/ninjapromo/assets/fonts/dm-sans-v6-latin-700italic.woff2) format("woff2"), url(../../../../wp-content/themes/ninjapromo/assets/fonts/dm-sans-v6-latin-700italic.woff) format("woff");
     font-display: swap
 }
 
@@ -9760,7 +9760,7 @@ input:focus {
 
 .menu__list li.menu-item-has-children>a::after {
     content: "";
-    background: url(/wp-content/themes/ninjapromo/assets/img/svg/arrow-down.svg) no-repeat center/cover;
+    background: url(../../../../wp-content/themes/ninjapromo/assets/img/svg/arrow-down.svg) no-repeat center/cover;
     width: .875rem;
     height: .5625rem;
     margin-left: .625rem
@@ -13508,7 +13508,7 @@ input:focus {
 
 .layout {
     display: -ms-grid;
-    display: grid;
+ 
     -ms-grid-columns: 23.5% 74.5%;
     grid-template-columns: 23.5% 74.5%;
     grid-gap: 1.875rem
