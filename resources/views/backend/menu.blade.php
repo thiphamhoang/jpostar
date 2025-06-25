@@ -13,11 +13,16 @@
 
 
             @can('post_view')
-            <li class="<?php if(Request::segment(5) == 'bai-viet'){echo 'active';} ?>">
-                <a href="{{asset('admin/post/bai-viet')}}">
-                    <i class="fas fa-edit"></i> <span>Bài viết</span>
-                </a>
-            </li>
+                <li class="<?php if(Request::segment(5) == 'bai-viet'){echo 'active';} ?>">
+                    <a href="{{asset('admin/post/bai-viet')}}">
+                        <i class="fas fa-edit"></i> <span>Bài viết</span>
+                    </a>
+                </li>
+                <li class="<?php if(Request::segment(5) == 'service'){echo 'active';} ?>">
+                    <a href="{{asset('admin/post/service')}}">
+                        <i class="fas fa-edit"></i> <span>Dịch vụ</span>
+                    </a>
+                </li>
  
             @endcan
 

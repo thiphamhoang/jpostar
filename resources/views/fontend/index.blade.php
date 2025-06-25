@@ -716,83 +716,184 @@
 
             
        
-          @yield('content')
-        <div class="modal js-modal" data-modal="video_youtube0">
-            <button class="btn modal__bg js-modal-close" type="button" aria-label="Close modal"></button>
-            <div class="modal__wrap animated">
-                <div class="modal__video">
-                    <iframe width="560" height="315"
-                        data-src="https://www.youtube.com/embed/skGqtoJO-cY?autoplay=1&enablejsapi=1" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                        class="lazyload" data-load-mode="1"></iframe>
+    @yield('content')
+
+        <section class="dmscontact-section contacts-section dark-contacts_bg" id="contactsform"
+            style="background: #121212;">
+            <div class="container contacts-section__container">
+                <div class="contacts-section__info">
+                    <div class="contacts-section__title wow fadeInUp" data-wow-delay=".2s">Ready to take your marketing
+                        to the next level?</div>
+                    <div class="contacts-section__subtitle">Book a demo and discovery call to get a look at:</div>
+                    <ul class="contacts-section__list">
+                        <li>How NinjaPromo works</li>
+                        <li>How you can do marketing at scale better, faster and cheaper</li>
+                        <li>How we’re different from agencies, freelancers and in-house marketing teams
+                            (hint: we’re 15x faster than hiring!)</li>
+                        <li>The most suitable subscription plan for your needs</li>
+                    </ul>
+                    <figure
+                        class="wp-block-gallery has-nested-images columns-4 is-cropped contacts-section__companies wp-block-gallery-1 is-layout-flex wp-block-gallery-is-layout-flex">
+                        <figure class="wp-block-image size-full"><img decoding="async" width="120" height="30"
+                                data-id="70208"
+                                data-src="https://ninjapromo.io/wp-content/uploads/2024/03/logitechg20.svg" alt=""
+                                class="wp-image-70208 lazyload"
+                                src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                                style="--smush-placeholder-width: 120px; --smush-placeholder-aspect-ratio: 120/30;" />
+                        </figure>
+
+
+
+                        <figure class="wp-block-image size-full"><img decoding="async" width="220" height="40"
+                                data-id="68444"
+                                data-src="https://ninjapromo.io/wp-content/uploads/2024/02/Bitcoinartlogo.png" alt=""
+                                class="wp-image-68444 lazyload"
+                                src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                                style="--smush-placeholder-width: 220px; --smush-placeholder-aspect-ratio: 220/40;" />
+                        </figure>
+
+
+
+                        <figure class="wp-block-image size-full"><img decoding="async" width="127" height="60"
+                                data-id="73624"
+                                data-src="https://ninjapromo.io/wp-content/uploads/2024/03/stripe_logo.svg.svg" alt=""
+                                class="wp-image-73624 lazyload"
+                                src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                                style="--smush-placeholder-width: 127px; --smush-placeholder-aspect-ratio: 127/60;" />
+                        </figure>
+
+
+
+                        <figure class="wp-block-image size-full"><img decoding="async" width="425" height="125"
+                                data-id="70222"
+                                data-src="https://ninjapromo.io/wp-content/uploads/2024/03/Samsung20.png" alt=""
+                                class="wp-image-70222 lazyload"
+                                data-srcset="https://ninjapromo.io/wp-content/uploads/2024/03/Samsung20.png 425w, https://ninjapromo.io/wp-content/uploads/2024/03/Samsung20-300x88.png 300w"
+                                data-sizes="(max-width: 425px) 100vw, 425px"
+                                src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                                style="--smush-placeholder-width: 425px; --smush-placeholder-aspect-ratio: 425/125;" />
+                        </figure>
+
+
+
+                        <figure class="wp-block-image size-full"><img decoding="async" width="138" height="40"
+                                data-id="73626"
+                                data-src="https://ninjapromo.io/wp-content/uploads/2024/03/hubspot_logo.svg.svg" alt=""
+                                class="wp-image-73626 lazyload"
+                                src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                                style="--smush-placeholder-width: 138px; --smush-placeholder-aspect-ratio: 138/40;" />
+                        </figure>
+
+
+
+                        <figure class="wp-block-image size-full"><img decoding="async" width="60" height="60"
+                                data-id="73625"
+                                data-src="https://ninjapromo.io/wp-content/uploads/2024/03/burgerkingrusru_logo.svg.svg"
+                                alt="" class="wp-image-73625 lazyload"
+                                src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                                style="--smush-placeholder-width: 60px; --smush-placeholder-aspect-ratio: 60/60;" />
+                        </figure>
+                    </figure>
+                </div>
+
+                <div class="contacts-section__form contacts-form js-contacts-form">
+                    <div class="wpcf7 no-js" id="wpcf7-f1698-p67771-o2" lang="en-US" dir="ltr" data-wpcf7-id="1698">
+                        <div class="screen-reader-response">
+                            <p role="status" aria-live="polite" aria-atomic="true"></p>
+                            <ul></ul>
+                        </div>
+                        <form action="/#wpcf7-f1698-p67771-o2" method="post" class="wpcf7-form init"
+                            id="contact-form-1698" aria-label="Contact form" novalidate="novalidate" data-status="init">
+                            <div style="display: none;">
+                                <input type="hidden" name="_wpcf7" value="1698" />
+                                <input type="hidden" name="_wpcf7_version" value="6.0.6" />
+                                <input type="hidden" name="_wpcf7_locale" value="en_US" />
+                                <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f1698-p67771-o2" />
+                                <input type="hidden" name="_wpcf7_container_post" value="67771" />
+                                <input type="hidden" name="_wpcf7_posted_data_hash" value="" />
+                            </div>
+                            <h3 style="font-size: 1.875rem;text-align:center;">BOOK A CALL WITH US
+                            </h3>
+                            <div class="text-center contacts-form__subtitle">
+                                <p>(Please wait 5 seconds for the calendar to load after clicking the button)
+                                </p>
+                            </div>
+                            <p><span class="wpcf7-form-control-wrap" data-name="utmsource" style="display:none;"><input
+                                        size="40" class="wpcf7-form-control wpcf7-text" id="utmsource"
+                                        aria-invalid="false" value="client123" type="text"
+                                        name="utmsource" /></span><span class="wpcf7-form-control-wrap"
+                                    data-name="utmcampaing" style="display:none;"><input size="40"
+                                        class="wpcf7-form-control wpcf7-text" id="utmcampaing" aria-invalid="false"
+                                        value="client123" type="text" name="utmcampaing" /></span><span
+                                    class="wpcf7-form-control-wrap" data-name="utmmedium" style="display:none;"><input
+                                        size="40" class="wpcf7-form-control wpcf7-text" id="utmmedium"
+                                        aria-invalid="false" value="client123" type="text"
+                                        name="utmmedium" /></span><span class="wpcf7-form-control-wrap"
+                                    data-name="utmcontent" style="display:none;"><input size="40"
+                                        class="wpcf7-form-control wpcf7-text" id="utmcontent" aria-invalid="false"
+                                        value="client123" type="text" name="utmcontent" /></span><span
+                                    class="wpcf7-form-control-wrap" data-name="utmterm" style="display:none;"><input
+                                        size="40" class="wpcf7-form-control wpcf7-text" id="utmterm"
+                                        aria-invalid="false" value="client123" type="text" name="utmterm" /></span><span
+                                    class="wpcf7-form-control-wrap" data-name="roistat_promo_code"
+                                    style="display:none;"><input size="40" class="wpcf7-form-control wpcf7-text"
+                                        id="roistat_promo_code" aria-invalid="false" value="undefined" type="text"
+                                        name="roistat_promo_code" /></span><span class="wpcf7-form-control-wrap"
+                                    data-name="textarea_123" style="display:none;"><input size="40"
+                                        class="wpcf7-form-control wpcf7-text" id="textarea_123" aria-invalid="false"
+                                        value="client123" type="text" name="textarea_123" /></span><span
+                                    class="wpcf7-form-control-wrap" data-name="textarea_gcli"
+                                    style="display:none;"><input size="40" class="wpcf7-form-control wpcf7-text"
+                                        id="textarea_gcli" aria-invalid="false" value="client123" type="text"
+                                        name="textarea_gcli" /></span><span class="wpcf7-form-control-wrap"
+                                    data-name="country_roistat" style="display:none;"><input size="40"
+                                        class="wpcf7-form-control wpcf7-text" id="country_roistat" aria-invalid="false"
+                                        value="" type="text" name="country_roistat" /></span><span
+                                    class="wpcf7-form-control-wrap" data-name="name-1"><input size="40" maxlength="400"
+                                        class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
+                                        aria-required="true" aria-invalid="false" placeholder="First Name*" value=""
+                                        type="text" name="name-1" /></span><span class="wpcf7-form-control-wrap"
+                                    data-name="surname"><input size="40" maxlength="400"
+                                        class="wpcf7-form-control wpcf7-text" aria-invalid="false"
+                                        placeholder="Last Name" value="" type="text" name="surname" /></span><span
+                                    class="wpcf7-form-control-wrap" data-name="email"><input size="40" maxlength="400"
+                                        class="wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email"
+                                        aria-required="true" aria-invalid="false" placeholder="Work Email*" value=""
+                                        type="email" name="email" /></span><span class="wpcf7-form-control-wrap"
+                                    data-name="tel-321"><input size="40" maxlength="400"
+                                        class="wpcf7-form-control wpcf7-tel wpcf7-text wpcf7-validates-as-tel form-phone_mask"
+                                        id="phone" aria-invalid="false" value="" type="tel"
+                                        name="tel-321" /></span><span class="wpcf7-form-control-wrap"
+                                    data-name="comment"><input size="40" maxlength="400"
+                                        class="wpcf7-form-control wpcf7-text textarea-field" aria-invalid="false"
+                                        placeholder="What tasks would you like to solve?" value="" type="text"
+                                        name="comment" /></span><input
+                                    class="wpcf7-form-control wpcf7-submit has-spinner btn contacts-form__btn"
+                                    type="submit" value="Book a demo" />
+                            </p>
+                            <div class="contacts-form__label">
+                                <p>By clicking next, you agree to receive communications from NinjaPromo in accordance
+                                    with our Privacy Policy.
+                                </p>
+                            </div>
+                            <div class="wpcf7-response-output" aria-hidden="true"></div>
+                        </form>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="modal js-modal" data-modal="video_youtube1">
-            <button class="btn modal__bg js-modal-close" type="button" aria-label="Close modal"></button>
-            <div class="modal__wrap animated">
-                <div class="modal__video">
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-
-
-    <div class="modal js-modal modalbudget" data-modal="modalbudget" id="modalbudget">
-        <div class="modal__wrap animated">
-            <div class="modal__video">
-                <button class="btn modal__close js-modal-closenew" type="button" aria-label="Close modal"
-                    style="opacity: 0;"></button>
-                <div class="modalbudget-txt">This may change over time but, right now, your budget doesn't align with
-                    our services, our prices start from $3200. Do you have the possibility to increase the budget?</div>
-                <div class="modalbudget-btngroup">
-                    <a href="javascript:void(0);" class="btn btn-nobg" id="mb-btnno">No</a>
-                    <a href="javascript:void(0);" class="btn fill-btn" id="mb-btnyes">Yes</a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-     @foreach($row_footer as $row)
+        </section>
+    @foreach($row_footer as $row)
         @include('fontend/layout/'.$row->style)
     @endforeach
    
-    <div class="modal js-modal" data-modal="video">
-        <button class="btn modal__bg js-modal-close" type="button" aria-label="Close modal"></button>
-
-        <div class="container modal__container">
-            <button class="btn modal__close js-modal-close" type="button" aria-label="Close modal"></button>
-        </div>
-
-        <div class="modal__wrap animated">
-            <div class="modal__video">
-                <video class="js-modal-video" controls playsinline width="640" height="264">
-                    <source src="" type="video/mp4">
-                </video>
-            </div>
-        </div>
-    </div>
+  
 
 
 
 
      <script src="{{asset('wp-content/themes/ninjapromo/build/js/lib.min.js')}}"></script>
     <script src="{{asset('wp-content/themes/ninjapromo/build/js/mmenu.all.js')}}"></script>
-    <script>
-        jQuery(function () {
-            jQuery('#menumobile').mmenu({
-                extensions: ['theme-dark'],
-                setSelected: true,
-                counters: false,
-                searchfield: false
-            });
-        });
-
-    </script>
+   
 
     <script src="{{asset('wp-content/themes/ninjapromo/build/js/amazonmenu.js?ver=1.27')}}"></script>
 
@@ -819,40 +920,7 @@
 
     </script>
 
-    <script type="speculationrules">
-        {"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/ninjapromo\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
-</script>
-
-    <!--copyscapeskip-->
-    <aside id="moove_gdpr_cookie_info_bar"
-        class="moove-gdpr-info-bar-hidden moove-gdpr-align-center moove-gdpr-dark-scheme gdpr_infobar_postion_bottom"
-        aria-label="GDPR Cookie Banner" style="display: none;">
-        <div class="moove-gdpr-info-bar-container">
-            <div class="moove-gdpr-info-bar-content">
-
-                <div class="moove-gdpr-cookie-notice">
-                    <p>We use cookies to ensure that we give you the best experience on our website. If you continue to
-                        use this site we will assume that you are happy with it.</p>
-                    <button class="moove-gdpr-infobar-close-btn gdpr-content-close-btn"
-                        aria-label="Close GDPR Cookie Banner">
-                        <span class="gdpr-sr-only">Close GDPR Cookie Banner</span>
-                        <i class="moovegdpr-arrow-close"></i>
-                    </button>
-                </div>
-                <!--  .moove-gdpr-cookie-notice -->
-                <div class="moove-gdpr-button-holder">
-                    <button class="mgbutton moove-gdpr-infobar-allow-all gdpr-fbo-0" aria-label="OK">OK</button>
-                    <button class="moove-gdpr-infobar-close-btn gdpr-fbo-3" aria-label="Close GDPR Cookie Banner">
-                        <span class="gdpr-sr-only">Close GDPR Cookie Banner</span>
-                        <i class="moovegdpr-arrow-close"></i>
-                    </button>
-                </div>
-                <!--  .button-container -->
-            </div>
-            <!-- moove-gdpr-info-bar-content -->
-        </div>
-        <!-- moove-gdpr-info-bar-container -->
-    </aside>
+  
     <!-- #moove_gdpr_cookie_info_bar -->
     <!--/copyscapeskip-->
     <style id='core-block-supports-inline-css'>
@@ -869,275 +937,13 @@
   
     <script src="{{asset('wp-content/plugins/wp-smushit/app/assets/js/smush-lazy-load.min.js?ver=3.18.1')}}"
         id="smush-lazy-load-js"></script>
- 
-   
-    <script id="moove_gdpr_frontend-js-after">
-        var gdpr_consent__strict = "false"
-        var gdpr_consent__thirdparty = "false"
-        var gdpr_consent__advanced = "false"
-        var gdpr_consent__cookies = ""
-
-    </script>
-
-
-    <!--copyscapeskip-->
-    <!-- V1 -->
-    <dialog id="moove_gdpr_cookie_modal" class="gdpr_lightbox-hide" aria-modal="true" aria-label="GDPR Settings Screen">
-        <div class="moove-gdpr-modal-content moove-clearfix logo-position-left moove_gdpr_modal_theme_v1">
-
-            <button class="moove-gdpr-modal-close" autofocus aria-label="Close GDPR Cookie Settings">
-                <span class="gdpr-sr-only">Close GDPR Cookie Settings</span>
-                <span class="gdpr-icon moovegdpr-arrow-close"></span>
-            </button>
-            <div class="moove-gdpr-modal-left-content">
-
-                <div class="moove-gdpr-company-logo-holder">
-                    <img data-src="{{asset('wp-content/uploads/2025/06/logo-ninjacookie.svg')}}" alt=""
-                        width="300" height="49" class="img-responsive lazyload"
-                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                        style="--smush-placeholder-width: 300px; --smush-placeholder-aspect-ratio: 300/49;" />
-                </div>
-                <!--  .moove-gdpr-company-logo-holder -->
-                <ul id="moove-gdpr-menu">
-
-                    <li class="menu-item-on menu-item-privacy_overview menu-item-selected">
-                        <button data-href="#privacy_overview" class="moove-gdpr-tab-nav" aria-label="Privacy Overview">
-                            <span class="gdpr-nav-tab-title">Privacy Overview</span>
-                        </button>
-                    </li>
-
-                    <li class="menu-item-strict-necessary-cookies menu-item-off">
-                        <button data-href="#strict-necessary-cookies" class="moove-gdpr-tab-nav"
-                            aria-label="Strictly Necessary Cookies">
-                            <span class="gdpr-nav-tab-title">Strictly Necessary Cookies</span>
-                        </button>
-                    </li>
-
-
-
-
-                </ul>
-
-                <div class="moove-gdpr-branding-cnt">
-                    <a href="#" rel="noopener noreferrer"
-                        target="_blank" class='moove-gdpr-branding'>Powered by&nbsp; <span>GDPR Cookie
-                            Compliance</span></a>
-                </div>
-                <!--  .moove-gdpr-branding -->
-            </div>
-            <!--  .moove-gdpr-modal-left-content -->
-            <div class="moove-gdpr-modal-right-content">
-                <div class="moove-gdpr-modal-title">
-
-                </div>
-                <!-- .moove-gdpr-modal-ritle -->
-                <div class="main-modal-content">
-
-                    <div class="moove-gdpr-tab-content">
-
-                        <div id="privacy_overview" class="moove-gdpr-tab-main">
-                            <span class="tab-title">Privacy Overview</span>
-                            <div class="moove-gdpr-tab-main-content">
-                                <p>This website uses cookies so that we can provide you with the best user experience
-                                    possible. Cookie information is stored in your browser and performs functions such
-                                    as recognising you when you return to our website and helping our team to understand
-                                    which sections of the website you find most interesting and useful.</p>
-                            </div>
-                            <!--  .moove-gdpr-tab-main-content -->
-
-                        </div>
-                        <!-- #privacy_overview -->
-                        <div id="strict-necessary-cookies" class="moove-gdpr-tab-main" style="display:none">
-                            <span class="tab-title">Strictly Necessary Cookies</span>
-                            <div class="moove-gdpr-tab-main-content">
-                                <p>Strictly Necessary Cookie should be enabled at all times so that we can save your
-                                    preferences for cookie settings.</p>
-                                <div class="moove-gdpr-status-bar ">
-                                    <div class="gdpr-cc-form-wrap">
-                                        <div class="gdpr-cc-form-fieldset">
-                                            <label class="cookie-switch" for="moove_gdpr_strict_cookies">
-                                                <span class="gdpr-sr-only">Enable or Disable Cookies</span>
-                                                <input type="checkbox" aria-label="Strictly Necessary Cookies"
-                                                    value="check" name="moove_gdpr_strict_cookies"
-                                                    id="moove_gdpr_strict_cookies">
-                                                <span class="cookie-slider cookie-round gdpr-sr"
-                                                    data-text-enable="Enabled" data-text-disabled="Disabled">
-                                                    <span class="gdpr-sr-label">
-                                                        <span class="gdpr-sr-enable">Enabled</span>
-                                                        <span class="gdpr-sr-disable">Disabled</span>
-                                                    </span>
-                                                </span>
-                                            </label>
-                                        </div>
-                                        <!-- .gdpr-cc-form-fieldset -->
-                                    </div>
-                                    <!-- .gdpr-cc-form-wrap -->
-                                </div>
-                                <!-- .moove-gdpr-status-bar -->
-                                <div class="moove-gdpr-strict-warning-message" style="margin-top: 10px;">
-                                    <p>If you disable this cookie, we will not be able to save your preferences. This
-                                        means that every time you visit this website you will need to enable or disable
-                                        cookies again.</p>
-                                </div>
-                                <!--  .moove-gdpr-tab-main-content -->
-
-                            </div>
-                            <!--  .moove-gdpr-tab-main-content -->
-                        </div>
-                        <!-- #strict-necesarry-cookies -->
-
-
-
-                    </div>
-                    <!--  .moove-gdpr-tab-content -->
-                </div>
-                <!--  .main-modal-content -->
-                <div class="moove-gdpr-modal-footer-content">
-                    <div class="moove-gdpr-button-holder">
-                        <button class="mgbutton moove-gdpr-modal-allow-all button-visible"
-                            aria-label="Enable All">Enable All</button>
-                        <button class="mgbutton moove-gdpr-modal-save-settings button-visible"
-                            aria-label="Save Settings">Save Settings</button>
-                    </div>
-                    <!--  .moove-gdpr-button-holder -->
-                </div>
-                <!--  .moove-gdpr-modal-footer-content -->
-            </div>
-            <!--  .moove-gdpr-modal-right-content -->
-
-            <div class="moove-clearfix"></div>
-
-        </div>
-        <!--  .moove-gdpr-modal-content -->
-    </dialog>
-    <!-- #moove_gdpr_cookie_modal -->
-    <!--/copyscapeskip-->
-    <script type='text/javascript'>
-        function makeHttpObject() {
-            try {
-                return new XMLHttpRequest();
-            } catch (error) {}
-            try {
-                return new ActiveXObject("Msxml2.XMLHTTP");
-            } catch (error) {}
-            try {
-                return new ActiveXObject("Microsoft.XMLHTTP");
-            } catch (error) {}
-
-            throw new Error("Could not create HTTP request object.");
-        }
-        jQuery(document).ready(function ($) {});
-
-    </script>
+  
     <script src="{{asset('wp-content/themes/ninjapromo/build/js/content.js')}}"></script>
  
  
  
  
- 
-    <script>
-        var nextStepButtons = document.querySelectorAll('.nextstep');
-
-        nextStepButtons.forEach(function (button) {
-            button.addEventListener('click', function () {
-                var step = button.getAttribute('data-step');
-                var formStep = document.querySelector('.formstep[data-formstep="' + step + '"]');
-                var isValid = isFormStepValidQuiz(step);
-
-                if (isValid) {
-                    formStep.style.display = 'block';
-                    button.style.display = 'none';
-
-                    var currentStep = document.querySelector('.formstepline [data-currentstep="' +
-                        step + '"]');
-                    if (currentStep) {
-                        document.querySelectorAll('.formstepline [data-currentstep]').forEach(function (
-                            element) {
-                            element.classList.remove('current');
-                        });
-                        currentStep.classList.add('current');
-                    }
-                }
-            });
-        });
-
-        function isFormStepValidQuiz(step) {
-            var form3 = $('.contacts-form_quiz .wpcf7-form');
-            var isValid = true;
-
-            if (step === 'step2') {
-                var name3 = form3.find('input[name=name-1]').val();
-                if (name3.length < 1 || !name3.match(/^[A-Za-zА-ЯЁа-яё]+$/)) {
-                    form3.find('input[name=name-1]').css('borderBottom', '1px solid rgb(254,45,45)');
-                    form3.find('input[name=name-1]').after('<p>Please complete this required field.</p>');
-                    isValid = false;
-                } else {
-                    form3.find('input[name=name-1]').css('borderBottom', '1px solid rgba(0,0,0,.5)');
-                    form3.find('input[name=name-1] + p').remove();
-                }
-            } else if (step === 'step3') {
-                var surname3 = form3.find('input[name=surname]').val();
-                if (surname3.length > 0 && !surname3.match(/^[A-Za-zА-ЯЁа-яё]+$/)) {
-                    form3.find('input[name=surname]').css('borderBottom', '1px solid rgb(254,45,45)');
-                    form3.find('input[name=surname]').after('<p>Please complete this required field.</p>');
-                    isValid = false;
-                } else {
-                    form3.find('input[name=surname] + p').remove();
-                    form3.find('input[name=surname]').css('borderBottom', '1px solid rgba(0,0,0,.5)');
-                }
-            } else if (step === 'step4') {
-                var email3 = form3.find('input[name=email]').val();
-                const forbiddenProviders3 = ["gmail.com", "googlemail.com", "hotmail.com", "hotmail.co.uk",
-                    "hotmail.fr", "live.com", "msn.com", "outlook.com", "yahoo.com", "yahoo.co.uk", "yahoo.fr",
-                    "yahoo.es", "yahoo.de", "yahoo.co.in", "yahoo.co.jp", "rocketmail.com", "ymail.com",
-                    "yandex.ru", "ya.ru", "narod.ru", "yandex.ua", "yandex.kz", "yandex.by", "yandex.com",
-                    "mail.ru", "inbox.ru", "list.ru", "bk.ru", "mail.ua", "mail.kz", "mail.by", "email.ru",
-                    "outlook.ru", "rambler.ru", "email.rambler.ru", "myrambler.ru", "icloud.com", "me.com"
-                ];
-                const providerem3 = email3.split('@')[1];
-                if (email3.length < 1 || !validEmail(email3)) {
-                    form3.find('input[name=email]').css('borderBottom', '1px solid rgb(254,45,45)');
-                    isValid = false;
-                } else if (forbiddenProviders3.includes(providerem3)) {
-                    form3.find('input[name=email] + p').remove();
-                    form3.find('input[name=email]').css('borderBottom', '1px solid rgba(0,0,0,.5)');
-                    form3.find('input[name=email]').css('borderBottom', '1px solid rgb(254,45,45)');
-                    form3.find('input[name=email]').after(
-                        '<p>Please enter a different email address. This form does not accept addresses from gmail.com (hotmail/yahoo). Company email is required</p>'
-                        );
-                    isValid = false;
-                } else {
-                    form3.find('input[name=email] + p').remove();
-                    form3.find('input[name=email]').css('borderBottom', '1px solid rgba(0,0,0,.5)');
-                }
-            } else if (step === 'step5') {
-                var locationquiz = form3.find('select[name=location]').val();
-                if (locationquiz === 'Location*') {
-                    form3.find('select[name=location]').css('borderBottom', '1px solid rgb(254,45,45)');
-                    form3.find('span[data-name=location]').after('<p>Please complete this required field.</p>');
-                    isValid = false;
-                } else {
-                    form3.find('select[name=location]').css('borderBottom', '1px solid rgba(0,0,0,.5)');
-                    form3.find('span[data-name=location] + p').remove();
-                }
-            } else if (step === 'step6') {
-                var budgetquiz = form3.find('select[name=budget]').val();
-                if (budgetquiz === 'What is your Monthly Budget?*') {
-                    form3.find('select[name=budget]').css('borderBottom', '1px solid rgb(254,45,45)');
-                    form3.find('span[data-name=budget]').after('<p>Please complete this required field.</p>');
-                    isValid = false;
-                } else {
-                    form3.find('select[name=budget]').css('borderBottom', '1px solid rgba(0,0,0,.5)');
-                    form3.find('span[data-name=budget] + p').remove();
-                }
-            }
-
-
-            return isValid;
-        }
-
-    </script>
-
+  
   
 </body>
 

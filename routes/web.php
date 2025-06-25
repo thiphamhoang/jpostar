@@ -19,8 +19,12 @@ Route::post('_form_/regis','Controller@post_regis');
 
 Route::get('page/{urlPage}','Controller@get_page');
 Route::get('{urlPost}.html','Controller@get_post');
-
 Route::get('{url_cat}','Controller@get_cat');
+
+Route::get('{urlPost}.html','Controller@get_post');
+Route::get('{url_cat}','Controller@get_cat');
+
+ Route::get('{url_type}/{url_service}.html','Controller@get_service');
 
 
 Auth::routes();

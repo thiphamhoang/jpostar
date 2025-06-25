@@ -9795,7 +9795,7 @@ input:focus {
 .sub-menu a {
     font-size: 1rem;
     font-weight: 400;
-    line-height: 1.01
+    line-height: 1.8
 }
 
 .menu-cta {
@@ -10026,7 +10026,7 @@ input:focus {
     padding-bottom: 5.22875rem;
     padding-top: 12.4375rem;
     position: relative;
-    min-height: 100vh
+    min-height: 70vh
 }
 
 .hero-section_front {

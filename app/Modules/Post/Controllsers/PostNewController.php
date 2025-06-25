@@ -136,7 +136,7 @@ class PostNewController extends Controller {
         if($request -> hasFile('img')){
             $img_file = $request -> file('img');
             $exten_img = $img_file -> getClientOriginalExtension();
-            if($exten_img != 'webp' && $exten_img != 'jpg' && $exten_img != 'png' && $exten_img != 'jpeg' && $exten_img != 'JPEG' && $exten_img != 'PNG' && $exten_img != 'JPG') {
+            if($exten_img != 'webp' && $exten_img != 'svg' && $exten_img != 'jpg' && $exten_img != 'png' && $exten_img != 'jpeg' && $exten_img != 'JPEG' && $exten_img != 'PNG' && $exten_img != 'JPG') {
             return redirect()->back() -> with('alert','Lỗi, Bạn chỉ được chọn file ảnh có đuôi là .jpg, .png, .jpeg (phân biệt viết hoa và viết thường)');
             }
             $img = $img_file -> getClientOriginalName();
@@ -158,6 +158,9 @@ class PostNewController extends Controller {
 
          $post = new M_post;
          $post -> title = $request -> title;
+         $post -> title_2 = $request -> title_2;
+         $post -> title_3 = $request -> title_3;
+         $post -> content_2 = $request -> content_2;
          $post -> title_seo = $request -> title_seo;
          $post -> key_seo = $request -> key_seo;
          $post -> content = $request -> content;
@@ -179,14 +182,12 @@ class PostNewController extends Controller {
          $post -> price = $request -> price;
          $post -> price_km = $request -> price_km;
          $post -> index_product = $request -> index_product;
-         $post -> color = $request -> color;
          $post -> view = $request -> view;
          $post -> review = $request -> review;
          $post -> orderby = $request -> orderby;
          $post -> product_relate = json_encode($request->product_relate);
          $post -> comment = $request-> comment;
          $post -> video = $request-> video;
-         $post -> video_2 = $request-> video_2;
 
          $post -> save();
 
