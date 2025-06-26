@@ -2775,7 +2775,7 @@
     top: 50%;
     margin-left: -40px;
     margin-top: -40px;
-    background: url(/wp-content/themes/ninjapromo/build/css/owl.video.play.png) no-repeat;
+    background: url(../../../../wp-content/themes/ninjapromo/build/css/owl.video.play.png) no-repeat;
     cursor: pointer;
     z-index: 1;
     -webkit-backface-visibility: hidden;
@@ -5998,7 +5998,7 @@ input:focus {
     display: block;
     width: 3.125rem;
     height: 3.125rem;
-    background: url(/wp-content/themes/ninjapromo/assets/sprite/sprite.svg#award-star) no-repeat center/cover
+    background: url(../../../../wp-content/themes/ninjapromo/assets/sprite/sprite.svg#award-star) no-repeat center/cover
 }
 
 @media screen and (max-width:768px) {
@@ -6243,7 +6243,7 @@ input:focus {
     display: block;
     width: 6.625rem;
     height: 6.625rem;
-    background: url(/wp-content/themes/ninjapromo/assets/sprite/sprite.svg#about-links-1) no-repeat center/cover
+    background: url(../../../../wp-content/themes/ninjapromo/assets/sprite/sprite.svg#about-links-1) no-repeat center/cover
 }
 
 .about-links__item:nth-child(2) {
@@ -6279,7 +6279,7 @@ input:focus {
     display: block;
     width: 11.94625rem;
     height: 14.5625rem;
-    background: url(/wp-content/themes/ninjapromo/assets/sprite/sprite.svg#about-links-2) no-repeat center/cover
+    background: url(../../../../wp-content/themes/ninjapromo/assets/sprite/sprite.svg#about-links-2) no-repeat center/cover
 }
 
 .about-links__item:nth-child(3) {
@@ -6309,7 +6309,7 @@ input:focus {
     display: block;
     width: 30.625rem;
     height: 10.90125rem;
-    background: url(/wp-content/themes/ninjapromo/assets/sprite/sprite.svg#about-links-3) no-repeat center/cover
+    background: url(../../../../wp-content/themes/ninjapromo/assets/sprite/sprite.svg#about-links-3) no-repeat center/cover
 }
 
 .about-links__item:nth-child(4)::after {
@@ -6320,7 +6320,7 @@ input:focus {
     display: block;
     width: 5.9375rem;
     height: 5.3125rem;
-    background: url(/wp-content/themes/ninjapromo/assets/sprite/sprite.svg#about-links-4) no-repeat center/cover
+    background: url(../../../../wp-content/themes/ninjapromo/assets/sprite/sprite.svg#about-links-4) no-repeat center/cover
 }
 
 @media screen and (max-width:1000px) {
@@ -6367,7 +6367,7 @@ input:focus {
         display: block;
         width: 8.8125rem;
         height: 3.136875rem;
-        background: url(/wp-content/themes/ninjapromo/assets/sprite/sprite.svg#about-links-3) no-repeat center/contain
+        background: url(../../../../wp-content/themes/ninjapromo/assets/sprite/sprite.svg#about-links-3) no-repeat center/contain
     }
 
     .about-links__item:nth-child(4) {
@@ -6494,7 +6494,7 @@ input:focus {
     height: 6.203125rem;
     left: -5.0625rem;
     top: -3.875rem;
-    background: url(/wp-content/themes/ninjapromo/assets/sprite/sprite.svg#formats-1) no-repeat center/cover
+    background: url(../../../../wp-content/themes/ninjapromo/assets/sprite/sprite.svg#formats-1) no-repeat center/cover
 }
 
 .formats-section__item:first-child::after {
@@ -6505,7 +6505,7 @@ input:focus {
     height: 2.464375rem;
     left: -2.045625rem;
     top: -1.606875rem;
-    background: url(/wp-content/themes/ninjapromo/assets/sprite/sprite.svg#formats-play) no-repeat center/cover
+    background: url(../../../../wp-content/themes/ninjapromo/assets/sprite/sprite.svg#formats-play) no-repeat center/cover
 }
 
 .formats-section__item:last-child::before {
@@ -6513,7 +6513,7 @@ input:focus {
     height: 6.15375rem;
     right: -2.46875rem;
     bottom: -2.21625rem;
-    background: url(/wp-content/themes/ninjapromo/assets/sprite/sprite.svg#formats-2) no-repeat center/cover
+    background: url(../../../../wp-content/themes/ninjapromo/assets/sprite/sprite.svg#formats-2) no-repeat center/cover
 }
 
 @media screen and (max-width:1000px) {
@@ -6959,8 +6959,8 @@ input:focus {
     top: .875rem;
     right: .84375rem;
     background: var(--blue-color);
-    -webkit-mask-image: url(/wp-content/themes/ninjapromo/assets/img/svg/arrow-right.svg);
-    mask-image: url(/wp-content/themes/ninjapromo/assets/img/svg/arrow-right.svg);
+    -webkit-mask-image: url(../../../../wp-content/themes/ninjapromo/assets/img/svg/arrow-right.svg);
+    mask-image: url(../../../../wp-content/themes/ninjapromo/assets/img/svg/arrow-right.svg);
     -webkit-mask-repeat: no-repeat;
     mask-repeat: no-repeat;
     -webkit-mask-size: contain;
@@ -7074,8 +7074,8 @@ input:focus {
     top: calc(50% - .5625rem);
     right: .5rem;
     background: var(--blue-color);
-    -webkit-mask-image: url(/wp-content/themes/ninjapromo/assets/img/svg/arrow-play.svg);
-    mask-image: url(/wp-content/themes/ninjapromo/assets/img/svg/arrow-play.svg);
+    -webkit-mask-image: url(../../../../wp-content/themes/ninjapromo/assets/img/svg/arrow-play.svg);
+    mask-image: url(../../../../wp-content/themes/ninjapromo/assets/img/svg/arrow-play.svg);
     -webkit-mask-repeat: no-repeat;
     mask-repeat: no-repeat;
     -webkit-mask-size: contain;
@@ -7154,8 +7154,8 @@ input:focus {
 .slider-btn {
     text-indent: -9999px;
     background: #fff;
-    -webkit-mask-image: url(/wp-content/themes/ninjapromo/assets/img/svg/arrow-slider.svg);
-    mask-image: url(/wp-content/themes/ninjapromo/assets/img/svg/arrow-slider.svg);
+    -webkit-mask-image: url(../../../../wp-content/themes/ninjapromo/assets/img/svg/arrow-slider.svg);
+    mask-image: url(../../../../wp-content/themes/ninjapromo/assets/img/svg/arrow-slider.svg);
     -webkit-mask-repeat: no-repeat;
     mask-repeat: no-repeat;
     -webkit-mask-size: contain;
@@ -7203,7 +7203,7 @@ input:focus {
 
 .faq-btn::after {
     content: "";
-    background: url(/wp-content/themes/ninjapromo/assets/img/svg/faq.svg) no-repeat center/contain;
+    background: url(../../../../wp-content/themes/ninjapromo/assets/img/svg/faq.svg) no-repeat center/contain;
     border-radius: 50%;
     width: 2.5rem;
     height: 2.5rem;
@@ -8390,8 +8390,8 @@ input:focus {
 
 .case-solution__list li::before {
     content: "";
-    -webkit-mask-image: url(/wp-content/themes/ninjapromo/assets/sprite/sprite.svg#case-solution);
-    mask-image: url(/wp-content/themes/ninjapromo/assets/sprite/sprite.svg#case-solution);
+    -webkit-mask-image: url(../../../../wp-content/themes/ninjapromo/assets/sprite/sprite.svg#case-solution);
+    mask-image: url(../../../../wp-content/themes/ninjapromo/assets/sprite/sprite.svg#case-solution);
     -webkit-mask-repeat: no-repeat;
     mask-repeat: no-repeat;
     -webkit-mask-size: cover;
@@ -8458,7 +8458,7 @@ input:focus {
     top: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    background: url(/wp-content/themes/ninjapromo/assets/sprite/sprite.svg#case-play) no-repeat center/cover
+    background: url(../../../../wp-content/themes/ninjapromo/assets/sprite/sprite.svg#case-play) no-repeat center/cover
 }
 
 .case-content__video img {
@@ -8718,7 +8718,7 @@ input:focus {
 .contacts-section {
     padding-top: 2.5rem;
     padding-bottom: 5.875rem;
-    background: #3c39c6 url(/wp-content/themes/ninjapromo/assets/img/contacts-section/contacts-bg.jpg) no-repeat center/cover;
+    background: #3c39c6 url(../../../../wp-content/themes/ninjapromo/assets/img/contacts-section/contacts-bg.jpg) no-repeat center/cover;
     color: #fff
 }
 
@@ -8732,7 +8732,7 @@ input:focus {
     .contacts-section {
         padding-top: 2.5rem;
         padding-bottom: 5.3125rem;
-        background-image: url(/wp-content/themes/ninjapromo/assets/img/contacts-section/contacts-bg-mob.jpg)
+        background-image: url(../../../../wp-content/themes/ninjapromo/assets/img/contacts-section/contacts-bg-mob.jpg)
     }
 
     .contacts-section_page {
@@ -8838,7 +8838,7 @@ input:focus {
 
 .contacts-section__list li::before {
     content: "";
-    background: url(/wp-content/themes/ninjapromo/assets/sprite/sprite.svg#checkbox) no-repeat center/cover;
+    background: url(../../../../wp-content/themes/ninjapromo/assets/sprite/sprite.svg#checkbox) no-repeat center/cover;
     -webkit-box-flex: 0;
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
@@ -9048,7 +9048,7 @@ input:focus {
 
 .contacts-form__checkbox-normal::before {
     content: "";
-    background: url(/wp-content/themes/ninjapromo/assets/sprite/sprite.svg#checkbox) no-repeat center/cover;
+    background: url(../../../../wp-content/themes/ninjapromo/assets/sprite/sprite.svg#checkbox) no-repeat center/cover;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -9086,8 +9086,8 @@ input:focus {
     display: block;
     width: 1.1875rem;
     height: .6875rem;
-    -webkit-mask-image: url(/wp-content/themes/ninjapromo/assets/img/svg/arrow-down-select.svg);
-    mask-image: url(/wp-content/themes/ninjapromo/assets/img/svg/arrow-down-select.svg);
+    -webkit-mask-image: url(../../../../wp-content/themes/ninjapromo/assets/img/svg/arrow-down-select.svg);
+    mask-image: url(../../../../wp-content/themes/ninjapromo/assets/img/svg/arrow-down-select.svg);
     -webkit-mask-size: cover;
     mask-size: cover;
     -webkit-mask-repeat: no-repeat;
@@ -9227,7 +9227,7 @@ input:focus {
     height: 3.4375rem;
     right: 34.4375rem;
     top: -1.6875rem;
-    background-image: url(/wp-content/themes/ninjapromo/assets/sprite/sprite.svg#tactics-1)
+    background-image: url(../../../../wp-content/themes/ninjapromo/assets/sprite/sprite.svg#tactics-1)
 }
 
 .tactics-section__list::after {
@@ -9235,7 +9235,7 @@ input:focus {
     height: 6.4375rem;
     right: 2.754375rem;
     bottom: -3.99875rem;
-    background-image: url(/wp-content/themes/ninjapromo/assets/sprite/sprite.svg#tactics-2)
+    background-image: url(../../../../wp-content/themes/ninjapromo/assets/sprite/sprite.svg#tactics-2)
 }
 
 .tactics-section__list li {
@@ -9332,7 +9332,7 @@ input:focus {
 }
 
 .author-hero {
-    background: #3c39c6 url(/wp-content/themes/ninjapromo/assets/img/blog-hero/blog-hero-bg.jpg) no-repeat center/cover;
+    background: #3c39c6 url(../../../../wp-content/themes/ninjapromo/assets/img/blog-hero/blog-hero-bg.jpg) no-repeat center/cover;
     padding-top: 13rem;
     position: relative;
     color: #fff
@@ -9340,7 +9340,7 @@ input:focus {
 
 .author-hero::after {
     content: "";
-    background: url(/wp-content/themes/ninjapromo/assets/img/blog-hero/blog-hero-img.svg) no-repeat center/cover;
+    background: url(../../../../wp-content/themes/ninjapromo/assets/img/blog-hero/blog-hero-img.svg) no-repeat center/cover;
     opacity: .4;
     display: block;
     width: 52.3125rem;
@@ -9354,7 +9354,7 @@ input:focus {
 @media all and (max-width:768px) {
     .author-hero {
         padding-top: 10.0625rem;
-        background-image: url(/wp-content/themes/ninjapromo/assets/img/blog-hero/blog-hero-bg-mob.jpg)
+        background-image: url(../../../../wp-content/themes/ninjapromo/assets/img/blog-hero/blog-hero-bg-mob.jpg)
     }
 
     .author-hero::after {
@@ -9575,7 +9575,7 @@ input:focus {
     width: 4.375rem;
     height: 3rem;
     position: absolute;
-    background: url(/wp-content/themes/ninjapromo/assets/sprite/sprite.svg#quote-1) no-repeat center/cover
+    background: url(../../../../wp-content/themes/ninjapromo/assets/sprite/sprite.svg#quote-1) no-repeat center/cover
 }
 
 .author-main blockquote::before {
@@ -9586,7 +9586,7 @@ input:focus {
 .author-main blockquote::after {
     right: 3.9375rem;
     bottom: -1.875rem;
-    background-image: url(/wp-content/themes/ninjapromo/assets/sprite/sprite.svg#quote-2)
+    background-image: url(../../../../wp-content/themes/ninjapromo/assets/sprite/sprite.svg#quote-2)
 }
 
 @media screen and (max-width:768px) {
@@ -9842,14 +9842,14 @@ input:focus {
 
 .menu-btn::before {
     content: "";
-    background: url(/wp-content/themes/ninjapromo/assets/sprite/sprite.svg#menu) no-repeat center/cover;
+    background: url(../../../../wp-content/themes/ninjapromo/assets/sprite/sprite.svg#menu) no-repeat center/cover;
     width: 1.875rem;
     height: 1.3125rem;
     display: block
 }
 
 .menu-btn.is-active::before {
-    background-image: url(/wp-content/themes/ninjapromo/assets/sprite/sprite.svg#close);
+    background-image: url(../../../../wp-content/themes/ninjapromo/assets/sprite/sprite.svg#close);
     width: 1.5rem;
     height: 1.5rem
 }
@@ -9919,8 +9919,8 @@ input:focus {
 .menu-mobile__btn::after {
     content: "";
     background-color: #fff;
-    -webkit-mask-image: url(/wp-content/themes/ninjapromo/assets/img/svg/arrow-spoiler.svg);
-    mask-image: url(/wp-content/themes/ninjapromo/assets/img/svg/arrow-spoiler.svg);
+    -webkit-mask-image: url(../../../../wp-content/themes/ninjapromo/assets/img/svg/arrow-spoiler.svg);
+    mask-image: url(../../../../wp-content/themes/ninjapromo/assets/img/svg/arrow-spoiler.svg);
     -webkit-mask-repeat: no-repeat;
     mask-repeat: no-repeat;
     -webkit-mask-size: cover;
@@ -10022,7 +10022,7 @@ input:focus {
 }
 
 .hero-section {
-    background: #0a0f38 url(/wp-content/themes/ninjapromo/assets/img/hero-section/hero-bg.jpg) no-repeat center/cover;
+    background: #0a0f38 url(../../../../wp-content/themes/ninjapromo/assets/img/hero-section/hero-bg.jpg) no-repeat center/cover;
     padding-bottom: 5.22875rem;
     padding-top: 12.4375rem;
     position: relative;
@@ -10030,13 +10030,13 @@ input:focus {
 }
 
 .hero-section_front {
-    background-image: url(/wp-content/themes/ninjapromo/assets/img/hero-section/hero-bg-front.jpg);
+    background-image: url(../../../../wp-content/themes/ninjapromo/assets/img/hero-section/hero-bg-front.jpg);
     overflow: hidden
 }
 
 .hero-section_about {
     padding-top: 16.5rem;
-    background-image: url(/wp-content/themes/ninjapromo/assets/img/hero-section/hero-bg-about.jpg);
+    background-image: url(../../../../wp-content/themes/ninjapromo/assets/img/hero-section/hero-bg-about.jpg);
     overflow: hidden
 }
 
@@ -10051,15 +10051,15 @@ input:focus {
 }
 
 .hero-section_video {
-    background-image: url(/wp-content/themes/ninjapromo/assets/img/hero-section/hero-bg-video.jpg)
+    background-image: url(../../../../wp-content/themes/ninjapromo/assets/img/hero-section/hero-bg-video.jpg)
 }
 
 .hero-section_cases {
-    background-image: url(/wp-content/themes/ninjapromo/assets/img/hero-section/hero-bg-cases.jpg)
+    background-image: url(../../../../wp-content/themes/ninjapromo/assets/img/hero-section/hero-bg-cases.jpg)
 }
 
 .hero-section_blockchain {
-    background-image: url(/wp-content/themes/ninjapromo/assets/img/hero-section/hero-bg-blockchain.jpg)
+    background-image: url(../../../../wp-content/themes/ninjapromo/assets/img/hero-section/hero-bg-blockchain.jpg)
 }
 
 .hero-section_careers,
@@ -10081,7 +10081,7 @@ input:focus {
 
 .hero-section_careers,
 .hero-section_services {
-    background-image: url(/wp-content/themes/ninjapromo/assets/img/hero-section/hero-bg-front.jpg);
+    background-image: url(../../../../wp-content/themes/ninjapromo/assets/img/hero-section/hero-bg-front.jpg);
     padding-bottom: 5rem
 }
 
@@ -10095,7 +10095,7 @@ input:focus {
 }
 
 .hero-section_services {
-    background-image: url(/wp-content/themes/ninjapromo/assets/img/hero-section/hero-bg-services.jpg);
+    background-image: url(../../../../wp-content/themes/ninjapromo/assets/img/hero-section/hero-bg-services.jpg);
     padding-top: 12.6875rem;
     padding-bottom: 4.3125rem
 }
@@ -10121,7 +10121,7 @@ input:focus {
 }
 
 .hero-section_seo {
-    background-image: url(/wp-content/themes/ninjapromo/assets/img/hero-section/hero-bg-seo.jpg)
+    background-image: url(../../../../wp-content/themes/ninjapromo/assets/img/hero-section/hero-bg-seo.jpg)
 }
 
 .hero-section_seo .hero-section__desc {
@@ -10157,7 +10157,7 @@ input:focus {
 
 @media screen and (max-width:768px) {
     .hero-section_video {
-        background-image: url(/wp-content/themes/ninjapromo/assets/img/hero-section/hero-bg-video-mob.jpg)
+        background-image: url(../../../../wp-content/themes/ninjapromo/assets/img/hero-section/hero-bg-video-mob.jpg)
     }
 
     .hero-section_services {
@@ -10719,7 +10719,7 @@ input:focus {
 
 .authority-section__list li::before {
     content: "";
-    background: url(/wp-content/themes/ninjapromo/assets/sprite/sprite.svg#target) no-repeat center/cover;
+    background: url(../../../../wp-content/themes/ninjapromo/assets/sprite/sprite.svg#target) no-repeat center/cover;
     width: 2.5rem;
     height: 2.5rem;
     -webkit-box-flex: 0;
@@ -10867,8 +10867,8 @@ input:focus {
     .care-section__items .tns-controls button {
         text-indent: -9999px;
         background: #121212;
-        -webkit-mask-image: url(/wp-content/themes/ninjapromo/assets/img/svg/arrow-slider.svg);
-        mask-image: url(/wp-content/themes/ninjapromo/assets/img/svg/arrow-slider.svg);
+        -webkit-mask-image: url(../../../../wp-content/themes/ninjapromo/assets/img/svg/arrow-slider.svg);
+        mask-image: url(../../../../wp-content/themes/ninjapromo/assets/img/svg/arrow-slider.svg);
         -webkit-mask-repeat: no-repeat;
         mask-repeat: no-repeat;
         -webkit-mask-size: contain;
@@ -11033,27 +11033,27 @@ input:focus {
         -ms-flex: 0 0 auto;
         flex: 0 0 auto;
         margin-bottom: .4375rem;
-        background: url(/wp-content/themes/ninjapromo/assets/sprite/sprite.svg#care-smm) no-repeat center/cover
+        background: url(../../../../wp-content/themes/ninjapromo/assets/sprite/sprite.svg#care-smm) no-repeat center/cover
     }
 
     .care-item.production::before {
-        background-image: url(/wp-content/themes/ninjapromo/assets/sprite/sprite.svg#care-production)
+        background-image: url(../../../../wp-content/themes/ninjapromo/assets/sprite/sprite.svg#care-production)
     }
 
     .care-item.influence::before {
-        background-image: url(/wp-content/themes/ninjapromo/assets/sprite/sprite.svg#care-influence)
+        background-image: url(../../../../wp-content/themes/ninjapromo/assets/sprite/sprite.svg#care-influence)
     }
 
     .care-item.targeting::before {
-        background-image: url(/wp-content/themes/ninjapromo/assets/sprite/sprite.svg#care-target)
+        background-image: url(../../../../wp-content/themes/ninjapromo/assets/sprite/sprite.svg#care-target)
     }
 
     .care-item.strategy::before {
-        background-image: url(/wp-content/themes/ninjapromo/assets/sprite/sprite.svg#care-strategy)
+        background-image: url(../../../../wp-content/themes/ninjapromo/assets/sprite/sprite.svg#care-strategy)
     }
 
     .care-item.animation::before {
-        background-image: url(/wp-content/themes/ninjapromo/assets/sprite/sprite.svg#care-animation)
+        background-image: url(../../../../wp-content/themes/ninjapromo/assets/sprite/sprite.svg#care-animation)
     }
 }
 
@@ -11140,7 +11140,7 @@ input:focus {
         width: .75rem;
         height: .375rem;
         pointer-events: none;
-        background: url(/wp-content/themes/ninjapromo/assets/sprite/sprite.svg#arrow-down-select) no-repeat center/cover
+        background: url(../../../../wp-content/themes/ninjapromo/assets/sprite/sprite.svg#arrow-down-select) no-repeat center/cover
     }
 
     .content-section__select select {
@@ -11754,17 +11754,17 @@ input:focus {
 .cta-section {
     padding-top: 10.625rem;
     padding-bottom: 10.625rem;
-    background: url(/wp-content/themes/ninjapromo/assets/img/cta-section/cta-bg.jpg) no-repeat center/cover;
+    background: url(../../../../wp-content/themes/ninjapromo/assets/img/cta-section/cta-bg.jpg) no-repeat center/cover;
     position: relative;
     overflow: hidden
 }
 
 .cta-section_front {
-    background: url(/wp-content/themes/ninjapromo/assets/img/cta-section/cta-bg-front.jpg) no-repeat center/cover
+    background: url(../../../../wp-content/themes/ninjapromo/assets/img/cta-section/cta-bg-front.jpg) no-repeat center/cover
 }
 
 .cta-section_blockchain {
-    background: url(/wp-content/themes/ninjapromo/assets/img/cta-section/cta-bg-blockchain.jpg) no-repeat center/cover
+    background: url(../../../../wp-content/themes/ninjapromo/assets/img/cta-section/cta-bg-blockchain.jpg) no-repeat center/cover
 }
 
 .cta-section_article {
@@ -11775,7 +11775,7 @@ input:focus {
     margin: 0;
     padding-top: 7.1875rem;
     padding-bottom: 6.75rem;
-    background: url(/wp-content/themes/ninjapromo/assets/img/cta-section/cta-bg-article.jpg) no-repeat center/cover
+    background: url(../../../../wp-content/themes/ninjapromo/assets/img/cta-section/cta-bg-article.jpg) no-repeat center/cover
 }
 
 .cta-section_article .cta-section__title,
@@ -11786,7 +11786,7 @@ input:focus {
 .cta-section_video {
     padding-top: 12.5rem;
     padding-bottom: 8.9375rem;
-    background: url(/wp-content/themes/ninjapromo/assets/img/cta-section/cta-bg-video.jpg) no-repeat center/cover
+    background: url(../../../../wp-content/themes/ninjapromo/assets/img/cta-section/cta-bg-video.jpg) no-repeat center/cover
 }
 
 .cta-section_video .cta-section__arrow {
@@ -11837,7 +11837,7 @@ input:focus {
 }
 
 .cta-section_seo {
-    background: url(/wp-content/themes/ninjapromo/assets/img/cta-section/cta-bg-seo.jpg) no-repeat center/cover
+    background: url(../../../../wp-content/themes/ninjapromo/assets/img/cta-section/cta-bg-seo.jpg) no-repeat center/cover
 }
 
 .cta-section_cases {
@@ -11864,17 +11864,17 @@ input:focus {
     .cta-section {
         padding-top: 4.6875rem;
         padding-bottom: 4.6875rem;
-        background-image: url(/wp-content/themes/ninjapromo/assets/img/cta-section/cta-bg-mob.jpg)
+        background-image: url(../../../../wp-content/themes/ninjapromo/assets/img/cta-section/cta-bg-mob.jpg)
     }
 
     .cta-section_front {
-        background-image: url(/wp-content/themes/ninjapromo/assets/img/cta-section/cta-bg-front-mob.jpg)
+        background-image: url(../../../../wp-content/themes/ninjapromo/assets/img/cta-section/cta-bg-front-mob.jpg)
     }
 
     .cta-section_article {
         padding-top: 4.6875rem;
         padding-bottom: 4.6875rem;
-        background-image: url(/wp-content/themes/ninjapromo/assets/img/cta-section/cta-bg-article-mob.jpg)
+        background-image: url(../../../../wp-content/themes/ninjapromo/assets/img/cta-section/cta-bg-article-mob.jpg)
     }
 
     .cta-section_article .cta-section__title {
@@ -12364,7 +12364,7 @@ input:focus {
         display: block;
         width: 1.1875rem;
         height: .6875rem;
-        background: url(/wp-content/themes/ninjapromo/assets/sprite/sprite.svg#arrow-down-select) no-repeat center/cover;
+        background: url(../../../../wp-content/themes/ninjapromo/assets/sprite/sprite.svg#arrow-down-select) no-repeat center/cover;
         -webkit-transition: -webkit-transform .3s ease;
         transition: -webkit-transform .3s ease;
         transition: transform .3s ease;
@@ -12897,7 +12897,7 @@ input:focus {
     outline: 0;
     width: 2.5rem;
     height: 2.5rem;
-    background: url(/wp-content/themes/ninjapromo/assets/sprite/sprite.svg#close-modal) no-repeat center/cover;
+    background: url(../../../../wp-content/themes/ninjapromo/assets/sprite/sprite.svg#close-modal) no-repeat center/cover;
     pointer-events: all
 }
 
@@ -13013,8 +13013,8 @@ input:focus {
 .modal__slider .tns-controls button::after {
     content: "";
     background: #212121;
-    -webkit-mask-image: url(/wp-content/themes/ninjapromo/assets/img/svg/arrow-modal.svg);
-    mask-image: url(/wp-content/themes/ninjapromo/assets/img/svg/arrow-modal.svg);
+    -webkit-mask-image: url(../../../../wp-content/themes/ninjapromo/assets/img/svg/arrow-modal.svg);
+    mask-image: url(../../../../wp-content/themes/ninjapromo/assets/img/svg/arrow-modal.svg);
     -webkit-mask-repeat: no-repeat;
     mask-repeat: no-repeat;
     -webkit-mask-size: contain;
@@ -13343,7 +13343,7 @@ input:focus {
 }
 
 .blog-hero {
-    background: #0a0f38 url(/wp-content/themes/ninjapromo/assets/img/blog-hero/blog-hero-bg.jpg) no-repeat center/cover;
+    background: #0a0f38 url(../../../../wp-content/themes/ninjapromo/assets/img/blog-hero/blog-hero-bg.jpg) no-repeat center/cover;
     padding-top: 10.6875rem;
     padding-bottom: 7.3125rem;
     position: relative;
@@ -13352,7 +13352,7 @@ input:focus {
 }
 
 .blog-hero::after {
-    background: url(/wp-content/themes/ninjapromo/assets/img/blog-hero/blog-hero-img.svg) no-repeat center/cover;
+    background: url(../../../../wp-content/themes/ninjapromo/assets/img/blog-hero/blog-hero-img.svg) no-repeat center/cover;
     opacity: .4;
     width: 52.3125rem;
     height: 33.125rem;
@@ -13365,7 +13365,7 @@ input:focus {
     .blog-hero {
         padding-top: 10.0625rem;
         padding-bottom: 5rem;
-        background-image: url(/wp-content/themes/ninjapromo/assets/img/blog-hero/blog-hero-bg-mob.jpg)
+        background-image: url(../../../../wp-content/themes/ninjapromo/assets/img/blog-hero/blog-hero-bg-mob.jpg)
     }
 
     .blog-hero::after {
@@ -13768,8 +13768,8 @@ input:focus {
 
 .sidebar__spoiler-btn::after {
     content: "";
-    -webkit-mask-image: url(/wp-content/themes/ninjapromo/assets/img/svg/arrow-down-select.svg);
-    mask-image: url(/wp-content/themes/ninjapromo/assets/img/svg/arrow-down-select.svg);
+    -webkit-mask-image: url(../../../../wp-content/themes/ninjapromo/assets/img/svg/arrow-down-select.svg);
+    mask-image: url(../../../../wp-content/themes/ninjapromo/assets/img/svg/arrow-down-select.svg);
     -webkit-mask-size: cover;
     mask-size: cover;
     -webkit-mask-repeat: no-repeat;
@@ -13805,8 +13805,8 @@ input:focus {
         width: 1.0625rem;
         height: .5rem;
         pointer-events: none;
-        -webkit-mask-image: url(/wp-content/themes/ninjapromo/assets/sprite/sprite.svg#arrow-down-select);
-        mask-image: url(/wp-content/themes/ninjapromo/assets/sprite/sprite.svg#arrow-down-select);
+        -webkit-mask-image: url(../../../../wp-content/themes/ninjapromo/assets/sprite/sprite.svg#arrow-down-select);
+        mask-image: url(../../../../wp-content/themes/ninjapromo/assets/sprite/sprite.svg#arrow-down-select);
         -webkit-mask-repeat: no-repeat;
         mask-repeat: no-repeat;
         -webkit-mask-size: cover;
@@ -13913,8 +13913,8 @@ input:focus {
     width: 1.625rem;
     height: 1.625rem;
     background: #fff;
-    -webkit-mask-image: url(/wp-content/themes/ninjapromo/assets/img/svg/search.svg);
-    mask-image: url(/wp-content/themes/ninjapromo/assets/img/svg/search.svg);
+    -webkit-mask-image: url(../../../../wp-content/themes/ninjapromo/assets/img/svg/search.svg);
+    mask-image: url(../../../../wp-content/themes/ninjapromo/assets/img/svg/search.svg);
     -webkit-mask-repeat: no-repeat;
     mask-repeat: no-repeat;
     -webkit-mask-size: contain;
@@ -13937,7 +13937,7 @@ input:focus {
 
 .subscribe-section::before {
     content: "";
-    background: url(/wp-content/themes/ninjapromo/assets/sprite/sprite.svg#subscribe-section) no-repeat center/cover;
+    background: url(../../../../wp-content/themes/ninjapromo/assets/sprite/sprite.svg#subscribe-section) no-repeat center/cover;
     display: block;
     width: 58.3125rem;
     height: 37.375rem;
@@ -13965,7 +13965,7 @@ input:focus {
         top: auto;
         bottom: 0;
         right: -.625rem;
-        background-image: url(/wp-content/themes/ninjapromo/assets/sprite/sprite.svg#subscribe-section-mob)
+        background-image: url(../../../../wp-content/themes/ninjapromo/assets/sprite/sprite.svg#subscribe-section-mob)
     }
 }
 
@@ -14024,7 +14024,7 @@ input:focus {
 
 .article-hero {
     padding-top: 7.5625rem;
-    background: var(--dark-color) url(/wp-content/themes/ninjapromo/assets/img/article-hero/article-hero.svg) no-repeat top right;
+    background: var(--dark-color) url(../../../../wp-content/themes/ninjapromo/assets/img/article-hero/article-hero.svg) no-repeat top right;
     color: #fff
 }
 
@@ -14227,7 +14227,7 @@ input:focus {
 
 .breadcrumbs li:not(:last-child)::after {
     content: "";
-    background: url(/wp-content/themes/ninjapromo/assets/sprite/sprite.svg#arrow-spoiler) no-repeat center/cover;
+    background: url(../../../../wp-content/themes/ninjapromo/assets/sprite/sprite.svg#arrow-spoiler) no-repeat center/cover;
     width: .375rem;
     height: .75rem;
     display: block;
@@ -14379,8 +14379,8 @@ input:focus {
     background: var(--blue-color);
     -webkit-transition: background-color .3s ease;
     transition: background-color .3s ease;
-    -webkit-mask-image: url(/wp-content/themes/ninjapromo/assets/img/svg/arrow-right.svg);
-    mask-image: url(/wp-content/themes/ninjapromo/assets/img/svg/arrow-right.svg);
+    -webkit-mask-image: url(../../../../wp-content/themes/ninjapromo/assets/img/svg/arrow-right.svg);
+    mask-image: url(../../../../wp-content/themes/ninjapromo/assets/img/svg/arrow-right.svg);
     -webkit-mask-repeat: no-repeat;
     mask-repeat: no-repeat;
     -webkit-mask-size: contain;
@@ -14504,15 +14504,15 @@ input:focus {
 .star-rating .star {
     width: 100%;
     height: 1.25rem;
-    background: url(/wp-content/themes/ninjapromo/assets/sprite/sprite.svg#star-empty) no-repeat center/cover
+    background: url(../../../../wp-content/themes/ninjapromo/assets/sprite/sprite.svg#star-empty) no-repeat center/cover
 }
 
 .star-rating .star.star-half {
-    background-image: url(/wp-content/themes/ninjapromo/assets/sprite/sprite.svg#star-half)
+    background-image: url(../../../../wp-content/themes/ninjapromo/assets/sprite/sprite.svg#star-half)
 }
 
 .star-rating .star.star-full {
-    background-image: url(/wp-content/themes/ninjapromo/assets/sprite/sprite.svg#star-filled)
+    background-image: url(../../../../wp-content/themes/ninjapromo/assets/sprite/sprite.svg#star-filled)
 }
 
 @media screen and (max-width:768px) {

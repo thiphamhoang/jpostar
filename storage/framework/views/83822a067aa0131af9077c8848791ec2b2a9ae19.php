@@ -3,7 +3,7 @@
             <div class="footer__nav">
                 <div class="footer__logo-wrapper">
                     <a href="" class="footer__logo">
-                        <img data-src="/wp-content/themes/ninjapromo/assets/img/logo-footer.svg"
+                        <img data-src="<?php echo e(asset('wp-content/themes/ninjapromo/assets/img/logo-footer.svg')); ?>"
                             alt="NinjaPromo logo" width="130" height="46"
                             src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                             class="lazyload"
@@ -310,11 +310,7 @@
 
                     <div class="footer__offices-addresses">
                         <div class="footer__address">
-                            <img width="30" height="30"
-                                data-src="/wp-content/uploads/2022/01/Frame-1545-4.svg"
-                                class="attachment-full size-full lazyload" alt="" decoding="async"
-                                src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                style="--smush-placeholder-width: 30px; --smush-placeholder-aspect-ratio: 30/30;" />
+                            <img width="30" height="30" data-src="<?php echo e(asset('/wp-content/uploads/2022/01/Frame-1545-4.svg')); ?>" class="attachment-full size-full lazyload" alt="" decoding="async" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" style="--smush-placeholder-width: 30px; --smush-placeholder-aspect-ratio: 30/30;" />
                             <p class="footer__address-title">London</p>
 
                             <p class="footer__address-main">
@@ -323,7 +319,7 @@
                         </div>
                         <div class="footer__address">
                             <img width="30" height="30"
-                                data-src="/wp-content/uploads/2022/01/Frame-1545-1-2.svg"
+                                data-src="<?php echo e(asset('/wp-content/uploads/2022/01/Frame-1545-1-2.svg')); ?>"
                                 class="attachment-full size-full lazyload" alt="" decoding="async"
                                 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                                 style="--smush-placeholder-width: 30px; --smush-placeholder-aspect-ratio: 30/30;" />
@@ -334,7 +330,7 @@
                         </div>
                         <div class="footer__address">
                             <img width="30" height="30"
-                                data-src="/wp-content/uploads/2022/01/Frame-1545-2-2.svg"
+                                data-src="<?php echo e(asset('/wp-content/uploads/2022/01/Frame-1545-2-2.svg')); ?>"
                                 class="attachment-full size-full lazyload" alt="" decoding="async"
                                 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                                 style="--smush-placeholder-width: 30px; --smush-placeholder-aspect-ratio: 30/30;" />
@@ -346,7 +342,7 @@
                         </div>
                         <div class="footer__address">
                             <img width="30" height="30"
-                                data-src="/wp-content/uploads/2022/01/Frame-1545-3-1.svg"
+                                data-src="<?php echo e(asset('/wp-content/uploads/2022/01/Frame-1545-3-1.svg')); ?>"
                                 class="attachment-full size-full lazyload" alt="" decoding="async"
                                 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                                 style="--smush-placeholder-width: 30px; --smush-placeholder-aspect-ratio: 30/30;" />
@@ -357,7 +353,7 @@
                         </div>
                         <div class="footer__address">
                             <img width="30" height="30"
-                                data-src="/wp-content/uploads/2022/01/Frame-1545-4-1.svg"
+                                data-src="<?php echo e(asset('/wp-content/uploads/2022/01/Frame-1545-4-1.svg')); ?>"
                                 class="attachment-full size-full lazyload" alt="" decoding="async"
                                 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                                 style="--smush-placeholder-width: 30px; --smush-placeholder-aspect-ratio: 30/30;" />
@@ -368,7 +364,7 @@
                         </div>
                         <div class="footer__address">
                             <img width="30" height="30"
-                                data-src="/wp-content/uploads/2022/06/ged003.svg"
+                                data-src="<?php echo e(asset('/wp-content/uploads/2022/06/ged003.svg')); ?>"
                                 class="attachment-full size-full lazyload" alt="" decoding="async"
                                 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                                 style="--smush-placeholder-width: 30px; --smush-placeholder-aspect-ratio: 30/30;" />
@@ -407,7 +403,7 @@
                             aria-label="Link to Facebook">
                             <svg width="9" height="17">
                                 <use
-                                    xlink:href="/wp-content/themes/ninjapromo/assets/sprite/sprite.svg#fb" />
+                                    xlink:href="<?php echo e(asset('/wp-content/themes/ninjapromo/assets/sprite/sprite.svg#fb')); ?>" />
                             </svg>
                         </a>
 
@@ -422,18 +418,13 @@
                                 </g>
                             </svg>
                         </a>
-                        <!--
-                    <a href="" target="_blank" rel="nofollow noopener" aria-label="Link to Telegram">
-                        <svg width="17" height="15">
-                            <use xlink:href="/assets/sprite/sprite.svg#tg"/>
-                        </svg>
-                    </a> -->
+                    
 
                         <a href="https://www.youtube.com/channel/UCZ7h2iqYhXzhnqGPBmH844A/videos" target="_blank"
                             rel="nofollow noopener" aria-label="Link to YouTube">
                             <svg width="17" height="12">
                                 <use
-                                    xlink:href="/wp-content/themes/ninjapromo/assets/sprite/sprite.svg#yt" />
+                                    xlink:href="<?php echo e(asset('/wp-content/themes/ninjapromo/assets/sprite/sprite.svg#yt')); ?>" />
                             </svg>
                         </a>
 
@@ -441,7 +432,7 @@
                             aria-label="Link to Linkedin">
                             <svg width="14" height="14">
                                 <use
-                                    xlink:href="/wp-content/themes/ninjapromo/assets/sprite/sprite.svg#lin" />
+                                    xlink:href="<?php echo e(asset('/wp-content/themes/ninjapromo/assets/sprite/sprite.svg#lin')); ?>" />
                             </svg>
                         </a>
 
@@ -449,7 +440,7 @@
                             aria-label="Link to Instagram">
                             <svg width="17" height="17">
                                 <use
-                                    xlink:href="/wp-content/themes/ninjapromo/assets/sprite/sprite.svg#in" />
+                                    xlink:href="<?php echo e(asset('/wp-content/themes/ninjapromo/assets/sprite/sprite.svg#in')); ?>" />
                             </svg>
                         </a>
 
