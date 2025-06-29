@@ -1,7 +1,7 @@
 @extends('fontend.index')
 @section('content')
  
-    <div id="mm-0" class="mm-page mm-slideout">
+    <div id="mm-0" class="main wide-page mm-page mm-slideout">
         <div class="main paidmedia vd-page">
 
             <div class="hero-section hero-section_seo">

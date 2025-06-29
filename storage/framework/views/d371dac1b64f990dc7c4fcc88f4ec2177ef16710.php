@@ -2,7 +2,7 @@
 <?php $__env->startSection('content'); ?>
 
    
-    <div id="mm-0" class="mm-page mm-slideout">
+    <div id="mm-0" class="main wide-page mm-page mm-slideout">
         <div class="main article-page">
             <section class="article-hero" id="top">
 

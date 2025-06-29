@@ -5,7 +5,7 @@
     
       
 
-    <div id="mm-0" class="mm-page mm-slideout">
+    <div id="mm-0" class=" main wide-page mm-page mm-slideout">
         <div class="main">
 
 
@@ -26,7 +26,7 @@
                 </div>
             </section>
 
-            <div class="container layout layout_blog">
+            <div class="container layout layout_blog " style="margin-top: 50px">
               
                 <main class="layout__main">
                     <div class="layout__items js-blog-items" data-cat="all" itemscope="itemscope" itemtype="https://schema.org/Blog">

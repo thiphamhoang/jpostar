@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.2.0
+-- version 5.1.3
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 25, 2025 at 12:24 PM
--- Server version: 10.4.25-MariaDB
--- PHP Version: 7.4.30
+-- Generation Time: Jun 25, 2025 at 08:03 PM
+-- Server version: 10.4.22-MariaDB
+-- PHP Version: 7.4.28
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -58,19 +58,12 @@ CREATE TABLE `cat` (
 --
 
 INSERT INTO `cat` (`id`, `name`, `name_en`, `img`, `url`, `des`, `post_type_id`, `parent_id`, `title_seo`, `des_seo`, `key_seo`, `status`, `theme_id`, `canon`, `type`, `des_en`, `title_seo_en`, `des_seo_en`, `key_seo_en`, `orderby`, `index_meta`, `created_at`, `updated_at`) VALUES
-(1, 'Lĩnh vực', NULL, '', 'linh-vuc', NULL, NULL, 0, NULL, NULL, NULL, 'on', NULL, 'off', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2023-12-27 23:30:55', '2023-12-27 23:30:55'),
-(2, 'Dự án', NULL, '', 'du-an', NULL, NULL, 0, NULL, NULL, NULL, 'on', NULL, 'off', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2023-12-27 23:31:01', '2023-12-27 23:31:01'),
-(3, 'Tuyển dụng', NULL, '', 'tuyen-dung', NULL, NULL, 0, NULL, NULL, NULL, 'on', NULL, 'off', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2023-12-27 23:31:12', '2023-12-27 23:31:12'),
-(4, 'Tin tức', NULL, '', 'tin-tuc', NULL, NULL, 0, NULL, NULL, NULL, 'on', NULL, 'off', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2023-12-27 23:31:17', '2023-12-27 23:31:17'),
-(5, 'Giới thiệu', NULL, 'COD-3.jpg', 'gioi-thieu', 'NTECHCO khởi công dự án Xử lý nước thải nhà máy Hóa Dầu Long Sơn (hạng mục EPC E&I)', NULL, 0, NULL, NULL, NULL, 'on', NULL, 'off', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2023-12-28 18:23:04', '2025-02-23 23:44:48'),
-(6, 'Tư vấn thiết kế', NULL, 'nhan luc.png', 'tu-van-thiet-ke', '- Thiết kế điện đường dây và TBA đến 35KV\r\n- Thiết  kế điện năng lượng tái tạo, điện gió, điện mặt trời\r\n-Thiết kế các công trình xây dựng dân dụng và công nghiệp\r\n- Thiết kế hệ thống điện nhẹ (CCTV), hệ thống điều hòa không khí (HVAC), hệ thống cấp thoát nước (Plumbing), hệ thống cơ điện (Electrical),...', NULL, 1, NULL, NULL, NULL, 'on', NULL, 'off', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2023-12-28 18:29:37', '2024-03-08 21:34:04'),
-(7, 'Thi Công lắp đặt', NULL, 'xay dung.png', 'thi-cong-lap-dat', '- Thi công các công trình đz và TBA đến 500kV\r\n- Thi công xây dựng các công trình năng lượng và tái tạo (Điện gió, điện mặt trời, nhiệt điện, thủy điện, Lọc hóa dầu,...)\r\n- Thi công xây dựng nhà xưởng, nhà công nghiệp, hạ tầng kỹ thuật\r\n- Cung cấp, gia công chế tạo và đặt kết cấu thép, bồn bể, đường ống và thiết bị vào công trình,...\r\n- Tổng thầu các công trình xây dựng\r\n-Thi công hệ thống điện nhẹ (CCTV), hệ thống điều hòa không khí (HVAC), hệ thống cấp thoát nước (Plumbing), hệ thống cơ điện (Electrical),...', NULL, 1, NULL, NULL, NULL, 'on', NULL, 'off', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2023-12-28 18:30:20', '2024-03-08 21:35:51'),
-(8, 'Lĩnh vực khác', NULL, 'nhan luc-1.png', 'linh-vuc-khac', '- Cung cấp nhân lực\r\n- Cho thuê máy móc thiết bị\r\n- Cung cấp vật tư thiết bị xây dựng, cơ khí, điện\r\n- Bảo hành bảo trì nhà máy', NULL, 1, NULL, NULL, NULL, 'on', NULL, 'off', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2023-12-28 18:30:28', '2024-03-08 21:25:59'),
-(10, 'Điện gió - điện mặt trời', NULL, '', 'dien-gio-dien-mat-troi', NULL, NULL, 2, NULL, NULL, NULL, 'on', NULL, 'off', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2023-12-30 10:11:59', '2023-12-30 10:11:59'),
-(11, 'Cơ khí chế tạo', NULL, '', 'co-khi-che-tao', NULL, NULL, 2, NULL, NULL, NULL, 'on', NULL, 'off', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2023-12-30 10:13:36', '2023-12-30 10:13:36'),
-(12, 'Hệ thống Điện, đo lường, thông tin liên lạc, HVAC,...', NULL, '', 'ong-dien-ngam', NULL, NULL, 2, NULL, NULL, NULL, 'on', NULL, 'off', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2023-12-30 10:14:39', '2025-02-23 23:46:19'),
-(13, 'Trạm biến áp', NULL, '', 'tram-bien-ap', NULL, NULL, 2, NULL, NULL, NULL, 'on', NULL, 'off', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2023-12-30 10:15:10', '2023-12-30 10:15:10'),
-(14, 'Thi công xây dựng công trình', NULL, '', 'thi-cong-xay-dung-cong-trinh', NULL, NULL, 2, NULL, NULL, NULL, 'on', NULL, 'off', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2023-12-30 10:15:46', '2023-12-30 10:15:46');
+(34, 'Investment Management', NULL, '', 'investment-management', NULL, NULL, 16, NULL, NULL, NULL, 'on', NULL, 'off', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2025-06-25 09:15:06', '2025-06-25 09:15:06'),
+(27, 'Fundraising Advisor', NULL, '', 'fundraising-advisor', NULL, NULL, 16, NULL, NULL, NULL, 'on', NULL, 'off', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2025-06-25 09:12:02', '2025-06-25 09:12:02'),
+(28, 'Blockchain Development', NULL, '', 'blockchain-development', NULL, NULL, 16, NULL, NULL, NULL, 'on', NULL, 'off', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2025-06-25 09:12:14', '2025-06-25 09:12:14'),
+(17, 'Marketing Service', NULL, '', 'marketing-service', NULL, NULL, 16, NULL, NULL, NULL, 'on', NULL, 'off', 'service', NULL, NULL, NULL, NULL, NULL, NULL, '2025-06-25 09:06:35', '2025-06-25 09:06:35'),
+(16, 'Service', NULL, '', 'service', NULL, NULL, 0, NULL, NULL, NULL, 'on', NULL, 'off', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2025-06-25 09:05:58', '2025-06-25 09:05:58'),
+(15, 'News', NULL, '', 'news', 'Get front-row industry insights with our monthly newsletter', NULL, 0, NULL, NULL, NULL, 'on', NULL, 'off', 'news', NULL, NULL, NULL, NULL, NULL, NULL, '2025-06-25 07:25:15', '2025-06-25 08:45:04');
 
 -- --------------------------------------------------------
 
@@ -1520,16 +1513,31 @@ CREATE TABLE `menu` (
 --
 
 INSERT INTO `menu` (`id`, `name`, `img`, `url`, `menu_type_id`, `cat_id`, `type`, `parent_id`, `icon`, `attri`, `status`, `orderby`, `created_at`, `updated_at`) VALUES
-(1, 'Trang chủ', NULL, '/', 1, NULL, NULL, 0, NULL, NULL, 'on', 1, '2023-12-27 23:31:29', '2023-12-27 23:31:29'),
-(2, 'Giới thiệu', NULL, 'gioi-thieu.html', 1, NULL, NULL, 0, NULL, NULL, 'on', 2, '2023-12-27 23:31:49', '2023-12-27 23:31:49'),
-(3, 'Lĩnh vực', NULL, 'linh-vuc', 1, NULL, NULL, 0, NULL, NULL, 'on', 3, '2023-12-27 23:32:07', '2023-12-27 23:32:07'),
-(4, 'Dự án', NULL, 'du-an', 1, NULL, NULL, 0, NULL, NULL, 'on', 4, '2023-12-27 23:32:17', '2023-12-27 23:32:17'),
-(5, 'Tuyển dụng', NULL, 'tuyen-dung', 1, NULL, NULL, 0, NULL, NULL, 'on', 5, '2023-12-27 23:33:16', '2025-02-23 23:35:06'),
-(6, 'Liên hệ', NULL, 'page/lien-he', 1, NULL, NULL, 0, NULL, NULL, 'on', 6, '2023-12-27 23:33:28', '2023-12-31 11:04:21'),
-(7, 'Thi công xây dựng công trình', NULL, 'thi-cong-xay-dung-cong-trinh', 2, NULL, NULL, 0, NULL, NULL, 'on', 1, '2023-12-31 10:10:20', '2023-12-31 10:10:20'),
-(8, 'Trạm biến áp', NULL, 'tram-bien-ap', 2, NULL, NULL, 0, NULL, NULL, 'on', 2, '2023-12-31 10:10:35', '2023-12-31 10:10:35'),
-(9, 'Ống điện ngầm', NULL, 'ong-dien-ngam', 2, NULL, NULL, 0, NULL, NULL, 'on', 3, '2023-12-31 10:10:49', '2023-12-31 10:10:49'),
-(10, 'Điện gió - điện mặt trời', NULL, 'dien-gio-dien-mat-troi', 2, NULL, NULL, 0, NULL, NULL, 'on', 4, '2023-12-31 10:11:06', '2023-12-31 10:11:06');
+(2, 'News', NULL, '/news', 1, NULL, NULL, 0, NULL, NULL, 'on', 2, '2023-12-27 23:31:49', '2025-06-25 07:00:59'),
+(3, 'Marketing Service', NULL, 'service/marketing-service.html', 1, NULL, NULL, 0, NULL, NULL, 'on', 3, '2023-12-27 23:32:07', '2025-06-25 09:07:46'),
+(4, 'Community Building & Management', NULL, 'service/community-building-management.html', 1, NULL, NULL, 3, NULL, NULL, 'on', 1, '2023-12-27 23:32:17', '2025-06-25 09:08:18'),
+(5, 'Social Media Marketing', NULL, 'service/social-media-marketing.html', 1, NULL, NULL, 3, NULL, NULL, 'on', 2, '2023-12-27 23:33:16', '2025-06-25 09:08:47'),
+(11, 'Influencer/KOL Marketing', NULL, 'service/influencerkol-marketing.html', 1, NULL, NULL, 3, NULL, NULL, 'on', 3, '2025-06-25 06:57:33', '2025-06-25 09:10:19'),
+(12, 'Crypto PR & Media Relations', NULL, 'service/crypto-pr-media-relations.html', 1, NULL, NULL, 3, NULL, NULL, 'on', 4, '2025-06-25 06:57:57', '2025-06-25 09:10:48'),
+(13, 'Go-to-Market Strategy', NULL, 'service/go-to-market-strategy.html', 1, NULL, NULL, 3, NULL, NULL, 'on', 5, '2025-06-25 06:59:10', '2025-06-25 09:11:05'),
+(14, 'Content Marketing', NULL, 'service/content-marketing.html', 1, NULL, NULL, 3, NULL, NULL, 'on', 6, '2025-06-25 06:59:22', '2025-06-25 09:11:17'),
+(15, 'Localization & Regional Marketing', NULL, 'service/localization-regional-marketing.html', 1, NULL, NULL, 3, NULL, NULL, 'on', 7, '2025-06-25 06:59:41', '2025-06-25 09:11:30'),
+(16, 'Analytics & Reporting', NULL, 'service/analytics-reporting.html', 1, NULL, NULL, 3, NULL, NULL, 'on', 8, '2025-06-25 06:59:54', '2025-06-25 09:11:44'),
+(17, 'Fundraising Advisor', NULL, 'service/fundraising-advisor.html', 1, NULL, NULL, 0, NULL, NULL, 'on', 4, '2025-06-25 07:00:00', '2025-06-25 09:12:01'),
+(18, 'Blockchain Development', NULL, 'service/blockchain-development.html', 1, NULL, NULL, 0, NULL, NULL, 'on', 5, '2025-06-25 07:00:24', '2025-06-25 09:12:22'),
+(19, 'Smart Contract', NULL, 'service/smart-contract.html', 1, NULL, NULL, 18, NULL, NULL, 'on', 1, '2025-06-25 07:00:37', '2025-06-25 09:12:37'),
+(20, 'DApp/Web3 Frontend/Backend', NULL, 'service/dapp-web3-frontend-backend.html', 1, NULL, NULL, 18, NULL, NULL, 'on', 2, '2025-06-25 07:00:55', '2025-06-25 09:12:59'),
+(21, 'Tokenomics Implementation', NULL, 'service/tokenomics-implementation.html', 1, NULL, NULL, 18, NULL, NULL, 'on', 3, '2025-06-25 07:01:13', '2025-06-25 09:13:19'),
+(22, 'Audit', NULL, 'service/audit.html', 1, NULL, NULL, 18, NULL, NULL, 'on', 4, '2025-06-25 07:01:25', '2025-06-25 09:13:27'),
+(23, 'UI/UX', NULL, 'service/ui-ux.html', 1, NULL, NULL, 18, NULL, NULL, 'on', 5, '2025-06-25 07:01:36', '2025-06-25 09:13:53'),
+(24, 'Investment Management', NULL, 'service/investment-management.html', 1, NULL, NULL, 0, NULL, NULL, 'on', 6, '2025-06-25 07:04:24', '2025-06-25 07:04:24'),
+(25, 'Investment Advisory', NULL, 'service/investment-advisory.html', 1, NULL, NULL, 24, NULL, NULL, 'on', 1, '2025-06-25 07:04:45', '2025-06-25 09:15:33'),
+(26, 'Portfolio Management', NULL, 'service/portfolio-management.html', 1, NULL, NULL, 24, NULL, NULL, 'on', 2, '2025-06-25 07:06:22', '2025-06-25 09:16:56'),
+(27, 'Risk Management', NULL, 'service/risk-management.html', 1, NULL, NULL, 24, NULL, NULL, 'on', 3, '2025-06-25 07:06:31', '2025-06-25 09:17:17'),
+(28, 'Asset Custody', NULL, 'service/asset-custody.html', 1, NULL, NULL, 24, NULL, NULL, 'on', 4, '2025-06-25 07:09:56', '2025-06-25 09:17:44'),
+(29, 'Fund Management', NULL, 'service/fund-management.html', 1, NULL, NULL, 24, NULL, NULL, 'on', 5, '2025-06-25 07:11:00', '2025-06-25 09:18:06'),
+(30, 'DeFi Strategy', NULL, 'service/defi-strategy.html', 1, NULL, NULL, 24, NULL, NULL, 'on', 6, '2025-06-25 07:11:14', '2025-06-25 09:18:24'),
+(31, 'Contact Us', NULL, 'contact-us', 1, NULL, NULL, 0, NULL, NULL, 'on', 7, '2025-06-25 07:11:24', '2025-06-25 09:30:09');
 
 -- --------------------------------------------------------
 
@@ -1583,7 +1591,15 @@ CREATE TABLE `orders` (
 --
 
 INSERT INTO `orders` (`id`, `type`, `user_id`, `content`, `status`, `note`, `created_at`, `updated_at`, `name`, `tel`, `email`, `branch`) VALUES
-(5, NULL, NULL, NULL, 'off', 'Hotline', '2025-02-24 06:34:31', '2025-02-23 23:34:31', 'Phạm Đình Lương', '0977392825', 'luongpd@ntechco.com.vn', NULL);
+(5, NULL, NULL, NULL, 'off', 'Hotline', '2025-02-24 06:34:31', '2025-02-23 23:34:31', 'Phạm Đình Lương', '0977392825', 'luongpd@ntechco.com.vn', NULL),
+(6, NULL, NULL, 'rewr', 'off', NULL, '2025-06-25 10:57:34', '2025-06-25 10:57:34', 'rewr', 'rewrewr', 'rew', NULL),
+(7, NULL, NULL, 'fdsf', 'off', NULL, '2025-06-25 10:58:40', '2025-06-25 10:58:40', 'fsdf', 'fsdf', 'sf', NULL),
+(8, NULL, NULL, 'fdsf', 'off', NULL, '2025-06-25 10:58:46', '2025-06-25 10:58:46', 'fsdf', 'fsdf', 'sf', NULL),
+(9, NULL, NULL, 'fsdf', 'off', NULL, '2025-06-25 10:58:56', '2025-06-25 10:58:56', 'fds', 'fsdf', 'fdsf', NULL),
+(10, NULL, NULL, 'fdsf', 'off', NULL, '2025-06-25 10:59:06', '2025-06-25 10:59:06', 'fdsf', 'fsdf', 'dsf', NULL),
+(11, NULL, NULL, 'dsf', 'off', NULL, '2025-06-25 11:00:27', '2025-06-25 11:00:27', 'fds', 'fds', 'dsf', NULL),
+(12, NULL, NULL, NULL, 'off', NULL, '2025-06-25 11:01:18', '2025-06-25 11:01:18', 'fsd', 'fdsf', 'fsd', NULL),
+(13, NULL, NULL, 'sdf', 'off', NULL, '2025-06-25 11:02:17', '2025-06-25 11:02:17', 'ds', 'fsdf', 'fsdf', NULL);
 
 -- --------------------------------------------------------
 
@@ -1700,11 +1716,11 @@ CREATE TABLE `post` (
   `post_type_id` int(11) NOT NULL,
   `user_id` int(11) DEFAULT 1,
   `index_product` longtext COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `gift_code_id` int(11) DEFAULT NULL,
-  `color` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `title_2` text COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `title_3` text COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `product_relate` longtext COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `video` longtext COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `video_2` longtext COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `content_2` longtext COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `orderby` int(11) DEFAULT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
@@ -1712,34 +1728,30 @@ CREATE TABLE `post` (
 -- Dumping data for table `post`
 --
 
-INSERT INTO `post` (`id`, `title`, `lesson`, `des`, `img`, `enroll`, `des_en`, `title_seo_en`, `des_seo_en`, `key_seo_en`, `url`, `content`, `index_meta`, `title_seo`, `des_seo`, `key_seo`, `canon`, `status`, `pin`, `view`, `created_at`, `updated_at`, `price_km`, `price`, `slide_post_id`, `week`, `code_product`, `file_id`, `product_relate_id`, `comment`, `review`, `post_type_id`, `user_id`, `index_product`, `gift_code_id`, `color`, `product_relate`, `video`, `video_2`, `orderby`) VALUES
-(1, 'Giới thiệu', NULL, NULL, 'gioi-thieu.png', NULL, NULL, NULL, NULL, NULL, 'gioi-thieu', '<p><strong>C&ocirc;ng Ty TNHH NTECHCO</strong> Việt Nam l&agrave; đơn vị trực tiếp thi c&ocirc;ng x&acirc;y dựng, x&acirc;y lắp Cơ &ndash; Điện được th&agrave;nh lập từ năm 2019, chuy&ecirc;n thi c&ocirc;ng<br />x&acirc;y dựng, x&acirc;y lắp c&aacute;c hạng mục thuộc hệ thống Cơ &ndash; Điện c&ocirc;ng tr&igrave;nh d&acirc;n dụng v&agrave; c&ocirc;ng nghiệp.</p>\r\n<p>Lĩnh vực hoạt động: Cung cấp nh&acirc;n lực, Thiết kế, mua sắm, thi c&ocirc;ng lắp đặt : X&acirc;y dựng, cơ kh&iacute;, điện,...(Engineering Procurement and Construction for Civil, Mechanical, Electrical)</p>\r\n<p>Ra đời trong bối cảnh đất nước Việt Nam đang c&oacute; nhiều thay đổi mạnh mẽ trọng việc c&ocirc;ng nghiệp h&oacute;a hiện đại h&oacute;a v&agrave; đ&ocirc; thị h&oacute;a. Nhiều Nh&agrave; đầu tư lớn trong nước v&agrave; nước ngo&agrave;i mang đến những cơ hội lớn trong lĩnh vực x&acirc;y lắp d&acirc;n dụng cũng như c&ocirc;ng nghiệp. C&ocirc;ng ty TNHH NTECHCO Việt Nam đ&atilde; may mắn được trải qua c&aacute;c m&ocirc;i trường dự &aacute;n của c&aacute;c Chủ đầu tư lớn như Tập đo&agrave;n SAMSUNG ELECTRONIC, Tập đo&agrave;n VinGroup, Tổng c&ocirc;ng ty lắp m&aacute;y Việt Nam v.v...</p>\r\n<p><br />Với phương ch&acirc;m tận tụy hết m&igrave;nh với c&ocirc;ng việc, C&ocirc;ng ty ch&uacute;ng t&ocirc;i đ&atilde; từng bước ph&aacute;t triển, đến nay ch&uacute;ng t&ocirc;i đ&atilde; x&acirc;y dựng được một đội ngũ lớn mạnh với hơn 200 c&aacute;n bộ c&ocirc;ng nh&acirc;n vi&ecirc;n, hệ thống m&aacute;y m&oacute;c thi c&ocirc;ng hiện đại trong lĩnh vực x&acirc;y dựng, Cơ &ndash; Điện. C&ugrave;ng với đ&oacute; c&aacute;c hạng mục hoạt động về x&acirc;y dựng, Cơ &ndash; Điện của c&ocirc;ng ty cũng ng&agrave;y c&agrave;ng được mở rộng. Hiện nay, ch&uacute;ng t&ocirc;i đ&atilde; c&oacute; đủ tr&igrave;nh độ chuy&ecirc;n m&ocirc;n v&agrave; kinh nghiệm thi c&ocirc;ng chuy&ecirc;n nghiệp đối với c&aacute;c hạng mục thi c&ocirc;ng x&acirc;y dựng v&agrave; Cơ &ndash; Điện.</p>\r\n<p><br /><strong>INTRODUCTION</strong><br />Viet Nam NTECHCO Company Limited was a civil and M&amp;E business company since 2019. So,we have enough working level and experience<br />in civil and M&amp;E projects.</p>\r\n<p>Field of activity: Providing human resources, Design, procurement, installation: Construction, mechanical, electrical,...(Engineering Procurement and Construction for Civil, Mechanical, Electrical)</p>\r\n<p>PROFILE &ndash; VIET NAM NTECHCO COMPANY LIMITED Our company was born when Việt Nam get large development in industry and technology. Many big domestic Owner and foreign Owner invested in many area. So, VIET NAM NTECHCO Co,.Ltd also lucky to get some project, which are in profession environment as per SAMSUNG ELECTRONIC, VinGroup, Việt Nam Erection Group etc...<br />With enthusiasm work and try best for working, our company has been step by step to grow up. Until now, we have more than 200 persons and a lot of modern mechines and tools for civil and M&amp;E works. At the same time, our working zone in M&amp;E also has been extended. Now, we have enough level and experience to professional work for all item in civil and M&amp;E working.</p>', NULL, NULL, NULL, NULL, 'off', 'on', 'off', NULL, '2023-12-28 17:00:00', '2024-03-08 21:38:44', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL, NULL, NULL, NULL, 'null', NULL, NULL, NULL),
-(4, 'NTECHCO VIỆT NAM-SEAN E&C', NULL, NULL, 'Screen Shot 2023-12-31 at 12.35.22 AM.png', NULL, NULL, NULL, NULL, NULL, 'ntechco-viet-nam-sean-ec', '<p>Kh&aacute;ch h&agrave;ng: NTECHCO VIỆT NAM-SEAN E&amp;C</p>\r\n<p>C&ocirc;ng tr&igrave;nh: SAMSUNG DISPLAY &ndash; V2</p>\r\n<p>Địa điểm: Y&ecirc;n Phong,Bắc Ninh. Nội dung c&ocirc;ng việc: Lắp đặt hệ thống điện</p>\r\n<p>Thời gian: 12/2019 ~ 03/2020</p>', NULL, NULL, NULL, NULL, 'off', 'on', 'off', NULL, '2023-12-29 17:00:00', '2023-12-31 11:35:58', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL, NULL, NULL, NULL, 'null', NULL, NULL, NULL),
-(5, 'SEAN E&C', NULL, NULL, 'Screen Shot 2023-12-31 at 12.36.10 AM.png', NULL, NULL, NULL, NULL, NULL, 'sean-ec', '<p>Kh&aacute;ch h&agrave;ng: SEAN E&amp;C</p>\r\n<p>C&ocirc;ng tr&igrave;nh: SAMSUNG DISPLAY &ndash; V3</p>\r\n<p>Địa điểm: Y&ecirc;n Phong,Bắc Ninh.</p>\r\n<p>Nội dung c&ocirc;ng việc: Lắp đặt hệ thống điện.</p>\r\n<p>Thời gian: 01 ~ 12/2021</p>', NULL, NULL, NULL, NULL, 'off', 'on', 'off', NULL, '2023-12-29 17:00:00', '2023-12-31 11:35:26', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL, NULL, NULL, NULL, 'null', NULL, NULL, NULL),
-(6, 'Công ty TNHH Hóa Dầu Long Sơn', NULL, NULL, 'Screen Shot 2023-12-31 at 12.37.23 AM.png', NULL, NULL, NULL, NULL, NULL, 'cong-ty-tnhh-hoa-dau-long-son', '<p>Kh&aacute;ch h&agrave;ng: C&ocirc;ng ty TNHH H&oacute;a Dầu Long Sơn</p>\r\n<p>C&ocirc;ng tr&igrave;nh: Nh&agrave; kho</p>\r\n<p>Địa điểm: x&atilde; Long Sơn-TP. Vũng T&agrave;u.</p>\r\n<p>Nội dung c&ocirc;ng việc: Thi c&ocirc;ng sơn nền epoxy</p>\r\n<p>Thời gian: 07 ~ 8/2022</p>', NULL, NULL, NULL, NULL, 'off', 'on', 'off', NULL, '2023-12-29 17:00:00', '2023-12-31 11:35:46', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL, NULL, NULL, NULL, 'null', NULL, NULL, NULL),
-(7, 'ĐOÀN NHẤT UNDER VINGROUP', NULL, NULL, 'Screen Shot 2023-12-31 at 12.40.14 AM.png', NULL, NULL, NULL, NULL, NULL, 'doan-nhat-under-vingroup', '<p>Kh&aacute;ch h&agrave;ng: ĐO&Agrave;N NHẤT UNDER VINGROUP</p>\r\n<p>C&ocirc;ng tr&igrave;nh: VINFAST &ndash; HẢI PH&Ograve;NG</p>\r\n<p>Nội dung c&ocirc;ng việc: Lắp đặt, đấu nối hệ thống điện</p>\r\n<p>Thời gian: 03/2020 -10/2020</p>', NULL, NULL, NULL, NULL, 'off', 'on', 'off', NULL, '2023-12-29 17:00:00', '2023-12-31 11:01:47', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL, NULL, NULL, NULL, 'null', NULL, NULL, NULL),
-(8, 'THĂNG TIẾN UNDER FECON', NULL, NULL, 'Screen Shot 2023-12-31 at 12.40.42 AM.png', NULL, NULL, NULL, NULL, NULL, 'thang-tien-under-fecon', '<p>Kh&aacute;ch h&agrave;ng: THĂNG TIẾN UNDER FECON</p>\r\n<p>C&ocirc;ng tr&igrave;nh: FOXCONN &ndash; BẮC GIANG</p>\r\n<p>Nội dung c&ocirc;ng việc: Lắp đặt, đấu nối hệ thống điện nh&agrave; Xưởng F501,F235, M11, F2, F3</p>\r\n<p>Thời gian: 03/2020-6/2020</p>', NULL, NULL, NULL, NULL, 'off', 'on', 'off', NULL, '2023-12-29 17:00:00', '2023-12-31 11:01:44', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL, NULL, NULL, NULL, 'null', NULL, NULL, NULL),
-(9, 'CÔNG TY TNHH WOOJIN CNC', NULL, NULL, 'Screen Shot 2023-12-31 at 12.41.45 AM.png', NULL, NULL, NULL, NULL, NULL, 'cong-ty-tnhh-woojin-cnc', '<p>Kh&aacute;ch h&agrave;ng: C&Ocirc;NG TY TNHH WOOJIN CNC</p>\r\n<p>C&ocirc;ng tr&igrave;nh: Nh&agrave; m&aacute;y C&ocirc;ng ty TNHH Woojin CNC</p>\r\n<p>Địa điểm: Phường Hạp Lĩnh, Th&agrave;nh phố Bắc Ninh, Tỉnh Bắc Ninh</p>\r\n<p>Nội dung c&ocirc;ng việc: Cung cấp v&agrave; thi c&ocirc;ng lắp đặt hệ thống chiếu s&aacute;ng, hệ thống điện động lực</p>\r\n<p>Time: 08/2020 -12/2020</p>', NULL, NULL, NULL, NULL, 'off', 'on', 'off', NULL, '2023-12-29 17:00:00', '2023-12-31 11:35:33', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL, NULL, NULL, NULL, 'null', NULL, NULL, NULL),
-(10, 'LILAMA 10 UNDER HUYNDAI', NULL, NULL, 'Screen Shot 2023-12-31 at 12.42.48 AM.png', NULL, NULL, NULL, NULL, NULL, 'lilama-10-under-huyndai', '<p>Dự &aacute;n: Lọc h&oacute;a dầu miền nam &ndash; G&oacute;i G</p>\r\n<p>Địa điểm: x&atilde; Long Sơn- th&agrave;nh phố B&agrave; Rịa -Vũng T&agrave;u, tỉnh Vũng T&agrave;u</p>\r\n<p>Nội dung c&ocirc;ng việc: Thi c&ocirc;ng lắp đặt hệ thống điện g&oacute;i G ( k&eacute;o rải đấu nối hệ thống c&aacute;p điện, , lắp đặt hệ thống thang m&aacute;ng, chiếu s&aacute;ng &hellip;&hellip;.</p>\r\n<p>Thời gian: 11/2020 -11/2021</p>\r\n<p><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"/public/source/post/05122023-%20Thang%20m%C3%A1ng.jpg\" alt=\"\" width=\"500\" height=\"667\" /></p>', NULL, NULL, NULL, NULL, 'off', 'on', 'off', NULL, '2023-12-29 17:00:00', '2024-03-08 22:18:33', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL, NULL, NULL, NULL, 'null', NULL, NULL, NULL),
-(11, 'Triển khai thi công Dự án Trạm biến áp 220kV Ninh Hòa (Khánh Hòa) và đường dây đấu nối', NULL, 'Ngày 29/12, tại Khánh Hòa, Ban QLDA Truyền tải điện (thuộc Tổng công ty Truyền tải điện Quốc gia) tổ chức triển khai thi công Dự án Trạm biến áp 202kV Ninh Hòa (huyện Vạn Ninh, tỉnh Khánh Hòa) và đường dây đấu nối. Dự kiến, dự án hoàn thành trong tháng 1/2025.', 'Anh2trienkahithicong2911223.jpeg', NULL, NULL, NULL, NULL, NULL, 'trien-khai-thi-cong-du-an-tram-bien-ap-220kv-ninh-hoa-khanh-hoa-va-duong-day-dau-noi', '<p>Dự &aacute;n do Tổng c&ocirc;ng ty Truyền tải điện Quốc gia (EVNNPT) l&agrave;m chủ đầu tư, Ban QLDA Truyền tải điện (NPTPMB) quản l&yacute; điều h&agrave;nh dự &aacute;n.</p>\r\n<p>Dự &aacute;n c&oacute; quy m&ocirc; lắp đặt 1 m&aacute;y biến &aacute;p 220/110/22 kV - 250 MVA. Ph&iacute;a 220kV sử dụng sơ đồ hai hệ thống thanh c&aacute;i c&oacute; thanh c&aacute;i đường v&ograve;ng, bao gồm 10 ngăn. Trong giai đoạn n&agrave;y lắp đặt thiết bị cho 6 ngăn (4 ngăn xuất tuyết, 1 ngăn lộ tổng v&agrave; 1 ngăn m&aacute;y cắt nối), sử dụng sơ đồ hệ thống hai thanh c&aacute;i. Dự ph&ograve;ng 1 ngăn đường v&ograve;ng, 1 ngăn lộ tổng m&aacute;y biến &aacute;p 250MVA v&agrave; 2 ngăn xuất tuyến.</p>\r\n<p>Ph&iacute;a 110kV sử dụng sơ đồ hai hệ thống thanh c&aacute;i c&oacute; thanh c&aacute;i đường v&ograve;ng, bao gồm 15 ngăn. Trong giai đoạn n&agrave;y lắp đặt thiết bị để đấu nối cho 6 ngăn lộ (4 ngăn xuất tuyến, 1 ngăn lộ tổng, 1 ngăn m&aacute;y cắt nối). Dự ph&ograve;ng 6 ngăn xuất tuyến, 1 ngăn lộ tổng m&aacute;y biến &aacute;p 250MVA, 1 ngăn đường v&ograve;ng v&agrave; 1 ngăn tụ b&ugrave;.</p>\r\n<p>Ph&iacute;a 22kV sử dụng sơ đồ khối, c&aacute;c thiết bị lắp đặt ngo&agrave;i trời để cấp điện tự d&ugrave;ng th&ocirc;ng qua m&aacute;y biến &aacute;p tự d&ugrave;ng của trạm.</p>\r\n<p>Phần đường d&acirc;y đấu nối&nbsp;x&acirc;y dựng đường d&acirc;y 220kV, 4 mạch, d&agrave;i khoảng 250m đấu nối v&agrave;o đường d&acirc;y 220kV Tuy H&ograve;a &ndash; Nha Trang.</p>\r\n<p>Dự &aacute;n nhằm đ&aacute;p ứng nhu cầu phụ tải v&agrave; đảm bảo vận h&agrave;nh cho c&aacute;c trạm biến &aacute;p 110kV khu vực ph&iacute;a Bắc tỉnh Kh&aacute;nh Ho&agrave; v&agrave; ph&iacute;a Nam tỉnh Ph&uacute; Y&ecirc;n, đặc biệt cấp nguồn cho phụ tải khu kinh tế V&acirc;n Phong; đảm bảo cung cấp điện ổn định, đ&aacute;p ứng nhu cầu ph&aacute;t triển kinh tế - x&atilde; hội của tỉnh Kh&aacute;nh H&ograve;a.</p>', NULL, NULL, NULL, NULL, 'off', 'on', 'off', NULL, '2023-12-29 17:00:00', '2023-12-30 11:11:22', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL, NULL, NULL, NULL, 'null', NULL, NULL, NULL),
-(12, 'EVNICT là đơn vị chủ công trong quá trình chuyển đổi số của EVN', NULL, 'Năm 2023, với những kết quả đã đạt được trong thực hiện các nhiệm vụ Tập đoàn Điện lực Việt Nam (EVN) giao, Công ty Viễn thông Điện lực và Công nghệ thông tin (EVNICT) đã khẳng định vị trí, vai trò là đơn vị dẫn đầu, chủ công trong ứng dụng công nghệ thông tin, chuyển đổi số của EVN.', 'Tongketevnict291223ongalm.jpeg', NULL, NULL, NULL, NULL, NULL, 'evnict-la-don-vi-chu-cong-trong-qua-trinh-chuyen-doi-so-cua-evn', '<p>Ng&agrave;y 29/12 tại H&agrave; Nội,&nbsp;C&ocirc;ng ty Viễn th&ocirc;ng Điện lực v&agrave; C&ocirc;ng nghệ th&ocirc;ng tin tổ chức Hội nghị tổng kết c&ocirc;ng t&aacute;c năm 2023, triển khai kế hoạch&nbsp;năm 2024.</p>\r\n<p>Dự hội nghị c&oacute; Th&agrave;nh vi&ecirc;n HĐTV Đinh Thế Ph&uacute;c, Ph&oacute; Tổng gi&aacute;m đốc&nbsp;EVN V&otilde; Quang L&acirc;m, Kiểm so&aacute;t vi&ecirc;n Nh&agrave; nước Đo&agrave;n Thị Thanh B&igrave;nh.</p>\r\n<p>Về ph&iacute;a C&ocirc;ng đo&agrave;n Điện lực Việt Nam c&oacute;&nbsp;Ph&oacute; Chủ tịch&nbsp;Đinh Thị Thanh B&igrave;nh. C&ugrave;ng dự c&ograve;n c&oacute; l&atilde;nh đạo c&aacute;c ban chuy&ecirc;n m&ocirc;n của&nbsp;EVN, c&aacute;c đơn vị trong Tập đo&agrave;n Điện lực Việt Nam.</p>\r\n<p><strong>Ho&agrave;n th&agrave;nh tốt c&aacute;c nhiệm vụ</strong></p>\r\n<p>B&aacute;o c&aacute;o tổng kết c&ocirc;ng t&aacute;c Đảng năm 2023 tại hội nghị, &ocirc;ng Nguyễn Minh Khi&ecirc;m - B&iacute; thư Đảng ủy, Gi&aacute;m đốc EVNICT cho biết,&nbsp;trong bối cảnh c&oacute; nhiều kh&oacute; khăn, dưới sự chỉ đạo s&aacute;t sao của Đảng ủy EVN, Đảng ủy EVNICT đ&atilde; tập trung triển khai chỉ đạo thực hiện to&agrave;n diện, đồng bộ c&aacute;c chủ trương, Nghị quyết với quyết t&acirc;m ch&iacute;nh trị cao, nỗ lực lớn, thống nhất trong h&agrave;nh động từ Đảng ủy đến chi ủy v&agrave; c&aacute;n bộ đảng vi&ecirc;n n&ecirc;n đ&atilde; l&atilde;nh đạo, chỉ đạo ho&agrave;n th&agrave;nh tốt c&ocirc;ng t&aacute;c x&acirc;y dựng đảng v&agrave; l&atilde;nh đạo thực hiện nhiệm vụ ch&iacute;nh trị của đơn vị.</p>', NULL, NULL, NULL, NULL, 'off', 'on', 'off', NULL, '2023-12-29 17:00:00', '2023-12-30 11:11:30', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL, NULL, NULL, NULL, 'null', NULL, NULL, NULL),
-(13, 'Trung tâm Thông tin Điện lực hoàn thành xuất sắc nhiệm vụ năm 2023', NULL, 'Hội nghị Tổng kết công tác Đảng, nhiệm vụ kế hoạch năm 2023, công tác Công đoàn năm 2023 và triển khai nhiệm vụ năm 2024 của Trung tâm Thông tin Điện lực (EVNEIC) diễn ra sáng 28/12, tại Hà Nội.', 'Truong ban TT Trinh Mai Phuong.jpeg', NULL, NULL, NULL, NULL, NULL, 'trung-tam-thong-tin-dien-luc-hoan-thanh-xuat-sac-nhiem-vu-nam-2023', '<p>Dự hội nghị, về ph&iacute;a Ban Thường vụ Đảng ủy EVN, c&oacute; &ocirc;ng Cao Quang Quỳnh - Ủy vi&ecirc;n Ban Thường vụ, Th&agrave;nh vi&ecirc;n Hội đồng th&agrave;nh vi&ecirc;n EVN, &ocirc;ng Trịnh Mai Phương - Ủy vi&ecirc;n Ban Thường vụ, Trưởng ban Tuy&ecirc;n gi&aacute;o Đảng ủy, Trưởng ban Truyền th&ocirc;ng EVN.</p>\r\n<p>Về ph&iacute;a Tập đo&agrave;n Điện lực Việt Nam, c&oacute; &ocirc;ng V&otilde; Quang L&acirc;m - Ph&oacute; Tổng gi&aacute;m đốc EVN. L&atilde;nh đạo C&ocirc;ng đo&agrave;n Điện lực Việt Nam c&oacute;&nbsp;b&agrave;&nbsp;Đinh Thị Thanh B&igrave;nh - Ph&oacute; Chủ tịch C&ocirc;ng đo&agrave;n Điện lực Việt Nam. C&ugrave;ng dự, c&ograve;n c&oacute; đại diện l&atilde;nh đạo một số ban chuy&ecirc;n m&ocirc;n EVN.&nbsp;</p>', NULL, NULL, NULL, NULL, 'off', 'on', 'off', NULL, '2023-12-29 17:00:00', '2023-12-30 11:11:36', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL, NULL, NULL, NULL, 'null', NULL, NULL, NULL),
-(14, 'Asa Alloy Hải Phòng_Thiết kế, cung cấp thi công lắp đặt MEP (Điện, HVAC,...) nhà xưởng, nhà văn phòng, hạ tầng nhà máy', NULL, NULL, '18-1.jpg', NULL, NULL, NULL, NULL, NULL, 'asa-alloy-hai-phongthiet-ke-cung-cap-thi-cong-lap-dat-mep-dien-hvac-nha-xuong-nha-van-phong-ha-tang-nha-may', '<p><img style=\"max-width: 100%; height: auto;\" src=\"/public/source/Asa-1.jpg\" alt=\"Example Image\" /></p>\r\n<p><img style=\"max-width: 100%; height: auto;\" src=\"/public/source/Asa-2.jpg\" alt=\"Example Image\" /></p>\r\n<p><img style=\"max-width: 100%; height: auto;\" src=\"/public/source/Asa-3.jpg\" alt=\"Example Image\" /></p>\r\n<p><img style=\"max-width: 100%; height: auto;\" src=\"/public/source/Asa-4.jpg\" alt=\"Example Image\" /></p>\r\n<p><img style=\"max-width: 100%; height: auto;\" src=\"/public/source/Asa-5.jpg\" alt=\"Example Image\" /></p>\r\n<p><img style=\"max-width: 100%; height: auto;\" src=\"/public/source/Asa-6.jpg\" alt=\"Example Image\" /></p>\r\n<p><img style=\"max-width: 100%; height: auto;\" src=\"/public/source/Asa-7.jpg\" alt=\"Example Image\" /></p>\r\n<p><img style=\"max-width: 100%; height: auto;\" src=\"/public/source/Asa-8.jpg\" alt=\"Example Image\" /></p>\r\n<p><img style=\"max-width: 100%; height: auto;\" src=\"/public/source/Asa-9.jpg\" alt=\"Example Image\" /></p>\r\n<p><img style=\"max-width: 100%; height: auto;\" src=\"/public/source/Asa-10.jpg\" alt=\"Example Image\" /></p>\r\n<p><img style=\"max-width: 100%; height: auto;\" src=\"/public/source/Asa-11.jpg\" alt=\"Example Image\" /></p>\r\n<p><img style=\"max-width: 100%; height: auto;\" src=\"/public/source/Asa-12.jpg\" alt=\"Example Image\" /></p>\r\n<p><img style=\"max-width: 100%; height: auto;\" src=\"/public/source/Asa-13.jpg\" alt=\"Example Image\" /></p>', NULL, NULL, NULL, NULL, 'off', 'on', 'off', NULL, '2024-03-08 17:00:00', '2025-02-23 20:37:31', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL, NULL, NULL, NULL, 'null', NULL, NULL, NULL),
-(18, 'Thi công tủ RMU, cáp ngầm trung thế, CCTV, Communication tổ hợp Hóa Dầu Long Sơn', NULL, NULL, 'RMU-2.jpg', NULL, NULL, NULL, NULL, NULL, 'thi-cong-tu-rmu-cap-ngam-trung-the-cctv-communication-to-hop-hoa-dau-long-son', '<p><img src=\"/public/source/CCTV.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/LSP-11.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/LSP-12.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/RMU-1.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/RMU-2.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/RMU-3.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/Trane-1.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/Trane-2.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/Trane-3.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>', NULL, NULL, NULL, NULL, 'off', 'on', 'off', NULL, '2023-02-23 17:00:00', '2025-02-25 19:12:00', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL, NULL, NULL, NULL, 'null', NULL, NULL, NULL),
-(19, 'Thiết kế, cung cấp và thi công lắp đặt cửa van chặn sự cố tràn dầu_Tổ hợp hóa dầu Long Sơn', NULL, NULL, 'GV-14.jpg', NULL, NULL, NULL, NULL, NULL, 'thiet-ke-cung-cap-va-thi-cong-lap-dat-cua-van-chan-su-co-tran-dauto-hop-hoa-dau-long-son', '<p><img src=\"/public/source/Gate%20Valve/GV-10.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /><img src=\"/public/source/GV-1.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/Gate%20Valve/GV-2.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/Gate%20Valve/GV-3.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/Gate%20Valve/GV-4.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/Gate%20Valve/GV-5.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/Gate%20Valve/GV-6.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/Gate%20Valve/GV-7.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/Gate%20Valve/GV-8.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/Gate%20Valve/GV-9.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/Gate%20Valve/GV-10.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/Gate%20Valve/GV-11.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/Gate%20Valve/GV-12.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/Gate%20Valve/GV-13.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/Gate%20Valve/GV-14.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>', NULL, NULL, NULL, NULL, 'off', 'on', 'off', NULL, '2025-02-23 17:00:00', '2025-02-25 19:11:49', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL, NULL, NULL, NULL, 'null', NULL, NULL, NULL),
-(16, 'Hoàn thành gói thầu thiết kế, cung cấp, thi công lắp đặt E&I trạm xử lý nước thải nhà máy Hóa Dầu Long Sơn', NULL, NULL, '63.jpg', NULL, NULL, NULL, NULL, NULL, 'hoan-thanh-goi-thau-thiet-ke-cung-cap-thi-cong-lap-dat-ei-tram-xu-ly-nuoc-thai-nha-may-hoa-dau-long-son', '<p><img style=\"max-width: 100%; height: auto;\" src=\"/public/source/COD-1.jpg\" alt=\"Example Image\" /></p>\r\n<p><img style=\"max-width: 100%; height: auto;\" src=\"/public/source/COD-2.jpg\" alt=\"Example Image\" /></p>\r\n<p><img style=\"max-width: 100%; height: auto;\" src=\"/public/source/COD-3.jpg\" alt=\"Example Image\" /></p>\r\n<p><img style=\"max-width: 100%; height: auto;\" src=\"/public/source/COD-4.jpg\" alt=\"Example Image\" /></p>\r\n<p><img style=\"max-width: 100%; height: auto;\" src=\"/public/source/COD-5.jpg\" alt=\"Example Image\" /></p>\r\n<p><img style=\"max-width: 100%; height: auto;\" src=\"/public/source/COD-6.jpg\" alt=\"Example Image\" /></p>\r\n<p><img style=\"max-width: 100%; height: auto;\" src=\"/public/source/COD-7.jpg\" alt=\"Example Image\" /></p>\r\n<p><img style=\"max-width: 100%; height: auto;\" src=\"/public/source/COD-8.jpg\" alt=\"Example Image\" /></p>\r\n<p><img style=\"max-width: 100%; height: auto;\" src=\"/public/source/COD-9.jpg\" alt=\"Example Image\" /></p>\r\n<p><img style=\"max-width: 100%; height: auto;\" src=\"/public/source/COD-10.jpg\" alt=\"Example Image\" /></p>\r\n<p><img style=\"max-width: 100%; height: auto;\" src=\"/public/source/COD-11.jpg\" alt=\"Example Image\" /></p>\r\n<p><img style=\"max-width: 100%; height: auto;\" src=\"/public/source/COD-12.jpg\" alt=\"Example Image\" /></p>', NULL, NULL, NULL, NULL, 'off', 'on', 'off', NULL, '2025-02-11 17:00:00', '2025-02-25 19:12:40', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL, NULL, NULL, NULL, 'null', NULL, NULL, NULL),
-(17, 'Thi công trạm biến áp 110kV, cáp ngầm 110kV, tổ hợp Hóa Dầu Long Sơn', NULL, NULL, 'trụ ống LSP.jpg', NULL, NULL, NULL, NULL, NULL, 'thi-cong-tram-bien-ap-110kv-cap-ngam-110kv-to-hop-hoa-dau-long-son', '<p><img style=\"max-width: 100%; height: auto;\" src=\"/public/source/110KV-1.jpg\" alt=\"\" /></p>\r\n<p><img style=\"max-width: 100%; height: auto;\" src=\"/public/source/110KV-2.jpg\" alt=\"\" /></p>\r\n<p><img style=\"max-width: 100%; height: auto;\" src=\"/public/source/110KV-3.jpg\" alt=\"\" /></p>\r\n<p><img style=\"max-width: 100%; height: auto;\" src=\"/public/source/110KV-4.jpg\" alt=\"\" /></p>\r\n<p><img style=\"max-width: 100%; height: auto;\" src=\"/public/source/110KV-5.jpg\" alt=\"\" /></p>\r\n<p><img style=\"max-width: 100%; height: auto;\" src=\"/public/source/110KV-6.jpg\" alt=\"\" /></p>\r\n<p><img style=\"max-width: 100%; height: auto;\" src=\"/public/source/110KV-7.jpg\" alt=\"\" /></p>\r\n<p><img style=\"max-width: 100%; height: auto;\" src=\"/public/source/110KV-8.jpg\" alt=\"\" /></p>\r\n<p><img style=\"max-width: 100%; height: auto;\" src=\"/public/source/110KV-9.jpg\" alt=\"\" /></p>\r\n<p><img style=\"max-width: 100%; height: auto;\" src=\"/public/source/110KV-10.jpg\" alt=\"\" /></p>\r\n<p><img style=\"max-width: 100%; height: auto;\" src=\"/public/source/110KV-11.jpg\" alt=\"\" /></p>', NULL, NULL, NULL, NULL, 'off', 'on', 'off', NULL, '2023-03-11 17:00:00', '2025-02-25 19:12:17', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL, NULL, NULL, NULL, 'null', NULL, NULL, NULL),
-(20, 'Thiết kế, gia công chế tạo, cung cấp lắp đặt và cải tạo nhà để xe_ Nhà máy Hóa Dầu Long Sơn', NULL, NULL, 'CAR-3.jpg', NULL, NULL, NULL, NULL, NULL, 'thiet-ke-gia-cong-che-tao-cung-cap-lap-dat-va-cai-tao-nha-de-xe-nha-may-hoa-dau-long-son', '<p><img src=\"/public/source/CAR-1.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/CAR-2.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/CAR-3.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>', NULL, NULL, NULL, NULL, 'off', 'on', 'off', NULL, '2025-02-23 17:00:00', '2025-02-23 22:02:42', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL, NULL, NULL, NULL, 'null', NULL, NULL, NULL),
-(21, 'Gia công chế tạo và lắp đặt hệ thống thang máng cáp, cấp nguồn NM Luyện Đồng Sin Quyền', NULL, NULL, 'DSC-1.jpg', NULL, NULL, NULL, NULL, NULL, 'gia-cong-che-tao-va-lap-dat-he-thong-thang-mang-cap-cap-nguon-nm-luyen-dong-sin-quyen', '<p><img src=\"/public/source/DSC-1.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/DSC-2.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/DSC-3.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/DSC-4.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>', NULL, NULL, NULL, NULL, 'off', 'on', 'off', NULL, '2022-02-23 17:00:00', '2025-02-23 22:06:46', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL, NULL, NULL, NULL, 'null', NULL, NULL, NULL),
-(22, 'Thiết kế, cung cấp và thi công lắp đặt hệ thống cung cấp điện nhà máy chế biến Gỗ Viên Nén- BVN Hòa Bình', NULL, NULL, 'HB-8.jpg', NULL, NULL, NULL, NULL, NULL, 'thiet-ke-cung-cap-va-thi-cong-lap-dat-he-thong-cung-cap-dien-nha-may-che-bien-go-vien-nen-bvn-hoa-binh', '<p><img src=\"/public/source/HB-1.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/HB-2.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/HB-3.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/HB-4.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/HB-5.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/HB-6.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/HB-7.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/HB-8.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/HB-9.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/HB-10.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/HB-11.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/HB-12.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>', NULL, NULL, NULL, NULL, 'off', 'on', 'off', NULL, '2023-12-23 17:00:00', '2025-02-23 22:11:34', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL, NULL, NULL, NULL, 'null', NULL, NULL, NULL),
-(23, 'Thiết kế, cung cấp và thi công lắp đặt hệ thống cung cấp điện nhà máy chế biến Gỗ Viên Nén- BVN Quảng Bình', NULL, NULL, 'QB-3.jpg', NULL, NULL, NULL, NULL, NULL, 'thiet-ke-cung-cap-va-thi-cong-lap-dat-he-thong-cung-cap-dien-nha-may-che-bien-go-vien-nen-bvn-quang-binh', '<p><img src=\"/public/source/QB-1.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/QB-2.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/QB-3.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>', NULL, NULL, NULL, NULL, 'off', 'on', 'off', NULL, '2024-04-23 17:00:00', '2025-02-23 22:16:07', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL, NULL, NULL, NULL, 'null', NULL, NULL, NULL),
-(24, 'Thi công lắp đặt, đấu nối, thí nghiệm hiệu chỉnh hệ thống tủ trung thế 33kV, cáp nguồn trung thế và điều khiển Sub P-Samsung Engineering', NULL, NULL, 'SEC-11.JPG', NULL, NULL, NULL, NULL, NULL, 'thi-cong-lap-dat-dau-noi-thi-nghiem-hieu-chinh-he-thong-tu-trung-the-33kv-cap-nguon-trung-the-va-dieu-khien-sub-p-samsung-engineering', '<p><img src=\"/public/source/SEC-1.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/SEC-2.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/SEC-3.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/SEC-4.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/SEC-5.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/SEC-6.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/SEC-7.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/SEC-8.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/SEC-9.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/SEC-10.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/SEC-11.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/SEC-12.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/SEC-13.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/SEC-14.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/SEC-15.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/SEC-16.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/SEC-17.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/SEC-18.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/SEC-19.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/SEC-20.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>', NULL, NULL, NULL, NULL, 'off', 'on', 'off', NULL, '2023-12-23 17:00:00', '2025-02-23 22:31:13', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL, NULL, NULL, NULL, 'null', NULL, NULL, NULL),
-(25, 'Thi công lắp đặt, bảo trì,...hệ thống điện mặt trời áp mái khu vực miền bắc- Go', NULL, NULL, 'SL-2.jpg', NULL, NULL, NULL, NULL, NULL, 'thi-cong-lap-dat-bao', '<p><img src=\"/public/source/SL-1.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/SL-2.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/SL-3.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>', NULL, NULL, NULL, NULL, 'off', 'on', 'off', NULL, '2025-02-23 17:00:00', '2025-02-23 22:36:09', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL, NULL, NULL, NULL, 'null', NULL, NULL, NULL),
-(26, 'Thiết kế, cung cấp và thi công lắp đặt cho hệ thống MEP nhà ga quốc tế T2 Nội Bài (Điện, HVAC, PCCC, Cấp thoát nước)_ HANCORP', NULL, NULL, 'T2-3.jpg', NULL, NULL, NULL, NULL, NULL, 'thiet-ke-cung-cap-va-thi-cong-lap-dat-cho-he-thong-mep-nha-ga-quoc-te-t2-noi-bai-dien-hvac-pccc-cap-thoat-nuoc-hancorp', '<p><img src=\"/public/source/T2-1.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/T2-2.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/T2-3.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/T2-4.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/T2-5.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/T2-6.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/T2-7.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/T2-8.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/T2-9.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>', NULL, NULL, NULL, NULL, 'off', 'on', 'off', NULL, '2023-12-03 17:00:00', '2025-02-23 22:44:38', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL, NULL, NULL, NULL, 'null', NULL, NULL, NULL),
-(27, 'Thi công lắp đặt điện gió ngoài khơi, dự án Sóc Trăng 1- Hengtong/Power China', NULL, NULL, 'WP-2.jpg', NULL, NULL, NULL, NULL, NULL, 'thi-cong-lap-dat-dien-gio-ngoai-khoi-du-an-soc-trang-1-hengtongpower-china', '<p><img src=\"/public/source/WP-1.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/WP-2.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/WP-3.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/WP-4.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/WP-5.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/WP-6.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/WP-7.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>', NULL, NULL, NULL, NULL, 'off', 'on', 'off', NULL, '2021-12-23 17:00:00', '2025-02-23 22:52:06', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL, NULL, NULL, NULL, 'null', NULL, NULL, NULL),
-(28, 'Thi công di dời tháp làm mát (Cooling water tower) tại tổ hợp Hóa Dầu Long Sơn- SCGC', NULL, NULL, 'CW-1.jpg', NULL, NULL, NULL, NULL, NULL, 'thi-cong-di-doi-thap-lam-mat-cooling-water-tower-tai-to-hop-hoa-dau-long-son-scgc', '<p><img src=\"/public/source/CW-1.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/CW-2.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/LSP-3.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>', NULL, NULL, NULL, NULL, 'off', 'on', 'off', NULL, '2023-11-23 17:00:00', '2025-02-25 19:10:49', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL, NULL, NULL, NULL, 'null', NULL, NULL, NULL),
-(29, 'Thiết kế, cung cấp và thi công lắp đặt hệ thống điện tạm nhà ga quốc tế T2- Nội Bài', NULL, NULL, 'DTT2-10.jpg', NULL, NULL, NULL, NULL, NULL, 'thiet-ke-cung-cap-va-thi-cong-lap-dat-he-thong-dien-tam-nha-ga-quoc-te-t2-noi-bai', '<p><img src=\"/public/source/DTT2-1.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/DTT2-2.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/DTT2-3.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/DTT2-4.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/DTT2-5.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/DTT2-6.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/DTT2-7.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/DTT2-8.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/DTT2-9.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/DTT2-10.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>', NULL, NULL, NULL, NULL, 'off', 'on', 'off', NULL, '2024-04-23 17:00:00', '2025-02-23 23:17:22', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL, NULL, NULL, NULL, 'null', NULL, NULL, NULL),
-(30, 'Thiết kế, cung cấp và thi công lắp đặt hệ thống HVAC tòa nhà Keang Nam- Nissan Automotive Technologis', NULL, 'NTechco Việt Nam đang thực hiện gói thầu thiết kế, cung cấp và thi công lắp đặt cho phòng nghiên cứu của công ty Nissan Automotive Technologis tại tòa nhà Keangnam, Phạm Hùng, Hà Nội. Công việc đang được tiến hành gấp rút, đảm bảo mỹ thuật, kỹ thuật, vệ sinh, an toàn trong điều kiện tòa nhà đang làm việc và vận hành. Gấp rút hoàn thiện để bàn giao đưa vào sử dụng giữa tháng 3-2025', 'NS10.jpg', NULL, NULL, NULL, NULL, NULL, 'thiet-ke-cung-cap-va-thi-cong-lap-dat-he-thong-hvac-toa-nha-keang-nam-nissan-automotive-technologis', '<p><img src=\"/public/source/NS-1.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/NS-2.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/NS-3.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/NS-4.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/NS-5.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/NS-6.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/NS-7.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/NS-8.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/NS-9.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>\r\n<p><img src=\"/public/source/NS-10.jpg\" alt=\"\" width=\"100%\" height=\"auto\" /></p>', NULL, NULL, NULL, NULL, 'off', 'on', 'off', NULL, '2025-02-23 17:00:00', '2025-02-25 19:11:13', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL, NULL, NULL, NULL, 'null', NULL, NULL, NULL);
+INSERT INTO `post` (`id`, `title`, `lesson`, `des`, `img`, `enroll`, `des_en`, `title_seo_en`, `des_seo_en`, `key_seo_en`, `url`, `content`, `index_meta`, `title_seo`, `des_seo`, `key_seo`, `canon`, `status`, `pin`, `view`, `created_at`, `updated_at`, `price_km`, `price`, `slide_post_id`, `week`, `code_product`, `file_id`, `product_relate_id`, `comment`, `review`, `post_type_id`, `user_id`, `index_product`, `title_2`, `title_3`, `product_relate`, `video`, `content_2`, `orderby`) VALUES
+(1, 'Top 7 Data-Driven Marketing Agencies in 2025', NULL, 'Top 7 Data-Driven Marketing Agencies in 2025', 'Top-Data-Driven-Marketing-Agencies-2048x1152.jpg', NULL, NULL, NULL, NULL, NULL, 'top-7-data-driven-marketing-agencies-in-2025', '<p>If you believe every marketing agency is &ldquo;data-driven,&rdquo; I&rsquo;ve got a bridge to sell you&mdash;and a few dashboards that probably look just like your competitors&rsquo;. Most talk up numbers; a rare few data-driven marketing agencies actually let the data call the shots.</p>\r\n<p>The agencies you&rsquo;ll meet here don&rsquo;t just sprinkle analytics on top&mdash;they bake insight into every move, rethink what&rsquo;s possible, and treat your spend like it&rsquo;s coming from their own pocket. No motivational posters, no awards for &ldquo;most presentations given at conferences.&rdquo; Just sharp teams, stubborn curiosity, and a knack for turning raw numbers into new customers.</p>\r\n<p>Dig into the details. See how the best minds in data-driven marketing put evidence at the center, then get out of their own way and let the work speak for itself.</p>\r\n<p>&nbsp;</p>\r\n<h2><span id=\"List_of_the_Best_Data-Driven_Marketing_Agencies\">List of the Best Data-Driven Marketing Agencies</span></h2>\r\n<h3><span id=\"1_Ninja_Promo\">1. Ninja Promo</span></h3>\r\n<p><img class=\"alignnone size-full wp-image-102732 ls-is-cached lazyloaded\" src=\"https://ninjapromo.io/wp-content/uploads/2025/06/Ninja-Promo-3.jpg\" sizes=\"(max-width: 1842px) 100vw, 1842px\" srcset=\"https://ninjapromo.io/wp-content/uploads/2025/06/Ninja-Promo-3.jpg 1842w, https://ninjapromo.io/wp-content/uploads/2025/06/Ninja-Promo-3-300x136.jpg 300w, https://ninjapromo.io/wp-content/uploads/2025/06/Ninja-Promo-3-1024x463.jpg 1024w, https://ninjapromo.io/wp-content/uploads/2025/06/Ninja-Promo-3-768x347.jpg 768w, https://ninjapromo.io/wp-content/uploads/2025/06/Ninja-Promo-3-1536x695.jpg 1536w\" alt=\"Ninja Promo\" width=\"1842\" height=\"833\" data-src=\"https://ninjapromo.io/wp-content/uploads/2025/06/Ninja-Promo-3.jpg\" data-srcset=\"https://ninjapromo.io/wp-content/uploads/2025/06/Ninja-Promo-3.jpg 1842w, https://ninjapromo.io/wp-content/uploads/2025/06/Ninja-Promo-3-300x136.jpg 300w, https://ninjapromo.io/wp-content/uploads/2025/06/Ninja-Promo-3-1024x463.jpg 1024w, https://ninjapromo.io/wp-content/uploads/2025/06/Ninja-Promo-3-768x347.jpg 768w, https://ninjapromo.io/wp-content/uploads/2025/06/Ninja-Promo-3-1536x695.jpg 1536w\" data-sizes=\"(max-width: 1842px) 100vw, 1842px\" /></p>\r\n<p>Let&rsquo;s just get this out of the way&mdash;we&rsquo;re putting Ninja Promo first, and no, it&rsquo;s not because we&rsquo;re afraid of confrontation (or because anyone snuck a katana into the meeting).</p>\r\n<p>Truth is, Ninja Promo didn&rsquo;t climb to the top by blending in or playing it safe. They&rsquo;re the data-driven marketing agency your old agency warned you about: experimental in all the right ways, slightly allergic to marketing fluff, and suspiciously good at turning raw data into campaigns that make clients question if they&rsquo;ve secretly hired an in-house team.</p>\r\n<p><strong>Digital marketing, but actually useful.</strong>&nbsp;Ninja Promo&rsquo;s calling card is a marketing subscription model that keeps your budget steady while your needs shift&mdash;ruthlessly practical if you&rsquo;re tired of &ldquo;surprise&rdquo; invoices and scope-creep s&eacute;ances. You get a global team that adapts to your funnel, flips the switch on new channels, and shares marketing data insights in a way you&rsquo;ll actually understand.</p>', NULL, NULL, NULL, NULL, 'off', 'on', 'off', NULL, '2025-06-24 17:00:00', '2025-06-25 08:50:39', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL, NULL, NULL, NULL, 'null', NULL, NULL, NULL),
+(2, 'Fake Influencers: Who They Are, How to Spot and Avoid Them', NULL, 'Most businesses lose money when their websites stall out. Traffic spikes but leads slip through. Revenue stays flat. The fixes are rarely obvious, and quick changes rarely stick.', 'Top-Conversion-Rate-Optimization-Agencies-2048x1152.jpg', NULL, NULL, NULL, NULL, NULL, 'fake-influencers-who-they-are-how-to-spot-and-avoid-them-2', '<p>Most businesses lose money when their websites stall out. Traffic spikes but leads slip through. Revenue stays flat. The fixes are rarely obvious, and quick changes rarely stick.</p>\r\n<p>Conversion rate optimization agencies step in where basic testing ends. They find what slows your funnel, pinpoint the moments visitors bail, and show you what needs to change&mdash;step by step, with evidence. The best teams don&rsquo;t guess. They test, measure, and build on what works.</p>\r\n<p>This list isn&rsquo;t recycled from generic rankings or rounded up by ad spend. It&rsquo;s built on recent results, transparency, and proven expertise in 2025, so you can see what the top agencies actually do and how they get real outcomes.</p>\r\n<p>If you want straightforward help&mdash;not marketing stories or empty promises&mdash;start here.</p>\r\n<p>&nbsp;</p>\r\n<h2><span id=\"List_of_the_Best_CRO_Agencies\">List of the Best CRO Agencies</span></h2>', NULL, NULL, NULL, NULL, 'off', 'on', 'off', NULL, '2025-06-24 17:00:00', '2025-06-25 08:50:44', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL, NULL, NULL, NULL, 'null', NULL, NULL, NULL),
+(3, 'Fake Influencers: Who They Are, How to Spot and Avoid Them', NULL, 'Influencer marketing looks simple on the surface: find someone with a big following on your preferred influencer marketing platform', 'Fake-Influencers_-Who-They-Are-How-to-Spot-and-Avoid-Them-2048x1152.jpg', NULL, NULL, NULL, NULL, NULL, 'fake-influencers-who-they-are-how-to-spot-and-avoid-them', '<p>Influencer marketing looks simple on the surface: find someone with a big following on your preferred influencer marketing platform, get them to mention your brand, and wait for your campaign to take off. But here&rsquo;s the reality: not every &ldquo;influencer&rdquo; is who they claim to be&mdash;and partnering with the wrong one can cost you much more than a wasted budget.</p>\r\n<p>Unfortunately, fake influencers aren&rsquo;t always easy to spot. The growing impact and&nbsp;<a href=\"https://ninjapromo.io/benefits-of-influencer-marketing\">benefits of influencers</a>&nbsp;mean more scammers are getting creative. Some are genuine people padding their numbers with bots and bought followers. Others are complete fabrications, built from scratch to look successful but with zero real influence behind the scenes. Either way, the results are the same: inflated metrics, misleading campaign data, and disappointed brands wondering where the ROI went.</p>\r\n<p>Michael M, Head of Influencer Marketing at Ninja Promo, sees the aftermath of influencer fraud all too often:&nbsp;&ldquo;If you&rsquo;re paying someone to promote your brand and most of their audience isn&rsquo;t even real or engaged, you&rsquo;re basically throwing money away. Trust takes forever to build and just seconds to lose.&rdquo;</p>\r\n<p>It&rsquo;s tempting to chase big numbers and glossy profiles, especially when timelines are tight and expectations are high. But, as any marketer who&rsquo;s run into a fake influencer will tell you, shortcuts lead to bigger problems down the road&mdash;lost budget, broken trust, and a harder climb back to credibility. If you&rsquo;re serious about real results, detecting fake followers isn&rsquo;t optional. It&rsquo;s the cost of doing marketing that works.</p>\r\n<p>So what sets the imposters apart from the real deal? Let&rsquo;s start by getting clear on what a fake influencer actually is&mdash;and why their numbers fool so many smart brands.</p>', NULL, NULL, NULL, NULL, 'off', 'on', 'off', NULL, '2025-06-24 17:00:00', '2025-06-25 08:50:42', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL, NULL, NULL, NULL, 'null', NULL, NULL, NULL),
+(4, 'Community Building & Management', NULL, 'Our team of crypto community building specialists can help you engage and grow your communities across multiple platforms including Discord and Telegram.', 'crypto-community-management-3.svg', NULL, NULL, NULL, NULL, NULL, 'community-building-management', '<p>The cryptocurrency market is a unique and volatile space. Traditional marketing channels are not always effective in reaching and engaging potential investors and users. There are so many competing offerings, with very little to differentiate them. This is where a strong and vibrant community of fans can make all the difference.</p>\r\n<p>Providing an engaging and friendly digital space &mdash; such as on Discord or Telegram &mdash; which is centered on your project will allow your brand&rsquo;s advocates to connect, share information, and collaborate. It will also help to build trust and confidence in your brand while attracting new users and investors. Prospects can learn more about what makes your project unique and get a sense of the team behind it. All of this can lead to more excitement and interest in your offering, which can translate into real growth.</p>\r\n<p>Discord is one of the most popular messaging platforms for gamers and has been adopted by the crypto world as a way to connect and chat in real-time. It&rsquo;s a great platform for engaging with your brand advocates, providing updates and announcements, and fostering collaboration.</p>', NULL, NULL, NULL, NULL, 'off', 'on', 'off', NULL, '2025-06-24 17:00:00', '2025-06-25 10:15:49', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 5, NULL, NULL, 'Transform Your Crypto Community with Telegram & Discord Management', 'Building a discord community can transform your crypto project', 'null', NULL, '<p style=\"font-weight: 400;\">It\'s not enough to just have a Discord or Telegram channel or server. In order for your community to be effective, it needs to be well managed. Our crypto management services help you engage and grow your presence across multiple platforms. We offer a number of services to help you build excitement for your project, including:</p>\r\n<p>Telegram is another messaging platform that is popular for crypto community building. It offers a private and secure way to communicate and has a number of features that make it ideal for establishing a busy community.</p>\r\n<p>If you&rsquo;re looking for professional Discord or Telegram community management services, we&rsquo;re ready to go. Our services can help you:</p>\r\n<ul>\r\n<li>Attract new high-value investors</li>\r\n<li>Build trust and confidence in your project</li>\r\n<li>Grow a digital collective of project advocates</li>\r\n<li>Foster collaboration and communication</li>\r\n<li>Make your project stand out in a crowded market</li>\r\n</ul>', NULL),
+(5, 'Social Media Marketing', NULL, NULL, '', NULL, NULL, NULL, NULL, NULL, 'social-media-marketing', NULL, NULL, NULL, NULL, NULL, 'off', 'on', 'off', NULL, '2025-06-24 17:00:00', '2025-06-25 10:15:44', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 5, NULL, NULL, NULL, NULL, 'null', NULL, NULL, NULL),
+(6, 'Collapse Influencer/KOL Marketing', NULL, NULL, '', NULL, NULL, NULL, NULL, NULL, 'collapse-influencerkol-marketing', NULL, NULL, NULL, NULL, NULL, 'off', 'on', 'off', NULL, '2025-06-24 17:00:00', '2025-06-25 10:15:34', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 5, NULL, NULL, NULL, NULL, 'null', NULL, NULL, NULL),
+(7, 'Crypto PR & Media Relations', NULL, NULL, '', NULL, NULL, NULL, NULL, NULL, 'crypto-pr-media-relations', NULL, NULL, NULL, NULL, NULL, 'off', 'on', 'off', NULL, '2025-06-24 17:00:00', '2025-06-25 10:15:57', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 5, NULL, NULL, NULL, NULL, 'null', NULL, NULL, NULL),
+(8, 'Go-to-Market Strategy', NULL, NULL, '', NULL, NULL, NULL, NULL, NULL, 'go-to-market-strategy', NULL, NULL, NULL, NULL, NULL, 'off', 'on', 'off', NULL, '2025-06-24 17:00:00', '2025-06-25 10:16:06', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 5, NULL, NULL, NULL, NULL, 'null', NULL, NULL, NULL),
+(9, 'Content Marketing', NULL, NULL, '', NULL, NULL, NULL, NULL, NULL, 'content-marketing', NULL, NULL, NULL, NULL, NULL, 'off', 'on', 'off', NULL, '2025-06-24 17:00:00', '2025-06-25 10:16:14', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 5, NULL, NULL, NULL, NULL, 'null', NULL, NULL, NULL),
+(10, 'Localization & Regional Marketing', NULL, NULL, '', NULL, NULL, NULL, NULL, NULL, 'localization-regional-marketing', NULL, NULL, NULL, NULL, NULL, 'off', 'on', 'off', NULL, '2025-06-24 17:00:00', '2025-06-25 10:16:31', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 5, NULL, NULL, NULL, NULL, 'null', NULL, NULL, NULL),
+(11, 'Analytics & Reporting', NULL, NULL, '', NULL, NULL, NULL, NULL, NULL, 'analytics-reporting', NULL, NULL, NULL, NULL, NULL, 'off', 'on', 'off', NULL, '2025-06-24 17:00:00', '2025-06-25 10:16:37', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 5, NULL, NULL, NULL, NULL, 'null', NULL, NULL, NULL),
+(12, 'Collapse Fundraising Advisor', NULL, NULL, '', NULL, NULL, NULL, NULL, NULL, 'collapse-fundraising-advisor', NULL, NULL, NULL, NULL, NULL, 'off', 'on', 'off', NULL, '2025-06-24 17:00:00', '2025-06-25 10:16:56', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 5, NULL, NULL, NULL, NULL, 'null', NULL, NULL, NULL),
+(13, 'Smart Contract', NULL, NULL, '', NULL, NULL, NULL, NULL, NULL, 'smart-contract', NULL, NULL, NULL, NULL, NULL, 'off', 'on', 'off', NULL, '2025-06-24 17:00:00', '2025-06-25 10:17:09', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 5, NULL, NULL, NULL, NULL, 'null', NULL, NULL, NULL),
+(14, 'DApp/Web3 Frontend/Backend', NULL, NULL, '', NULL, NULL, NULL, NULL, NULL, 'dappweb3-frontendbackend', NULL, NULL, NULL, NULL, NULL, 'off', 'on', 'off', NULL, '2025-06-24 17:00:00', '2025-06-25 10:17:16', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 5, NULL, NULL, NULL, NULL, 'null', NULL, NULL, NULL),
+(15, 'Tokenomics Implementation', NULL, NULL, '', NULL, NULL, NULL, NULL, NULL, 'tokenomics-implementation', NULL, NULL, NULL, NULL, NULL, 'off', 'on', 'off', NULL, '2025-06-24 17:00:00', '2025-06-25 10:17:22', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 5, NULL, NULL, NULL, NULL, 'null', NULL, NULL, NULL),
+(16, 'Audit', NULL, NULL, '', NULL, NULL, NULL, NULL, NULL, 'audit', NULL, NULL, NULL, NULL, NULL, 'off', 'on', 'off', NULL, '2025-06-24 17:00:00', '2025-06-25 10:17:38', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 5, NULL, NULL, NULL, NULL, 'null', NULL, NULL, NULL),
+(17, 'UI/UX', NULL, NULL, '', NULL, NULL, NULL, NULL, NULL, 'uiux', NULL, NULL, NULL, NULL, NULL, 'off', 'on', 'off', NULL, '2025-06-24 17:00:00', '2025-06-25 10:17:50', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 5, NULL, NULL, NULL, NULL, 'null', NULL, NULL, NULL),
+(18, 'Investment Advisory', NULL, NULL, '', NULL, NULL, NULL, NULL, NULL, 'investment-advisory', NULL, NULL, NULL, NULL, NULL, 'off', 'on', 'off', NULL, '2025-06-24 17:00:00', '2025-06-25 10:17:57', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 5, NULL, NULL, NULL, NULL, 'null', NULL, NULL, NULL),
+(19, 'Portfolio Management', NULL, NULL, '', NULL, NULL, NULL, NULL, NULL, 'portfolio-management', NULL, NULL, NULL, NULL, NULL, 'off', 'on', 'off', NULL, '2025-06-24 17:00:00', '2025-06-25 10:18:05', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 5, NULL, NULL, NULL, NULL, 'null', NULL, NULL, NULL),
+(20, 'Risk Management', NULL, NULL, '', NULL, NULL, NULL, NULL, NULL, 'risk-management', NULL, NULL, NULL, NULL, NULL, 'off', 'on', 'off', NULL, '2025-06-24 17:00:00', '2025-06-25 10:18:21', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 5, NULL, NULL, NULL, NULL, 'null', NULL, NULL, NULL),
+(21, 'Asset Custody', NULL, NULL, '', NULL, NULL, NULL, NULL, NULL, 'asset-custody', NULL, NULL, NULL, NULL, NULL, 'off', 'on', 'off', NULL, '2025-06-24 17:00:00', '2025-06-25 10:18:27', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 5, NULL, NULL, NULL, NULL, 'null', NULL, NULL, NULL),
+(22, 'Fund Management', NULL, NULL, '', NULL, NULL, NULL, NULL, NULL, 'fund-management', NULL, NULL, NULL, NULL, NULL, 'off', 'on', 'off', NULL, '2025-06-24 17:00:00', '2025-06-25 10:18:33', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 5, NULL, NULL, NULL, NULL, 'null', NULL, NULL, NULL),
+(23, 'DeFi Strategy', NULL, NULL, '', NULL, NULL, NULL, NULL, NULL, 'defi-strategy', NULL, NULL, NULL, NULL, NULL, 'off', 'on', 'off', NULL, '2025-06-24 17:00:00', '2025-06-25 10:18:41', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 5, NULL, NULL, NULL, NULL, 'null', NULL, NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -1760,156 +1772,29 @@ CREATE TABLE `post_cat` (
 --
 
 INSERT INTO `post_cat` (`id`, `post_id`, `cat_id`, `created_at`, `updated_at`) VALUES
-(765, 2, 9, NULL, NULL),
-(204, 36, 6, NULL, NULL),
-(911, 14, 7, NULL, NULL),
-(910, 14, 14, NULL, NULL),
-(846, 15, 2, NULL, NULL),
-(1088, 16, 6, NULL, NULL),
-(1081, 17, 12, NULL, NULL),
-(952, 20, 11, NULL, NULL),
-(367, 20, 6, NULL, NULL),
-(368, 21, 6, NULL, NULL),
-(987, 23, 6, NULL, NULL),
-(986, 23, 7, NULL, NULL),
-(998, 24, 7, NULL, NULL),
-(1007, 25, 7, NULL, NULL),
-(56, 26, 8, NULL, NULL),
-(548, 27, 1, NULL, NULL),
-(1073, 19, 7, NULL, NULL),
-(1069, 30, 6, NULL, NULL),
-(712, 50, 3, NULL, NULL),
-(726, 29, 2, NULL, NULL),
-(279, 31, 2, NULL, NULL),
-(278, 31, 4, NULL, NULL),
-(714, 52, 2, NULL, NULL),
-(547, 33, 1, NULL, NULL),
-(546, 33, 5, NULL, NULL),
-(545, 33, 7, NULL, NULL),
-(720, 40, 2, NULL, NULL),
-(559, 34, 1, NULL, NULL),
-(558, 34, 5, NULL, NULL),
-(557, 34, 7, NULL, NULL),
-(719, 40, 4, NULL, NULL),
-(481, 35, 1, NULL, NULL),
-(480, 35, 5, NULL, NULL),
-(479, 35, 7, NULL, NULL),
-(717, 42, 2, NULL, NULL),
-(499, 43, 9, NULL, NULL),
-(567, 44, 6, NULL, NULL),
-(566, 45, 9, NULL, NULL),
-(565, 46, 9, NULL, NULL),
-(564, 47, 9, NULL, NULL),
-(563, 48, 9, NULL, NULL),
-(561, 49, 9, NULL, NULL),
-(721, 39, 2, NULL, NULL),
-(725, 32, 2, NULL, NULL),
-(724, 32, 4, NULL, NULL),
-(718, 41, 2, NULL, NULL),
-(722, 38, 2, NULL, NULL),
-(723, 37, 2, NULL, NULL),
-(716, 51, 2, NULL, NULL),
-(715, 51, 4, NULL, NULL),
-(713, 52, 4, NULL, NULL),
-(770, 2, 3, NULL, NULL),
-(909, 14, 2, NULL, NULL),
-(764, 2, 5, NULL, NULL),
-(763, 2, 1, NULL, NULL),
-(762, 2, 3, NULL, NULL),
-(802, 3, 14, NULL, NULL),
-(801, 3, 2, NULL, NULL),
-(1082, 17, 7, NULL, NULL),
-(845, 15, 4, NULL, NULL),
-(1078, 18, 6, NULL, NULL),
-(831, 5, 12, NULL, NULL),
-(1080, 17, 14, NULL, NULL),
-(1087, 16, 7, NULL, NULL),
-(813, 7, 14, NULL, NULL),
-(812, 7, 2, NULL, NULL),
-(809, 8, 14, NULL, NULL),
-(1079, 17, 2, NULL, NULL),
-(838, 1, 5, NULL, NULL),
-(800, 3, 3, NULL, NULL),
-(799, 3, 5, NULL, NULL),
-(837, 4, 14, NULL, NULL),
-(836, 4, 2, NULL, NULL),
-(830, 5, 14, NULL, NULL),
-(829, 5, 2, NULL, NULL),
-(835, 6, 14, NULL, NULL),
-(834, 6, 2, NULL, NULL),
-(811, 7, 3, NULL, NULL),
-(810, 7, 5, NULL, NULL),
-(808, 8, 2, NULL, NULL),
-(807, 8, 5, NULL, NULL),
-(833, 9, 14, NULL, NULL),
-(832, 9, 2, NULL, NULL),
-(840, 10, 14, NULL, NULL),
-(839, 10, 2, NULL, NULL),
-(792, 11, 4, NULL, NULL),
-(793, 12, 4, NULL, NULL),
-(794, 13, 4, NULL, NULL),
-(1077, 18, 7, NULL, NULL),
-(1076, 18, 12, NULL, NULL),
-(1075, 18, 13, NULL, NULL),
-(951, 20, 2, NULL, NULL),
-(1072, 19, 11, NULL, NULL),
-(1071, 19, 14, NULL, NULL),
-(1070, 19, 2, NULL, NULL),
-(953, 20, 1, NULL, NULL),
-(954, 20, 7, NULL, NULL),
-(955, 20, 6, NULL, NULL),
-(956, 21, 2, NULL, NULL),
-(957, 21, 12, NULL, NULL),
-(958, 21, 11, NULL, NULL),
-(959, 21, 1, NULL, NULL),
-(960, 21, 7, NULL, NULL),
-(961, 21, 6, NULL, NULL),
-(985, 23, 8, NULL, NULL),
-(974, 22, 7, NULL, NULL),
-(973, 22, 13, NULL, NULL),
-(972, 22, 14, NULL, NULL),
-(971, 22, 2, NULL, NULL),
-(984, 23, 1, NULL, NULL),
-(983, 23, 12, NULL, NULL),
-(982, 23, 14, NULL, NULL),
-(981, 23, 2, NULL, NULL),
-(997, 24, 8, NULL, NULL),
-(996, 24, 1, NULL, NULL),
-(995, 24, 13, NULL, NULL),
-(994, 24, 14, NULL, NULL),
-(993, 24, 2, NULL, NULL),
-(1006, 25, 8, NULL, NULL),
-(1005, 25, 1, NULL, NULL),
-(1004, 25, 10, NULL, NULL),
-(1003, 25, 2, NULL, NULL),
-(1008, 26, 2, NULL, NULL),
-(1009, 26, 14, NULL, NULL),
-(1010, 26, 1, NULL, NULL),
-(1011, 26, 7, NULL, NULL),
-(1012, 26, 6, NULL, NULL),
-(1013, 27, 2, NULL, NULL),
-(1014, 27, 10, NULL, NULL),
-(1015, 27, 1, NULL, NULL),
-(1016, 27, 7, NULL, NULL),
-(1063, 28, 7, NULL, NULL),
-(1062, 28, 11, NULL, NULL),
-(1061, 28, 14, NULL, NULL),
-(1060, 28, 2, NULL, NULL),
-(1021, 29, 2, NULL, NULL),
-(1022, 29, 14, NULL, NULL),
-(1023, 29, 1, NULL, NULL),
-(1024, 29, 7, NULL, NULL),
-(1025, 29, 6, NULL, NULL),
-(1068, 30, 7, NULL, NULL),
-(1067, 30, 1, NULL, NULL),
-(1066, 30, 12, NULL, NULL),
-(1065, 30, 14, NULL, NULL),
-(1064, 30, 2, NULL, NULL),
-(1086, 16, 12, NULL, NULL),
-(1085, 16, 13, NULL, NULL),
-(1084, 16, 14, NULL, NULL),
-(1083, 16, 2, NULL, NULL),
-(1074, 19, 6, NULL, NULL);
+(1, 1, 15, NULL, NULL),
+(2, 3, 15, NULL, NULL),
+(3, 2, 15, NULL, NULL),
+(14, 4, 17, NULL, NULL),
+(13, 5, 17, NULL, NULL),
+(12, 6, 17, NULL, NULL),
+(15, 7, 17, NULL, NULL),
+(16, 8, 17, NULL, NULL),
+(17, 9, 17, NULL, NULL),
+(18, 10, 17, NULL, NULL),
+(19, 11, 17, NULL, NULL),
+(20, 12, 27, NULL, NULL),
+(21, 13, 28, NULL, NULL),
+(22, 14, 28, NULL, NULL),
+(23, 15, 28, NULL, NULL),
+(24, 16, 28, NULL, NULL),
+(25, 17, 28, NULL, NULL),
+(26, 18, 34, NULL, NULL),
+(27, 19, 34, NULL, NULL),
+(28, 20, 34, NULL, NULL),
+(29, 21, 34, NULL, NULL),
+(30, 22, 27, NULL, NULL),
+(31, 23, 34, NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -1932,7 +1817,8 @@ CREATE TABLE `post_type` (
 --
 
 INSERT INTO `post_type` (`id`, `name`, `url`, `feild`, `icon`, `updated_at`, `created_at`) VALUES
-(1, 'Bài viết', 'bai-viet', '[\"content\",\"des\"]', '<i class=\"fa fa-pen-square\"></i>', '2020-07-28 22:41:23', '2020-07-28 22:18:11');
+(1, 'Bài viết', 'bai-viet', '[\"content\",\"des\"]', '<i class=\"fa fa-pen-square\"></i>', '2020-07-28 22:41:23', '2020-07-28 22:18:11'),
+(5, 'Dịch vụ', 'service', '[\"content\",\"des\",\"title_2\",\"content_2\"]', '<i class=\"fa fa-pen-square\"></i>', '2020-07-28 22:41:23', '2020-07-28 22:18:11');
 
 -- --------------------------------------------------------
 
@@ -2245,9 +2131,8 @@ CREATE TABLE `theme_row` (
 --
 
 INSERT INTO `theme_row` (`id`, `name`, `theme_id`, `type`, `link_row_id`, `posion`, `img`, `link_img`, `style`, `img_2`, `link_img_2`, `css`, `updated_at`, `created_at`, `title`, `title_2`, `des`, `des_2`, `link`, `orderby`, `status`, `post_id`, `content`, `content_2`, `three_text`, `icon_text_2`, `slide_id`, `slide_id_2`, `slide_id_3`, `form_id_2`, `text_multi`, `text_multi_2`, `menu_id`, `menu_id_2`, `cat_id`, `cat_id_2`, `cat_id_3`, `cat_id_4`, `video_youtube`, `button`, `price_id_2`, `display`, `post_id_2`, `post_id_3`, `post_id_4`, `img_bg`, `img_bg_m`, `price_id`, `map_code`, `map_code_2`, `feild`, `facebook_fanpage`, `cat_product_id`, `bg_color`, `bg_color_2`, `cat_product_id_2`, `cat_list_id`, `cat_product_id_count`, `cat_product_id_2_count`, `cat_list_id_2`, `cat_post_id`, `cat_post_id_2`, `cat_post_id_count`, `cat_post_id_2_count`, `cat_post_sub_id`, `cat_post_sub_id_2`, `icon_text`) VALUES
-(1, 'Header', 1, 'custome', NULL, 'head', 'z5232381693450_987b1e68fbe69bdb06d0d95dfe84127f.jpg', NULL, 'head', 'Logo ASC.jpg', NULL, NULL, '2024-03-08 22:55:59', '2022-08-18 05:31:34', 'Hotline', '0977.392.825', NULL, NULL, 'https://ntechco.com.vn/public/source/profile/Profile%20Vietnam%20Ntechco_12-2023.pdf', 1, 'on', NULL, NULL, NULL, 'null', 'null', NULL, NULL, NULL, NULL, 'null', 'null', NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Tải profile', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[\"title\",\"title_2\",\"img\",\"link\"]', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'null'),
+(1, 'Header', 1, 'custome', NULL, 'head', '', NULL, 'head', 'Logo ASC.jpg', NULL, NULL, '2025-06-25 07:16:36', '2022-08-18 05:31:34', NULL, NULL, NULL, NULL, NULL, 1, 'on', NULL, NULL, NULL, 'null', 'null', NULL, NULL, NULL, NULL, 'null', 'null', 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[\"img\",\"menu_id\"]', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'null'),
 (11, 'Footer', 1, 'custome', NULL, 'footer', 'logo-ntech-1.png', NULL, 'footer', NULL, NULL, NULL, '2024-03-08 22:35:52', '2022-08-18 10:05:39', 'Công ty TNHH NTECHCO Việt Nam.', 'Copyright © 2020. All Rights Reserved', NULL, NULL, NULL, 11, 'on', NULL, NULL, NULL, 'null', 'null', NULL, NULL, NULL, NULL, 'null', 'null', 2, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.8026612733042!2d105.73103987499975!3d21.000546088747587!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313452e1afd5ebfb%3A0xc5c067e3bd1fa53c!2zxJAuIEzDqiBUcuG7jW5nIFThuqVuLCBBbiBLaMOhbmgsIEhvw6BpIMSQ4bupYywgSMOgIE7hu5lpLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1704043287270!5m2!1svi!2s\" width=\"100%\" height=\"350\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>', NULL, '[\"title\",\"title_2\",\"img\",\"map_code\",\"menu_id\",\"icon_text\",\"icon_text_2\"]', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '{\"1\":{\"icon\":\"<i class=\\\"fa fa-envelope\\\"><\\/i>\",\"text\":\"Email: luongpd185@gmail.com, ntechcovn.info@gmail.com\"},\"2\":{\"icon\":\"<i class=\\\"fa fa-phone\\\" aria-hidden=\\\"true\\\"><\\/i>\",\"text\":\"\\u0110i\\u1ec7n tho\\u1ea1i : 0977.392.825\"},\"3\":{\"icon\":\"<i class=\\\"fa fa-map-marker\\\" aria-hidden=\\\"true\\\"><\\/i>\",\"text\":\"\\u0110\\u1ecba ch\\u1ec9 \\u0110KKD: \\u00d4 s\\u1ed1 14-L\\u00f4 A23-NV11, Khu \\u0111\\u00f4 th\\u1ecb hai b\\u00ean \\u0111\\u01b0\\u1eddng L\\u00ea Tr\\u1ecdng T\\u1ea5n, X\\u00e3 An Kh\\u00e1nh, Huy\\u1ec7n Ho\\u00e0i \\u0110\\u1ee9c, Th\\u00e0nh ph\\u1ed1 H\\u00e0 N\\u1ed9i, Vi\\u1ec7t Nam\"},\"4\":{\"icon\":\"<i class=\\\"fa fa-map-marker\\\" aria-hidden=\\\"true\\\"><\\/i>\",\"text\":\"VPGD H\\u00e0 N\\u1ed9i: B50-7, LK19, Khu B Geleximco, \\u0111\\u01b0\\u1eddng L\\u00ea Tr\\u1ecdng T\\u1ea5n, D\\u01b0\\u01a1ng N\\u1ed9i, H\\u00e0 \\u0110\\u00f4ng, H\\u00e0 N\\u1ed9i\"},\"5\":{\"icon\":\"<i class=\\\"fa fa-map-marker\\\" aria-hidden=\\\"true\\\"><\\/i>\",\"text\":\"VPGD V\\u0169ng T\\u00e0u: Khu T\\u00e1i \\u0111\\u1ecbnh c\\u01b0, x\\u00e3 Long S\\u01a1n, TP V\\u0169ng T\\u00e0u, T\\u1ec9nh BRVT\"}}'),
-(72, 'Menu', 1, 'custome', NULL, 'head', NULL, NULL, 'menu', NULL, NULL, NULL, '2023-12-28 19:35:51', '2023-12-27 23:34:10', NULL, NULL, NULL, NULL, NULL, 2, 'on', NULL, NULL, NULL, 'null', 'null', NULL, NULL, NULL, NULL, 'null', 'null', 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[\"menu_id\"]', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'null'),
 (73, 'Slide', 1, 'custome', NULL, 'body', NULL, NULL, 'slide', NULL, NULL, NULL, '2023-12-28 19:35:51', '2023-12-28 00:33:42', NULL, NULL, NULL, NULL, NULL, 3, 'on', NULL, NULL, NULL, 'null', 'null', 1, NULL, NULL, NULL, 'null', 'null', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[\"slide_id\"]', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'null'),
 (74, 'Lĩnh vực', 1, 'custome', NULL, 'body', NULL, NULL, 'field', NULL, NULL, NULL, '2023-12-30 09:08:27', '2023-12-28 00:34:01', 'Lĩnh vực', NULL, NULL, NULL, NULL, 4, 'on', NULL, NULL, NULL, 'null', 'null', NULL, NULL, NULL, NULL, 'null', 'null', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[\"title\",\"cat_list_id\"]', NULL, NULL, NULL, NULL, NULL, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'null'),
 (75, 'Dự án', 1, 'custome', NULL, 'body', NULL, NULL, 'project', NULL, NULL, NULL, '2023-12-30 10:43:35', '2023-12-28 00:34:14', 'Dự án', NULL, NULL, NULL, NULL, 6, 'on', NULL, NULL, NULL, 'null', 'null', NULL, NULL, NULL, NULL, 'null', 'null', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '[\"title\",\"cat_post_id\"]', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 2, NULL, 8, NULL, NULL, NULL, 'null'),
@@ -2420,8 +2305,6 @@ INSERT INTO `type_permission` (`id`, `type_id`, `permission_id`, `type`, `update
 (227, 1, 57, 'undefined', '2020-08-03 07:15:58', '2020-08-03 07:15:58'),
 (231, 1, 60, 'group', '2022-08-02 01:25:43', '2022-08-02 01:25:43'),
 (232, 1, 61, 'group', '2022-08-02 01:25:44', '2022-08-02 01:25:44'),
-(233, 4, 60, 'group', '2022-08-03 01:28:20', '2022-08-03 01:28:20'),
-(234, 4, 61, 'group', '2022-08-03 01:28:22', '2022-08-03 01:28:22'),
 (235, 1, 62, 'group', '2022-08-04 10:55:44', '2022-08-04 10:55:44'),
 (236, 1, 63, 'group', '2022-08-04 10:55:45', '2022-08-04 10:55:45'),
 (237, 1, 64, 'group', '2022-08-07 20:56:00', '2022-08-07 20:56:00'),
@@ -2466,10 +2349,7 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`id`, `name`, `type_acount`, `email`, `password`, `user_type_id`, `status`, `tel`, `img`, `def`, `count_login`, `address`, `city`, `huyen`, `cmnd`, `birth`, `sex`, `code`, `percent`, `percent_af`, `remember_token`, `updated_at`, `created_at`) VALUES
 (2, 'admin', 'customer', 'admin@webux.vn', '$2y$10$zQmSmL1h93s/63XcuKgYcuTi/F38in2.ufe6GsRUTqAK31gZJe/XS', '2', 'on', NULL, '', NULL, 0, NULL, NULL, NULL, '101044383', '2021/12/08', 'nam', NULL, NULL, NULL, 'usoc2oiEfcdBsVlYbXw4W2ib12YkKtpjtrQsYG8rlHKYtGzzgLMyPzho0PAf', '2021-12-07 23:46:54', '2019-11-29 06:30:40'),
-(3, 'Biên tập', NULL, 'bientap@webux.vn', '$2y$10$0RtkoF6YB7MiaY3b7PyZ4e884LC55V7Z6ZFU5TCq763f25vqxYx.y', '3', 'on', NULL, '', NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'FXMNgGv8Xhzcg1OTSakSruFj5XiZkh7UPNvb2Xxxpb875FzVjJGYkvBHSTnB', '2020-10-05 20:59:12', '2019-11-29 06:30:40'),
-(1, 'Quản trị viên', NULL, 'root@webux.vn', '$2y$10$3iwH0yvY4vueEbF0p7SRXOd8bC4CpTV1BOcucEKCghilF1orXFLfC', '1', 'on', NULL, 'icon.png', NULL, 0, NULL, NULL, NULL, NULL, NULL, 'nam', 'web', 99, NULL, 'RbqmgMHIiMM4PXTeUXrE8bHcGW80LoZumLU3NwNbet9V9oFbfxvC9DzxuZdU', '2021-07-12 11:30:01', '2019-11-29 06:30:40'),
-(377, 'Nguyễn Hà', NULL, 'ha@webux.vn', '$2y$10$jddolV.NmRnhZ3zLdaYOreOh3hFuPPajOktFlxsMmooDFCbIdBGbi', '4', 'on', '0966130168', '', NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, '5fc', NULL, NULL, 'jXg2wleJymIgDHYwhazAwKsJ5OpASVIfjb0RJJ1F', '2022-08-13 06:46:04', '2022-08-13 06:46:04'),
-(375, 'Phạm Thi', NULL, 'thi@webbox.vn', '$2y$10$3iwH0yvY4vueEbF0p7SRXOd8bC4CpTV1BOcucEKCghilF1orXFLfC', '4', 'on', '096 6130 168', NULL, NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'RvdKTc8ltPSFVzvxOF26JPpXPyCOkMknx5xyF3kY', '2022-08-08 11:52:01', '2022-08-03 01:25:14');
+(1, 'Quản trị viên', NULL, 'root@webux.vn', '$2y$10$3iwH0yvY4vueEbF0p7SRXOd8bC4CpTV1BOcucEKCghilF1orXFLfC', '1', 'on', NULL, 'icon.png', NULL, 0, NULL, NULL, NULL, NULL, NULL, 'nam', 'web', 99, NULL, 'RbqmgMHIiMM4PXTeUXrE8bHcGW80LoZumLU3NwNbet9V9oFbfxvC9DzxuZdU', '2021-07-12 11:30:01', '2019-11-29 06:30:40');
 
 -- --------------------------------------------------------
 
@@ -2493,10 +2373,7 @@ CREATE TABLE `user_type` (
 
 INSERT INTO `user_type` (`id`, `name`, `url`, `status`, `type`, `created_at`, `updated_at`) VALUES
 (1, 'Root', 'root', 'on', 'root', NULL, NULL),
-(2, 'Admin', 'admin', 'on', 'admin', NULL, NULL),
-(3, 'Biên tập', 'bien_tap', 'on', 'editor', '2020-09-18 02:45:43', '2020-09-18 02:45:43'),
-(4, 'Khách hàng', 'khach-hang', 'on', 'customer', NULL, NULL),
-(5, 'Dev', 'dev', 'on', 'dev', '2020-09-22 23:25:38', '2020-09-22 23:25:38');
+(2, 'Admin', 'admin', 'on', 'admin', NULL, NULL);
 
 --
 -- Indexes for dumped tables
@@ -2648,7 +2525,7 @@ ALTER TABLE `user_type`
 -- AUTO_INCREMENT for table `cat`
 --
 ALTER TABLE `cat`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=42;
 
 --
 -- AUTO_INCREMENT for table `comment`
@@ -2678,7 +2555,7 @@ ALTER TABLE `huyen`
 -- AUTO_INCREMENT for table `menu`
 --
 ALTER TABLE `menu`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=32;
 
 --
 -- AUTO_INCREMENT for table `menu_type`
@@ -2690,7 +2567,7 @@ ALTER TABLE `menu_type`
 -- AUTO_INCREMENT for table `orders`
 --
 ALTER TABLE `orders`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 
 --
 -- AUTO_INCREMENT for table `permission`
@@ -2702,19 +2579,19 @@ ALTER TABLE `permission`
 -- AUTO_INCREMENT for table `post`
 --
 ALTER TABLE `post`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=31;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
 
 --
 -- AUTO_INCREMENT for table `post_cat`
 --
 ALTER TABLE `post_cat`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1089;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=32;
 
 --
 -- AUTO_INCREMENT for table `post_type`
 --
 ALTER TABLE `post_type`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT for table `price`

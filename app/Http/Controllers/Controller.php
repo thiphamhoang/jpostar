@@ -179,6 +179,6 @@ class Controller extends BaseController
         $order -> note = $request ->note;
         $order -> status = 'off';
         $order -> save();
-        return redirect()->back()->with('alert','Đăng ký thành công');
+        return redirect('/#contactsform')->with('alert','Đăng ký thành công');
     }
 }

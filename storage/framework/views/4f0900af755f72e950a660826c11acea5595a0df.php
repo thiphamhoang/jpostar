@@ -736,7 +736,7 @@
                         class="wp-block-gallery has-nested-images columns-4 is-cropped contacts-section__companies wp-block-gallery-1 is-layout-flex wp-block-gallery-is-layout-flex">
                         <figure class="wp-block-image size-full"><img decoding="async" width="120" height="30"
                                 data-id="70208"
-                                data-src="https://ninjapromo.io/wp-content/uploads/2024/03/logitechg20.svg" alt=""
+                                data-src="<?php echo e(asset('wp-content/uploads/2024/03/logitechg20.svg')); ?>" alt=""
                                 class="wp-image-70208 lazyload"
                                 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                                 style="--smush-placeholder-width: 120px; --smush-placeholder-aspect-ratio: 120/30;" />
@@ -746,7 +746,7 @@
 
                         <figure class="wp-block-image size-full"><img decoding="async" width="220" height="40"
                                 data-id="68444"
-                                data-src="https://ninjapromo.io/wp-content/uploads/2024/02/Bitcoinartlogo.png" alt=""
+                                data-src="<?php echo e(asset('wp-content/uploads/2024/02/Bitcoinartlogo.png')); ?>" alt=""
                                 class="wp-image-68444 lazyload"
                                 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                                 style="--smush-placeholder-width: 220px; --smush-placeholder-aspect-ratio: 220/40;" />
@@ -756,7 +756,7 @@
 
                         <figure class="wp-block-image size-full"><img decoding="async" width="127" height="60"
                                 data-id="73624"
-                                data-src="https://ninjapromo.io/wp-content/uploads/2024/03/stripe_logo.svg.svg" alt=""
+                                data-src="<?php echo e(asset('wp-content/uploads/2024/03/stripe_logo.svg.svg')); ?>" alt=""
                                 class="wp-image-73624 lazyload"
                                 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                                 style="--smush-placeholder-width: 127px; --smush-placeholder-aspect-ratio: 127/60;" />
@@ -766,9 +766,9 @@
 
                         <figure class="wp-block-image size-full"><img decoding="async" width="425" height="125"
                                 data-id="70222"
-                                data-src="https://ninjapromo.io/wp-content/uploads/2024/03/Samsung20.png" alt=""
+                                data-src="<?php echo e(asset('wp-content/uploads/2024/03/Samsung20.png')); ?>" alt=""
                                 class="wp-image-70222 lazyload"
-                                data-srcset="https://ninjapromo.io/wp-content/uploads/2024/03/Samsung20.png 425w, https://ninjapromo.io/wp-content/uploads/2024/03/Samsung20-300x88.png 300w"
+                                data-srcset="<?php echo e(asset('wp-content/uploads/2024/03/Samsung20.png')); ?> 425w, <?php echo e(asset('wp-content/uploads/2024/03/Samsung20-300x88.png')); ?> 300w"
                                 data-sizes="(max-width: 425px) 100vw, 425px"
                                 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                                 style="--smush-placeholder-width: 425px; --smush-placeholder-aspect-ratio: 425/125;" />
@@ -778,7 +778,7 @@
 
                         <figure class="wp-block-image size-full"><img decoding="async" width="138" height="40"
                                 data-id="73626"
-                                data-src="https://ninjapromo.io/wp-content/uploads/2024/03/hubspot_logo.svg.svg" alt=""
+                                data-src="<?php echo e(asset('wp-content/uploads/2024/03/hubspot_logo.svg.svg')); ?>" alt=""
                                 class="wp-image-73626 lazyload"
                                 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                                 style="--smush-placeholder-width: 138px; --smush-placeholder-aspect-ratio: 138/40;" />
@@ -788,7 +788,7 @@
 
                         <figure class="wp-block-image size-full"><img decoding="async" width="60" height="60"
                                 data-id="73625"
-                                data-src="https://ninjapromo.io/wp-content/uploads/2024/03/burgerkingrusru_logo.svg.svg"
+                                data-src="<?php echo e(asset('wp-content/uploads/2024/03/burgerkingrusru_logo.svg.svg')); ?>"
                                 alt="" class="wp-image-73625 lazyload"
                                 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                                 style="--smush-placeholder-width: 60px; --smush-placeholder-aspect-ratio: 60/60;" />
@@ -802,81 +802,46 @@
                             <p role="status" aria-live="polite" aria-atomic="true"></p>
                             <ul></ul>
                         </div>
-                        <form action="/#wpcf7-f1698-p67771-o2" method="post" class="wpcf7-form init"
+                        <form action="<?php echo e(asset('_form_/regis')); ?>" method="post" class="wpcf7-form init"
                             id="contact-form-1698" aria-label="Contact form" novalidate="novalidate" data-status="init">
-                            <div style="display: none;">
-                                <input type="hidden" name="_wpcf7" value="1698" />
-                                <input type="hidden" name="_wpcf7_version" value="6.0.6" />
-                                <input type="hidden" name="_wpcf7_locale" value="en_US" />
-                                <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f1698-p67771-o2" />
-                                <input type="hidden" name="_wpcf7_container_post" value="67771" />
-                                <input type="hidden" name="_wpcf7_posted_data_hash" value="" />
-                            </div>
+                            <?php echo csrf_field(); ?>
+                            
                             <h3 style="font-size: 1.875rem;text-align:center;">BOOK A CALL WITH US
                             </h3>
                             <div class="text-center contacts-form__subtitle">
                                 <p>(Please wait 5 seconds for the calendar to load after clicking the button)
                                 </p>
                             </div>
-                            <p><span class="wpcf7-form-control-wrap" data-name="utmsource" style="display:none;"><input
-                                        size="40" class="wpcf7-form-control wpcf7-text" id="utmsource"
-                                        aria-invalid="false" value="client123" type="text"
-                                        name="utmsource" /></span><span class="wpcf7-form-control-wrap"
-                                    data-name="utmcampaing" style="display:none;"><input size="40"
-                                        class="wpcf7-form-control wpcf7-text" id="utmcampaing" aria-invalid="false"
-                                        value="client123" type="text" name="utmcampaing" /></span><span
-                                    class="wpcf7-form-control-wrap" data-name="utmmedium" style="display:none;"><input
-                                        size="40" class="wpcf7-form-control wpcf7-text" id="utmmedium"
-                                        aria-invalid="false" value="client123" type="text"
-                                        name="utmmedium" /></span><span class="wpcf7-form-control-wrap"
-                                    data-name="utmcontent" style="display:none;"><input size="40"
-                                        class="wpcf7-form-control wpcf7-text" id="utmcontent" aria-invalid="false"
-                                        value="client123" type="text" name="utmcontent" /></span><span
-                                    class="wpcf7-form-control-wrap" data-name="utmterm" style="display:none;"><input
-                                        size="40" class="wpcf7-form-control wpcf7-text" id="utmterm"
-                                        aria-invalid="false" value="client123" type="text" name="utmterm" /></span><span
-                                    class="wpcf7-form-control-wrap" data-name="roistat_promo_code"
-                                    style="display:none;"><input size="40" class="wpcf7-form-control wpcf7-text"
-                                        id="roistat_promo_code" aria-invalid="false" value="undefined" type="text"
-                                        name="roistat_promo_code" /></span><span class="wpcf7-form-control-wrap"
-                                    data-name="textarea_123" style="display:none;"><input size="40"
-                                        class="wpcf7-form-control wpcf7-text" id="textarea_123" aria-invalid="false"
-                                        value="client123" type="text" name="textarea_123" /></span><span
-                                    class="wpcf7-form-control-wrap" data-name="textarea_gcli"
-                                    style="display:none;"><input size="40" class="wpcf7-form-control wpcf7-text"
-                                        id="textarea_gcli" aria-invalid="false" value="client123" type="text"
-                                        name="textarea_gcli" /></span><span class="wpcf7-form-control-wrap"
-                                    data-name="country_roistat" style="display:none;"><input size="40"
-                                        class="wpcf7-form-control wpcf7-text" id="country_roistat" aria-invalid="false"
-                                        value="" type="text" name="country_roistat" /></span><span
-                                    class="wpcf7-form-control-wrap" data-name="name-1"><input size="40" maxlength="400"
-                                        class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
-                                        aria-required="true" aria-invalid="false" placeholder="First Name*" value=""
-                                        type="text" name="name-1" /></span><span class="wpcf7-form-control-wrap"
-                                    data-name="surname"><input size="40" maxlength="400"
-                                        class="wpcf7-form-control wpcf7-text" aria-invalid="false"
-                                        placeholder="Last Name" value="" type="text" name="surname" /></span><span
-                                    class="wpcf7-form-control-wrap" data-name="email"><input size="40" maxlength="400"
-                                        class="wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email"
-                                        aria-required="true" aria-invalid="false" placeholder="Work Email*" value=""
-                                        type="email" name="email" /></span><span class="wpcf7-form-control-wrap"
-                                    data-name="tel-321"><input size="40" maxlength="400"
-                                        class="wpcf7-form-control wpcf7-tel wpcf7-text wpcf7-validates-as-tel form-phone_mask"
-                                        id="phone" aria-invalid="false" value="" type="tel"
-                                        name="tel-321" /></span><span class="wpcf7-form-control-wrap"
-                                    data-name="comment"><input size="40" maxlength="400"
-                                        class="wpcf7-form-control wpcf7-text textarea-field" aria-invalid="false"
-                                        placeholder="What tasks would you like to solve?" value="" type="text"
-                                        name="comment" /></span><input
-                                    class="wpcf7-form-control wpcf7-submit has-spinner btn contacts-form__btn"
-                                    type="submit" value="Book a demo" />
+                            <p>
+                              
+                                <span class="wpcf7-form-control-wrap" data-name="name-1">
+                                    <input size="40" maxlength="400" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="First Name*" value="" type="text" name="name" />
+                                </span>
+                              
+                                <span class="wpcf7-form-control-wrap" data-name="email">
+                                    <input size="40" maxlength="400" class="wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Work Email*" value="" type="email" name="email" />
+                                </span>
+                                <span class="wpcf7-form-control-wrap" data-name="tel-321">
+                                    <input size="40" maxlength="400" class="wpcf7-form-control wpcf7-tel wpcf7-text wpcf7-validates-as-tel form-phone_mask" id="phone" aria-invalid="false" value="" type="tel" name="tel" />
+                                </span>
+                                <span class="wpcf7-form-control-wrap" data-name="comment">
+                                    <input size="40" maxlength="400" class="wpcf7-form-control wpcf7-text textarea-field" aria-invalid="false" placeholder="What tasks would you like to solve?" value="" type="text" name="content" />
+                                </span>
+                                <input class="wpcf7-form-control wpcf7-submit has-spinner btn contacts-form__btn" type="submit" value="Send" />
                             </p>
                             <div class="contacts-form__label">
                                 <p>By clicking next, you agree to receive communications from NinjaPromo in accordance
                                     with our Privacy Policy.
                                 </p>
                             </div>
-                            <div class="wpcf7-response-output" aria-hidden="true"></div>
+                           <script>
+                            document.querySelector('.contacts-form__btn')?.addEventListener('click', function () {
+                                alert('Đăng ký thành công');
+                            });
+                        </script>
+                            <div class="wpcf7-response-output" aria-hidden="true">
+                                <?php echo $__env->make('backend/alert', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+                            </div>
                         </form>
                     </div>
                 </div>
