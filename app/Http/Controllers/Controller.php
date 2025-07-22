@@ -47,6 +47,38 @@ class Controller extends BaseController
         }
         $theme_home = M_theme::where('type','home')->first();
         view()->share('favicon',$theme_home->favicon);
+        $footer_1_type = M_menu_type::where('url','footer_1')->first();
+        $_footer_1 = M_menu::where('menu_type_id', $footer_1_type->id)->get();
+        view()->share('_footer_1',$_footer_1);
+        view()->share('_footer_1_type',$footer_1_type);
+
+        $footer_2_type = M_menu_type::where('url','footer_2')->first();
+        $_footer_2 = M_menu::where('menu_type_id', $footer_2_type->id)->get(); 
+        view()->share('_footer_2',$_footer_2);
+        view()->share('_footer_2_type',$footer_2_type);
+
+        $footer_3_type = M_menu_type::where('url','footer_3')->first();
+        $_footer_3 = M_menu::where('menu_type_id', $footer_3_type->id)->get();
+        view()->share('_footer_3',$_footer_3);
+        view()->share('_footer_3_type',$footer_3_type);
+
+         $footer_4_type = M_menu_type::where('url','footer_4')->first();
+        $_footer_4 = M_menu::where('menu_type_id', $footer_4_type->id)->get();
+        view()->share('_footer_4',$_footer_4);
+        view()->share('_footer_4_type',$footer_4_type);
+
+      $footer_5_type = M_menu_type::where('url','menu_9')->first();
+      if($footer_5_type){
+        $_footer_5 = M_menu::where('menu_type_id', $footer_5_type->id)->orderby('orderby','asc')->get();
+        view()->share('_footer_5',$_footer_5);
+        view()->share('_footer_5_type',$footer_5_type);
+      }
+      $footer_6_type = M_menu_type::where('url','menu_10')->first();
+      if($footer_6_type){
+        $_footer_6 = M_menu::where('menu_type_id', $footer_6_type->id)->orderby('orderby','asc')->get();
+        view()->share('_footer_6',$_footer_6);
+        view()->share('_footer_6_type',$footer_6_type);
+      }
     }
 
     public function get_home(){
@@ -103,11 +135,13 @@ class Controller extends BaseController
         if($post == ''){return 'Link không tồn tại';}
 
         $post_cat = M_post_cat::where('post_id',$post->id)->first();
-       $cat = M_cat::find($post_cat->cat_id);
-        // $comment_list = M_comment::where('post_id',$post->id)->paginate(10);
+        $post_relate = [];
+        if($post_cat){
+         $cat = M_cat::find($post_cat->cat_id);
+         // $comment_list = M_comment::where('post_id',$post->id)->paginate(10);
 
-        $post_relate = M_post::whereHas('f_cat', function($q_cat) use ($cat){$q_cat->where('cat_id', $cat->id);})->where('post.status','on')->orderby('created_at','desc')->limit(30)->get();
- 
+         $post_relate = M_post::whereHas('f_cat', function($q_cat) use ($cat){$q_cat->where('cat_id', $cat->id);})->where('post.status','on')->orderby('created_at','desc')->limit(30)->get();
+   }
         if($post->title_seo == ''){
            $title = $post->title;
         }else{
@@ -171,6 +205,7 @@ class Controller extends BaseController
 
 
     public function post_regis(Request $request){
+         $back = $request->back;
         $order = new M_order;
         $order -> name = $request ->name;
         $order -> tel = $request ->tel;
@@ -179,6 +214,6 @@ class Controller extends BaseController
         $order -> note = $request ->note;
         $order -> status = 'off';
         $order -> save();
-        return redirect('/#contactsform')->with('alert','Đăng ký thành công');
+        return redirect($back)->with('alert','Đăng ký thành công');
     }
 }

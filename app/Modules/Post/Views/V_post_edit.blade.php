@@ -4,7 +4,7 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
         <h1>
-            Sửa bài viết <a href="{{asset('vi/'.$post-> url.'.html')}}" target="_blank">
+            Sửa bài viết <a href="{{asset('service/'.$post-> url.'.html')}}" target="_blank">
                 <i class="fa fa-eye"></i>
             </a>
         </h1>
@@ -34,7 +34,7 @@
                                 <input type="text"
                                     class="form-control <?php foreach($errors -> all () as $errors_r){ if($errors_r == 'Bạn chưa nhập tiêu đề'){ echo 'border-danger';}}?>"
                                     id="title_post" placeholder="Bạn điền tiêu đề" name="title"
-                                    onkeyup="ChangeToSlug();" value="{{$post->title}}">
+                                    onkeyup="ChangeToSlug();" value="{{$post->title}}" required>
 
                             </div>
                             <!-- Url-->
@@ -44,7 +44,7 @@
                                         <div class="input-group-text">{{asset('')}}</div>
                                     </div>
                                     <input type="text" class="form-control" id="url_post" name="url"
-                                        value="{{$post->url}}">
+                                        value="{{$post->url}}" required>
                                 </div>
                             </div>
 

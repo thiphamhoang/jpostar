@@ -53,10 +53,10 @@
                <h3 class="box-title">Danh sách slide </h3>
             </div>
             <div class="box-body table-responsive no-padding">
-               <table class="table table-hover">
+               <table class="table table-hover" >
                   <tr>
                      <th>Ảnh</th>
-                     <th>Ảnh mobile</th>
+                     {{-- <th>Ảnh mobile</th> --}}
                      <th>Tên</th>
                      <th class="text-center">Link</th>
                      <th class="text-center">id</th>
@@ -66,20 +66,20 @@
                      @foreach($slide_img as $key => $val)
                         <tr>
                            <!-- cot anh dai dien -->
-                           <td class=""> 
+                           <td class="" style="background-color: #979797"> 
                               @if($val->img)
                                  <img width="100px" src="{{asset('/source/slide/'.$val->img)}}" />
                               @else
                                   <img width="100px" src="{{asset('upload/theme/noimg.jpg')}}" />
                               @endif
                             </td>
-                           <td class=""> 
+                           {{-- <td class=""> 
                               @if($val->img_m)
                                  <img width="100px" src="{{asset('/source/slide/'.$val->img_m)}}" />
                               @else
                                   <img width="100px" src="{{asset('upload/theme/noimg.jpg')}}" />
                               @endif
-                            </td>
+                            </td> --}}
                            <!-- cot tieu de -->
                            <td class="">
                               <div class="admin-list-post">
@@ -161,10 +161,10 @@
                                                 <div class="form-group">
                                                    {{F_input_image($val -> img,'img',$val -> id,asset('/source/slide/'))}}
                                                 </div>   
-                                                <div class="form-group">
+                                                <!-- <div class="form-group">
                                                    <label>Hình ảnh Mobile</label>
                                                    {{F_input_image_2($val -> img_m,'img_m','m_'.$val -> id,asset('/source/slide'))}}
-                                                 </div>                 
+                                                 </div>                  -->
                                                 <!-- link  -->
                                                 <div class="form-group">
                                                    <label class="font-weight-bold"> Link ảnh</label>

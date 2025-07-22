@@ -4996,7 +4996,7 @@ span.wpforms-required-label {
 }
 
 .case-sol__number {
-    background: #fa6bbe;
+    background: #1b86f8;
     position: absolute;
     z-index: 2;
     left: 50%;
@@ -5226,7 +5226,7 @@ span.wpforms-required-label {
     font-weight: 500;
     font-size: 7.5rem;
     line-height: 1;
-    color: #fa6bbe;
+    color: #1b86f8;
     margin-bottom: .5625rem
 }
 
@@ -12410,7 +12410,7 @@ a.vpservices-name:hover {
 .dmsplan-section__item:hover .dmsplan-price,
 .fill-btn_gradient-pink,
 .fixed-header__container .btn.btn_border:hover {
-    background: linear-gradient(88deg, #ffa37b -11.16%, #fa6bbe 46.95%, #732bf7 94.89%)
+    background: linear-gradient(88deg, #d4aa47 -11.16%, #1b86f8 46.95%, #d4aa47 94.89%)
 }
 
 .fixed-header__container .btn.btn_border {
@@ -12520,7 +12520,7 @@ a.vpservices-name:hover {
 
 .dmprference-section__info:before,
 .dmsplan-section__item:before {
-    background: linear-gradient(88deg, #ffa37b -11.16%, #fa6bbe 46.95%, #732bf7 94.89%) border-box;
+    background: linear-gradient(88deg, #d4aa47 -11.16%, #1b86f8 46.95%, #d4aa47 94.89%) border-box;
     top: 0
 }
 
@@ -12605,7 +12605,7 @@ a.vpservices-name:hover {
     bottom: 0;
     border-radius: 1.25rem;
     border: 4px solid transparent;
-    -webkit-mask: linear-gradient(88deg, #FFA37B -11.16%, #FA6BBE 46.95%, #732BF7 94.89%) padding-box, linear-gradient(88deg, #FFA37B -11.16%, #FA6BBE 46.95%, #732BF7 94.89%);
+    -webkit-mask: linear-gradient(88deg, #d4aa47 -11.16%, #1b86f8 46.95%, #d4aa47 94.89%) padding-box, linear-gradient(88deg, #d4aa47 -11.16%, #1b86f8 46.95%, #d4aa47 94.89%);
     -webkit-mask-composite: destination-out;
     mask-composite: exclude
 }
@@ -12616,7 +12616,7 @@ a.vpservices-name:hover {
     left: 0;
     right: 0;
     bottom: 0;
-    -webkit-mask: linear-gradient(88deg, #FFA37B -11.16%, #FA6BBE 46.95%, #732BF7 94.89%) padding-box, linear-gradient(88deg, #FFA37B -11.16%, #FA6BBE 46.95%, #732BF7 94.89%);
+    -webkit-mask: linear-gradient(88deg, #d4aa47 -11.16%, #1b86f8 46.95%, #d4aa47 94.89%) padding-box, linear-gradient(88deg, #d4aa47 -11.16%, #1b86f8 46.95%, #d4aa47 94.89%);
     -webkit-mask-composite: destination-out
 }
 
@@ -12803,7 +12803,7 @@ a.vpservices-name:hover {
 .dmsplan-label:before,
 .dmsplan-section__item-popular .fill-btn_gradient-pink span,
 .dmsplan-section__item-popular:hover .fill-btn_gradient-pink {
-    background: linear-gradient(88deg, #ffa37b -11.16%, #fa6bbe 46.95%, #732bf7 94.89%)
+    background: linear-gradient(88deg, #d4aa47 -11.16%, #1b86f8 46.95%, #d4aa47 94.89%)
 }
 
 .dmsplan-label {
@@ -13208,7 +13208,7 @@ a.vpservices-name:hover {
 .dmsadvantage-section__cta:before,
 .dmsadvantage-section__item-ninja:before {
     top: 0;
-    background: linear-gradient(88deg, #ffa37b -11.16%, #fa6bbe 46.95%, #732bf7 94.89%) border-box
+    background: linear-gradient(88deg, #d4aa47 -11.16%, #1b86f8 46.95%, #d4aa47 94.89%) border-box
 }
 
 .dmsadvantage-section__item-ninja .dmsadvantage-section__td:after,
@@ -13287,7 +13287,7 @@ a.vpservices-name:hover {
 .dmsteam-section__positem:before {
     content: '';
     bottom: 0;
-    -webkit-mask: linear-gradient(88deg, #FFA37B -11.16%, #FA6BBE 46.95%, #732BF7 94.89%) padding-box, linear-gradient(88deg, #FFA37B -11.16%, #FA6BBE 46.95%, #732BF7 94.89%);
+    -webkit-mask: linear-gradient(88deg, #d4aa47 -11.16%, #1b86f8 46.95%, #d4aa47 94.89%) padding-box, linear-gradient(88deg, #d4aa47 -11.16%, #1b86f8 46.95%, #d4aa47 94.89%);
     -webkit-mask-composite: destination-out;
     right: 0;
     left: 0
@@ -13699,7 +13699,7 @@ a.vpservices-name:hover {
     top: 0;
     border-radius: 2.5rem;
     border: 2px solid transparent;
-    background: linear-gradient(88deg, #ffa37b -11.16%, #fa6bbe 46.95%, #732bf7 94.89%) border-box;
+    background: linear-gradient(88deg, #d4aa47 -11.16%, #1b86f8 46.95%, #d4aa47 94.89%) border-box;
     mask-composite: exclude;
     z-index: 1;
     display: none
@@ -13710,7 +13710,7 @@ a.vpservices-name:hover {
     content: '';
     -webkit-mask-composite: destination-out;
     bottom: 0;
-    -webkit-mask: linear-gradient(88deg, #FFA37B -11.16%, #FA6BBE 46.95%, #732BF7 94.89%) padding-box, linear-gradient(88deg, #FFA37B -11.16%, #FA6BBE 46.95%, #732BF7 94.89%)
+    -webkit-mask: linear-gradient(88deg, #d4aa47 -11.16%, #1b86f8 46.95%, #d4aa47 94.89%) padding-box, linear-gradient(88deg, #d4aa47 -11.16%, #1b86f8 46.95%, #d4aa47 94.89%)
 }
 
 .dmsteam-section__positem:hover {
@@ -13764,7 +13764,7 @@ a.vpservices-name:hover {
     bottom: 0;
     width: 100%;
     height: 4px;
-    background: linear-gradient(88deg, #732bf7 46.95%, #fa6bbe 94.89%);
+    background: linear-gradient(88deg, #d4aa47 46.95%, #1b86f8 94.89%);
     z-index: 1;
     display: block
 }
@@ -13854,7 +13854,7 @@ a.vpservices-name:hover {
     right: 0;
     border-radius: 1.25rem;
     border: 4px solid transparent;
-    background: linear-gradient(88deg, #ffa37b -11.16%, #fa6bbe 46.95%, #732bf7 94.89%) border-box;
+    background: linear-gradient(88deg, #d4aa47 -11.16%, #1b86f8 46.95%, #d4aa47 94.89%) border-box;
     mask-composite: exclude;
     z-index: 1
 }
@@ -13992,7 +13992,7 @@ a.vpservices-name:hover {
 }
 
 .txt-orange_gradient {
-    background: linear-gradient(88deg, #ffa37b -11.16%, #fa6bbe 46.95%, #732bf7 94.89%);
+    background: linear-gradient(88deg, #d4aa47 -11.16%, #1b86f8 46.95%, #d4aa47 94.89%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -14338,7 +14338,7 @@ a.vpservices-name:hover {
 .dmscontact-section.dark-contacts_bg .contacts-form__btn,
 .dmsprocess-section__item:before,
 .gtmstep-section__step span {
-    background: linear-gradient(88deg, #ffa37b -11.16%, #fa6bbe 46.95%, #732bf7 94.89%)
+    background: linear-gradient(88deg, #d4aa47 -11.16%, #1b86f8 46.95%, #d4aa47 94.89%)
 }
 
 .dmscontact-section__form .wpcf7-form-control-wrap {
@@ -15351,7 +15351,7 @@ a.vpservices-name:hover {
 .gtmsubscribe__form #stc-update-btn {
     position: relative;
     text-indent: inherit;
-    background: linear-gradient(88deg, #ffa37b -11.16%, #fa6bbe 46.95%, #732bf7 94.89%) !important;
+    background: linear-gradient(88deg, #d4aa47 -11.16%, #1b86f8 46.95%, #d4aa47 94.89%) !important;
     white-space: normal;
     border-radius: .625rem;
     font-size: 1rem;
@@ -15495,7 +15495,7 @@ a.vpservices-name:hover {
 }
 
 .w3retarget-banner__price {
-    background: linear-gradient(88deg, #ffa37b -11.16%, #fa6bbe 46.95%, #732bf7 94.89%);
+    background: linear-gradient(88deg, #d4aa47 -11.16%, #1b86f8 46.95%, #d4aa47 94.89%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -16126,7 +16126,7 @@ div#arr4 {
     right: 0;
     border-radius: 1rem;
     border: 2px solid transparent;
-    background: linear-gradient(88deg, #ffa37b -11.16%, #fa6bbe 46.95%, #732bf7 94.89%) border-box;
+    background: linear-gradient(88deg, #d4aa47 -11.16%, #1b86f8 46.95%, #d4aa47 94.89%) border-box;
     mask-composite: exclude
 }
 
@@ -16143,7 +16143,7 @@ div#arr4 {
     text-align: center;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(88deg, #ffa37b -11.16%, #fa6bbe 46.95%, #732bf7 94.89%);
+    background: linear-gradient(88deg, #d4aa47 -11.16%, #1b86f8 46.95%, #d4aa47 94.89%);
     color: #fff;
     font-size: 1.25rem;
     font-style: normal;
@@ -16456,7 +16456,7 @@ div#arr4 {
 .web3package-section__item:hover .web3package-section__price,
 .web3subscribe-section__item.active:after,
 .web3subscribe-section__list:after {
-    background: linear-gradient(88deg, #ffa37b -11.16%, #fa6bbe 46.95%, #732bf7 94.89%)
+    background: linear-gradient(88deg, #d4aa47 -11.16%, #1b86f8 46.95%, #d4aa47 94.89%)
 }
 
 .crypto-ndpage .hero-section_wide.hero-section_b2b:before,
@@ -16826,7 +16826,7 @@ div#arr4 {
 }
 
 .web3package-section__btn .btn:hover {
-    background: linear-gradient(88deg, #ffa37b -11.16%, #fa6bbe 46.95%, #732bf7 94.89%);
+    background: linear-gradient(88deg, #d4aa47 -11.16%, #1b86f8 46.95%, #d4aa47 94.89%);
     border: 2px solid rgba(255, 255, 255, .15);
     border-right: 2px solid #874af8
 }
@@ -16880,7 +16880,7 @@ div#arr4 {
     display: block;
     width: 100%;
     height: 1px;
-    background: linear-gradient(88deg, #ffa37b -11.16%, #fa6bbe 46.95%, #9257fe 94.89%);
+    background: linear-gradient(88deg, #d4aa47 -11.16%, #1b86f8 46.95%, #9257fe 94.89%);
     position: absolute;
     left: 0;
     bottom: 0;
@@ -16898,7 +16898,7 @@ div#arr4 {
 
 .b2b-ndpage .btn.btn-link_long span,
 .faq-section_gradient .active .faq-btn {
-    background: linear-gradient(88deg, #ffa37b -11.16%, #fa6bbe 46.95%, #9257fe 94.89%);
+    background: linear-gradient(88deg, #d4aa47 -11.16%, #1b86f8 46.95%, #9257fe 94.89%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent
@@ -16961,7 +16961,7 @@ div#arr4 {
 
 .price-line,
 .price-line:before {
-    background: linear-gradient(88deg, #ffa37b -11.16%, #fa6bbe 46.95%, #732bf7 94.89%)
+    background: linear-gradient(88deg, #d4aa47 -11.16%, #1b86f8 46.95%, #d4aa47 94.89%)
 }
 
 .price-line {
@@ -17306,8 +17306,8 @@ div#arr4 {
 .b2bmeasure__item:before {
     content: '';
     right: 0;
-    background: linear-gradient(88deg, #ffa37b -11.16%, #fa6bbe 46.95%, #732bf7 94.89%) border-box;
-    -webkit-mask: linear-gradient(88deg, #FFA37B -11.16%, #FA6BBE 46.95%, #732BF7 94.89%) padding-box, linear-gradient(88deg, #FFA37B -11.16%, #FA6BBE 46.95%, #732BF7 94.89%);
+    background: linear-gradient(88deg, #d4aa47 -11.16%, #1b86f8 46.95%, #d4aa47 94.89%) border-box;
+    -webkit-mask: linear-gradient(88deg, #d4aa47 -11.16%, #1b86f8 46.95%, #d4aa47 94.89%) padding-box, linear-gradient(88deg, #d4aa47 -11.16%, #1b86f8 46.95%, #d4aa47 94.89%);
     bottom: 0;
     top: 0;
     left: 0;
@@ -17339,7 +17339,7 @@ div#arr4 {
 }
 
 .b2bmeasure__item:hover .b2bmeasure__name {
-    background: linear-gradient(88deg, #ffa37b -11.16%, #fa6bbe 46.95%, #9257fe 94.89%);
+    background: linear-gradient(88deg, #d4aa47 -11.16%, #1b86f8 46.95%, #9257fe 94.89%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent
@@ -17469,7 +17469,7 @@ div#arr4 {
     position: absolute;
     z-index: 1;
     left: 0;
-    background: linear-gradient(88deg, #ffa37b -11.16%, #fa6bbe 46.95%, #9257fe 94.89%)
+    background: linear-gradient(88deg, #d4aa47 -11.16%, #1b86f8 46.95%, #9257fe 94.89%)
 }
 
 .b2bexperience-section {
@@ -17627,7 +17627,7 @@ div#arr4 {
     height: .375rem;
     min-width: .375rem;
     border-radius: 50%;
-    background: linear-gradient(88deg, #ffa37b -11.16%, #fa6bbe 46.95%, #9257fe 94.89%)
+    background: linear-gradient(88deg, #d4aa47 -11.16%, #1b86f8 46.95%, #9257fe 94.89%)
 }
 
 .b2bprograms__case {
@@ -17964,7 +17964,7 @@ div#arr4 {
 
 .crchallenge-blockquote_inside span,
 .crchallenge-section__quote-txt span {
-    background: linear-gradient(88deg, #ffa37b -11.16%, #fa6bbe 46.95%, #9257fe 94.89%);
+    background: linear-gradient(88deg, #d4aa47 -11.16%, #1b86f8 46.95%, #9257fe 94.89%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent
@@ -18160,7 +18160,7 @@ div#arr4 {
 
 .web3imagine-section__item-service_newdes .dk-only_large .web3imagine-section__srowitem .web3imagine-section__servicename.active,
 .web3imagine-section__item-service_newdes .mob-only_large .active .web3imagine-section__servicename {
-    background: linear-gradient(88deg, #ffa37b -11.16%, #fa6bbe 46.95%, #732bf7 94.89%);
+    background: linear-gradient(88deg, #d4aa47 -11.16%, #1b86f8 46.95%, #d4aa47 94.89%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent
@@ -22147,8 +22147,8 @@ div#arr4 {
     .web3package-section__item:nth-child(2):before {
         content: '';
         right: 0;
-        background: linear-gradient(88deg, #ffa37b -11.16%, #fa6bbe 46.95%, #732bf7 94.89%) border-box;
-        -webkit-mask: linear-gradient(88deg, #FFA37B -11.16%, #FA6BBE 46.95%, #732BF7 94.89%) padding-box, linear-gradient(88deg, #FFA37B -11.16%, #FA6BBE 46.95%, #732BF7 94.89%);
+        background: linear-gradient(88deg, #d4aa47 -11.16%, #1b86f8 46.95%, #d4aa47 94.89%) border-box;
+        -webkit-mask: linear-gradient(88deg, #d4aa47 -11.16%, #1b86f8 46.95%, #d4aa47 94.89%) padding-box, linear-gradient(88deg, #d4aa47 -11.16%, #1b86f8 46.95%, #d4aa47 94.89%);
         bottom: 0;
         top: 0;
         left: 0;
@@ -22162,14 +22162,14 @@ div#arr4 {
     }
 
     .web3package-section__item:nth-child(2) .web3package-section__price {
-        background: linear-gradient(88deg, #ffa37b -11.16%, #fa6bbe 46.95%, #732bf7 94.89%);
+        background: linear-gradient(88deg, #d4aa47 -11.16%, #1b86f8 46.95%, #d4aa47 94.89%);
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent
     }
 
     .web3package-section__item:nth-child(2) .web3package-section__btn .btn {
-        background: linear-gradient(88deg, #ffa37b -11.16%, #fa6bbe 46.95%, #732bf7 94.89%);
+        background: linear-gradient(88deg, #d4aa47 -11.16%, #1b86f8 46.95%, #d4aa47 94.89%);
         border: 2px solid rgba(255, 255, 255, .15);
         border-right: 2px solid #874af8
     }
@@ -23506,7 +23506,7 @@ div#arr4 {
     position: absolute;
     width: 100%;
     bottom: 0;
-    background: linear-gradient(88deg, #ffa37b -11.16%, #fa6bbe 46.95%, #9257fe 94.89%);
+    background: linear-gradient(88deg, #d4aa47 -11.16%, #1b86f8 46.95%, #9257fe 94.89%);
     height: 1px
 }
 
@@ -23632,7 +23632,7 @@ div#arr4 {
     position: absolute;
     width: 100%;
     bottom: 0;
-    background: linear-gradient(88deg, #ffa37b -11.16%, #fa6bbe 46.95%, #9257fe 94.89%);
+    background: linear-gradient(88deg, #d4aa47 -11.16%, #1b86f8 46.95%, #9257fe 94.89%);
     height: 1px
 }
 
@@ -23742,7 +23742,7 @@ div#arr4 {
 .home_page .menu-cta:hover {
     border: 2px solid rgba(255, 255, 255, .15);
     border-right: 2px solid #874af8;
-    background: linear-gradient(88deg, #ffa37b -11.16%, #fa6bbe 46.95%, #732bf7 94.89%)
+    background: linear-gradient(88deg, #d4aa47 -11.16%, #1b86f8 46.95%, #d4aa47 94.89%)
 }
 
 .newtestimonials-section .web3testimon-section__head .web3testimon-section__img-big {
@@ -23900,7 +23900,7 @@ div#arr4 {
 
 .newarticle-section .btn.btn-link_long span {
     text-decoration: none;
-    background: linear-gradient(88deg, #ffa37b -11.16%, #fa6bbe 46.95%, #9257fe 94.89%);
+    background: linear-gradient(88deg, #d4aa47 -11.16%, #1b86f8 46.95%, #9257fe 94.89%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent
@@ -23960,7 +23960,7 @@ div#arr4 {
     position: absolute;
     width: 100%;
     bottom: 0;
-    background: linear-gradient(88deg, #ffa37b -11.16%, #fa6bbe 46.95%, #9257fe 94.89%);
+    background: linear-gradient(88deg, #d4aa47 -11.16%, #1b86f8 46.95%, #9257fe 94.89%);
     height: 1px
 }
 
@@ -24740,7 +24740,7 @@ div#arr4 {
 
 .contacts-form_quiz fieldset.cf7mls_current_fs:before,
 .formstepline .current {
-    background: linear-gradient(88.06deg, #ffa37b -11.16%, #fa6bbe 46.95%, #9257fe 94.89%);
+    background: linear-gradient(88.06deg, #d4aa47 -11.16%, #1b86f8 46.95%, #9257fe 94.89%);
     z-index: 2
 }
 
@@ -25190,14 +25190,14 @@ div#arr4 {
 }
 
 .home_page .btn.fill-btn_gradient-pink:hover {
-    background: linear-gradient(88deg, #732bf7 -11.16%, #fa6bbe 46.95%, #ffa37b 94.89%);
+    background: linear-gradient(88deg, #d4aa47 -11.16%, #1b86f8 46.95%, #d4aa47 94.89%);
     border: none
 }
 
 .home_page .btn.menu-cta {
     position: relative;
     border: none;
-    background: linear-gradient(88deg, #ffa37b -11.16%, #fa6bbe 46.95%, #732bf7 94.89%);
+    background: linear-gradient(88deg, #d4aa47 -11.16%, #1b86f8 46.95%, #d4aa47 94.89%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent
@@ -25211,8 +25211,8 @@ div#arr4 {
     left: 0;
     position: absolute;
     display: block;
-    background: linear-gradient(88deg, #ffa37b -11.16%, #fa6bbe 46.95%, #732bf7 94.89%) border-box;
-    -webkit-mask: linear-gradient(88deg, #FFA37B -11.16%, #FA6BBE 46.95%, #732BF7 94.89%) padding-box, linear-gradient(88deg, #FFA37B -11.16%, #FA6BBE 46.95%, #732BF7 94.89%);
+    background: linear-gradient(88deg, #d4aa47 -11.16%, #1b86f8 46.95%, #d4aa47 94.89%) border-box;
+    -webkit-mask: linear-gradient(88deg, #d4aa47 -11.16%, #1b86f8 46.95%, #d4aa47 94.89%) padding-box, linear-gradient(88deg, #d4aa47 -11.16%, #1b86f8 46.95%, #d4aa47 94.89%);
     border-radius: .5rem;
     border: 2px solid transparent;
     -webkit-mask-composite: destination-out;
@@ -25222,7 +25222,7 @@ div#arr4 {
 
 .home_page .btn.menu-cta:hover {
     border: none;
-    background: linear-gradient(88deg, #ffa37b -11.16%, #fa6bbe 46.95%, #732bf7 94.89%);
+    background: linear-gradient(88deg, #d4aa47 -11.16%, #1b86f8 46.95%, #d4aa47 94.89%);
     color: #fff;
     -webkit-text-fill-color: #fff;
     background-clip: unset

@@ -144,7 +144,7 @@ class SlideImageController extends Controller {
             }
             $img_file = $request -> file('img');
             $exten_img = $img_file -> getClientOriginalExtension();
-            if($exten_img != 'webp' && $exten_img != 'jpg' && $exten_img != 'png' && $exten_img != 'jpeg' && $exten_img != 'JPEG' && $exten_img != 'PNG' && $exten_img != 'JPG') {
+            if($exten_img != 'svg' && $exten_img != 'webp' && $exten_img != 'jpg' && $exten_img != 'png' && $exten_img != 'jpeg' && $exten_img != 'JPEG' && $exten_img != 'PNG' && $exten_img != 'JPG') {
             return redirect()->back() -> with('alert','Lỗi, Bạn chỉ được chọn file ảnh có đuôi là .jpg, .png, .jpeg (phân biệt viết hoa và viết thường)');
             }
             $img = $img_file -> getClientOriginalName();

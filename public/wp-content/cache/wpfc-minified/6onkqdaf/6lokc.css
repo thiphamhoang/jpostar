@@ -14,8 +14,8 @@ top: 0;
 left: 0;
 position: absolute;
 display: none;
-background: linear-gradient(88deg, #ffa37b -11.16%, #fa6bbe 46.95%, #732bf7 94.89%) border-box;
--webkit-mask: linear-gradient(88deg, #FFA37B -11.16%, #FA6BBE 46.95%, #732BF7 94.89%) padding-box, linear-gradient(88deg, #FFA37B -11.16%, #FA6BBE 46.95%, #732BF7 94.89%);
+background: linear-gradient(88deg, #d4aa47 -11.16%, #1b86f8 46.95%, #d4aa47 94.89%) border-box;
+-webkit-mask: linear-gradient(88deg, #d4aa47 -11.16%, #1b86f8 46.95%, #d4aa47 94.89%) padding-box, linear-gradient(88deg, #d4aa47 -11.16%, #1b86f8 46.95%, #d4aa47 94.89%);
 border-radius: 0.5rem;
 border: 2px solid transparent;
 -webkit-mask-composite: destination-out;
@@ -355,7 +355,7 @@ justify-content: center;
 margin-bottom: 0.75rem;
 }
 .dpackage-section .web3package-section__item-popular .web3package-section__label {
-background: linear-gradient(90deg, #FE9788 0%, #DF5EC9 47%, #732BF7 100%);
+background: linear-gradient(90deg, #FE9788 0%, #DF5EC9 47%, #d4aa47 100%);
 }
 .dpackage-section .web3package-section__hour {
 font-size: 2rem;
@@ -405,7 +405,7 @@ line-height: 1.3019;
 letter-spacing: -0.01em;
 }
 .dpackage-section .web3package-section__item-popular .web3package-section__price {
-background: linear-gradient(88deg, #ffa37b -11.16%, #fa6bbe 46.95%, #732bf7 94.89%);
+background: linear-gradient(88deg, #d4aa47 -11.16%, #1b86f8 46.95%, #d4aa47 94.89%);
 background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
@@ -420,7 +420,7 @@ order: 1;
 order: 2;
 }
 .dpackage-section .web3package-section__item-popular .web3package-section__btn .btn {
-background: linear-gradient(88deg, #ffa37b -11.16%, #fa6bbe 46.95%, #732bf7 94.89%);
+background: linear-gradient(88deg, #d4aa47 -11.16%, #1b86f8 46.95%, #d4aa47 94.89%);
 border: 2px solid rgba(255, 255, 255, .15);
 border-right: 2px solid #874af8;
 }
@@ -450,8 +450,8 @@ top: 0;
 left: 0;
 position: absolute;
 display: block;
-background: linear-gradient(88deg, #ffa37b -11.16%, #fa6bbe 46.95%, #732bf7 94.89%) border-box;
--webkit-mask: linear-gradient(88deg, #FFA37B -11.16%, #FA6BBE 46.95%, #732BF7 94.89%) padding-box, linear-gradient(88deg, #FFA37B -11.16%, #FA6BBE 46.95%, #732BF7 94.89%);
+background: linear-gradient(88deg, #d4aa47 -11.16%, #1b86f8 46.95%, #d4aa47 94.89%) border-box;
+-webkit-mask: linear-gradient(88deg, #d4aa47 -11.16%, #1b86f8 46.95%, #d4aa47 94.89%) padding-box, linear-gradient(88deg, #d4aa47 -11.16%, #1b86f8 46.95%, #d4aa47 94.89%);
 border-radius: 0.5rem;
 border: 2px solid transparent;
 -webkit-mask-composite: destination-out;
@@ -892,7 +892,7 @@ white-space: nowrap;
 }
 .dmsimagine-section .web3imagine-section__explabel-txt.active,
 .dmsimagine-section .web3imagine-section__explabel-txt:hover {
-background: linear-gradient(88.06deg, #FFA37B -11.16%, #FA6BBE 46.95%, #9257FE 94.89%);
+background: linear-gradient(88.06deg, #d4aa47 -11.16%, #1b86f8 46.95%, #9257FE 94.89%);
 color: #fff;
 border: 1px solid #121212;
 display: inline-block;
@@ -1196,7 +1196,7 @@ margin-right: 1.25rem;
 .dpackage-section__web3 {
 border-radius: 0.5rem;
 padding: 1rem;
-background: linear-gradient(88.06deg, #FFA37B -11.16%, #FA6BBE 46.95%, #9257FE 94.89%);
+background: linear-gradient(88.06deg, #d4aa47 -11.16%, #1b86f8 46.95%, #9257FE 94.89%);
 color: #fff;
 font-size: 0.875rem;
 font-weight: 500;
@@ -1563,7 +1563,7 @@ width: 226px;
 min-width: 226px;
 height: 226px;
 border-radius: 100%;
-background: linear-gradient(88.06deg, #FFA37B -11.16%, #FA6BBE 46.95%, #9257FE 94.89%);
+background: linear-gradient(88.06deg, #d4aa47 -11.16%, #1b86f8 46.95%, #9257FE 94.89%);
 filter: blur(400px);
 z-index: 1;
 }

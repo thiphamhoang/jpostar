@@ -38,7 +38,7 @@
 
 
                            <td  class="text-center">
-                              {{$val->note}}
+                              {{$val->contant}}
                            </td>
 
                             <td class="text-center">
@@ -114,7 +114,7 @@
                                                     <div class="col-md-12">
                                                        <div class="form-group">
                                                                 <label>Nội dung</label>
-                                                                <textarea name="note"  class="form-control" rows="10">{{$val->note}}</textarea>
+                                                                <textarea name="content"  class="form-control" rows="10">{{$val->content}}</textarea>
                                                        </div>
                                                     </div>
 

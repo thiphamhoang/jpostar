@@ -99,7 +99,7 @@ class ThemeController extends Controller{
             $exten_img = $img_file -> getClientOriginalExtension();
             
             $img = $img_file -> getClientOriginalName();
-            if($exten_img != 'webp' && $exten_img != 'jpg' && $exten_img != 'png' && $exten_img != 'jpeg' && $exten_img != 'JPEG' && $exten_img != 'PNG' && $exten_img != 'JPG') {
+            if($exten_img != 'svg' && $exten_img != 'webp' && $exten_img != 'jpg' && $exten_img != 'png' && $exten_img != 'jpeg' && $exten_img != 'JPEG' && $exten_img != 'PNG' && $exten_img != 'JPG') {
                 return redirect()->back() -> with('alert','Lỗi, Bạn chỉ được chọn file ảnh có đuôi là .jpg, .png, .jpeg (phân biệt viết hoa và viết thường)');
                 }
             
@@ -129,7 +129,7 @@ class ThemeController extends Controller{
              }
             $img_file = $request -> file('img_2');
             $exten_img = $img_file -> getClientOriginalExtension();
-            if($exten_img != 'webp' && $exten_img != 'jpg' && $exten_img != 'png' && $exten_img != 'jpeg' && $exten_img != 'JPEG' && $exten_img != 'PNG' && $exten_img != 'JPG') {
+            if($exten_img != 'svg' && $exten_img != 'webp' && $exten_img != 'jpg' && $exten_img != 'png' && $exten_img != 'jpeg' && $exten_img != 'JPEG' && $exten_img != 'PNG' && $exten_img != 'JPG') {
             return redirect()->back() -> with('alert','Lỗi, Bạn chỉ được chọn file ảnh có đuôi là .jpg, .png, .jpeg (phân biệt viết hoa và viết thường)');
             }
             $img_2 = $img_file -> getClientOriginalName();
@@ -160,7 +160,7 @@ class ThemeController extends Controller{
              }
             $img_file = $request -> file('img_bg');
             $exten_img = $img_file -> getClientOriginalExtension();
-            if($exten_img != 'webp' && $exten_img != 'jpg' && $exten_img != 'png' && $exten_img != 'jpeg' && $exten_img != 'JPEG' && $exten_img != 'PNG' && $exten_img != 'JPG') {
+            if($exten_img != 'svg' && $exten_img != 'webp' && $exten_img != 'jpg' && $exten_img != 'png' && $exten_img != 'jpeg' && $exten_img != 'JPEG' && $exten_img != 'PNG' && $exten_img != 'JPG') {
             return redirect()->back() -> with('alert','Lỗi, Bạn chỉ được chọn file ảnh có đuôi là .jpg, .png, .jpeg (phân biệt viết hoa và viết thường)');
             }
             $img_bg = $img_file -> getClientOriginalName();
@@ -191,7 +191,7 @@ class ThemeController extends Controller{
              }
             $img_file = $request -> file('img_bg_m');
             $exten_img = $img_file -> getClientOriginalExtension();
-            if($exten_img != 'webp' && $exten_img != 'jpg' && $exten_img != 'png' && $exten_img != 'jpeg' && $exten_img != 'JPEG' && $exten_img != 'PNG' && $exten_img != 'JPG') {
+            if($exten_img != 'svg' && $exten_img != 'webp' && $exten_img != 'jpg' && $exten_img != 'png' && $exten_img != 'jpeg' && $exten_img != 'JPEG' && $exten_img != 'PNG' && $exten_img != 'JPG') {
             return redirect()->back() -> with('alert','Lỗi, Bạn chỉ được chọn file ảnh có đuôi là .jpg, .png, .jpeg (phân biệt viết hoa và viết thường)');
             }
             $img_bg_m = $img_file -> getClientOriginalName();

@@ -63,22 +63,8 @@ class OrderController extends Controller {
             "Họ tên"=>html_entity_decode($row->name),
             "Điện thoại"=>$row->tel,
             "Email"=>html_entity_decode($row->email),
-            "Tỉnh"=>html_entity_decode($row->tinh),
-            "Huyện"=>html_entity_decode($row->huyen),
-            "Địa chỉ"=>html_entity_decode($row->add),
-            "Thanh toán"=>html_entity_decode($row->pay),
-
-            "Mã thanh toán"=>html_entity_decode($row->vpc_MerchTxnRef),
-            "Sản phẩm"=>html_entity_decode($product_s),
-            "link"=>html_entity_decode($link_s),
-            "Giá giảm"=>$row->giam_gia,
-            "Tổng tiền"=>$row->tong_tien,
-            "Ngày"=>$row->created_at,
-            "Trạng thái thanh toán"=>html_entity_decode($row->pay_status),
-            "Trạng thái"=>html_entity_decode($row->status),
-            "Hóa đơn"=>html_entity_decode($row->bill),
-            "Mã khuyến mại"=>$row->code_km,
-            "Ghi chú"=>html_entity_decode($row->note),
+           
+            "Ghi chú"=>html_entity_decode($row->content),
          );
       }
 

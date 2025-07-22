@@ -28,7 +28,7 @@
 
             <div class="container layout layout_blog">
               
-                <main class="layout__main">
+                <main class="layout__main" style="margin-top: 50px">
                     <div class="layout__items js-blog-items" data-cat="all" itemscope="itemscope" itemtype="https://schema.org/Blog">
                         @foreach($post_list as $post)
                             <a href="{{asset($post->url.'.html')}}" class="blog-item">

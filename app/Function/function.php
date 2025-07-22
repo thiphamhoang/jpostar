@@ -15,6 +15,7 @@
 	include('F_checkbox_cat_multi_level.php');
 	include('change_title_to_url.php');
 	include('F_input.php');
+	include('F_input_image.php');
 	include('F_tinymce.php');
 	include('F_change_status.php');
 	

@@ -1,69 +1,54 @@
 @extends('fontend.index')
 @section('content')
+<div id="mm-0" class="mm-page mm-slideout">
  
-    <div id="mm-0" class="mm-page mm-slideout">
-        <div class="main paidmedia vd-page">
+        <div class="hero-section hero-section_wide hero-section_webstrategy hero-section_stick" id="lp-head">
 
-            <div class="hero-section hero-section_seo">
 
-                @foreach($row_head as $row)
-                    @include('fontend/layout/'.$row->style)
-                @endforeach
+            @foreach($row_head as $row)
+                @include('fontend/layout/'.$row->style)
+            @endforeach
                 
 
-
-                <div class="container hero-section__container">
-                    <h1 class="hero-section__title"> {{$post->title_2}}</h1>
-
-
-                    <p class="hero-section__desc">{{$post->des}} </p>
- 
- 
-                </div>
-            </div>
-
-            <section class="paidmain-section">
-                <div class="container" style="padding-top:0;">
-                    <div class="article-hero__breadcrumbs breadcrumbs-services">
-                        <a href="/">Homepage</a> &gt;
-                        <a href="/">Services</a> &gt;
-                        <span>{{$post->title}}</span>
-                    </div>
-                </div>
-                <div class="container">
-                    <h2 class="paidmain-section__title">{{$post->title_3}}
-                    </h2>
-                    <div class="paidmain-content">
-                        <div class="paidmain-descr">
-                              <?php echo html_entity_decode($post->content) ?>
-                        </div>
-                        @if($post->img)
-                            <div class="paidmain-content-img wow fadeInUp"
-                                style="visibility: visible; animation-name: fadeInUp;">
-                                <img width="150" height="150"
-                                    data-src="{{asset('source/post/'.$post->img)}}"
-                                    class="attachment-thumbnail size-thumbnail ls-is-cached lazyloaded"
-                                    alt="Crypto Community Management" decoding="async"
-                                    src="{{asset('source/post/'.$post->img)}}"
-                                    style="--smush-placeholder-width: 150px; --smush-placeholder-aspect-ratio: 150/150;">
-                            </div>
-                        @endif
-                    </div>
-                </div>
-            </section>
-
-            <section class="msolutions-section">
-                <div class="container">
-                     <div class="msolutions-descr">  <?php echo html_entity_decode($post->content_2) ?></div>
-                    
-                </div>
-            </section>
- 
-
+            @include('fontend/lp/intro')
+            @include('fontend/lp/partner')
         </div>
-         
-    </div>
+        @include('fontend/lp/meet')
+        @include('fontend/lp/news_2')   
+        @include('fontend/lp/why')
+     
+        @include('fontend/lp/feature')
+    
+         @include('fontend/lp/download')
+         @include('fontend/lp/award')
+        @include('fontend/lp/kick')
+        @include('fontend/lp/just')
+        @include('fontend/lp/smarter')
+ 
+  
+</div>
+
+<?php 
+    $displaySave = [];
+    if($post->display){
+        $displaySave = json_decode($post->display);
+    }
+ 
+?>
+@if($displaySave)
+    @foreach($displaySave as $item)
+        @if($item)
+            <script>
+                document.addEventListener("DOMContentLoaded", function () {
+                    var el = document.getElementById("{{ $item }}");
+                    if (el) {
+                        el.style.display = "none";
+                    }
+                });
+            </script>
+        @endif
+    @endforeach
+ @endif
 
 
-
- @endsection('content')
+@endsection('content')

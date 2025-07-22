@@ -11,7 +11,7 @@
                         @endforeach
             </section>
             <div class="container">
-                <div class="article-layout">
+                <div class="article-layout" >
                     <main class="article-main">
                         <div class="article-hero__breadcrumbs">
                             <a href="/">Homepage</a> &gt;
@@ -29,19 +29,21 @@
                                 </div>
                              </div>
                         </div>
-
-                        <img width="2560" height="1440"
-                            src="{{asset('source/post/'.$post->img)}}"
-                            class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
-                            alt="Fake Influencers_ Who They Are, How to Spot and Avoid Them" decoding="async"
-                            fetchpriority="high"
-                            sizes="(max-width: 2560px) 100vw, 2560px">
-                        <div class="article-top--cta">
-                             
-                            <p style="margin-top: 0;"><?php echo nl2br($post->des) ?></p>
-                        </div>
-
-                        <div class="article-maincontent">
+                        @if($post->img)
+                            <img width="2560" height="1440"
+                                src="{{asset('source/post/'.$post->img)}}"
+                                class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                                alt="{{$post->title}}" decoding="async"
+                                fetchpriority="high"
+                                sizes="(max-width: 2560px) 100vw, 2560px">
+                        @endif
+                        @if($post->des)
+                            <div class="article-top--cta">
+                                
+                                <p style="margin-top: 0;"><?php echo nl2br($post->des) ?></p>
+                            </div>
+                        @endif
+                        <div class="article-maincontent" style="margin-bottom: 40px">
                                <?php echo html_entity_decode($post->content) ?>
                         </div>
  

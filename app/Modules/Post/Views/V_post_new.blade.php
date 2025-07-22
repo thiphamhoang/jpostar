@@ -31,7 +31,7 @@
                                     <input type="text"
                                         class="form-control <?php foreach($errors -> all () as $errors_r){ if($errors_r == 'Bạn chưa nhập tiêu đề'){ echo 'border-danger';}}?>"
                                         id="title_post" placeholder="Bạn điền tiêu đề" name="title"
-                                        onkeyup="ChangeToSlug();" value="{{old('title')}}" maxlength="500">
+                                        onkeyup="ChangeToSlug();" value="{{old('title')}}" maxlength="500" required>
                                 </div>
 
                             </div>
@@ -43,7 +43,7 @@
                                         <div class="input-group-text">{{asset('')}}</div>
                                     </div>
                                     <input type="text" class="form-control" id="url_post" name="url"
-                                        value="{{old('url')}}" maxlength="500">
+                                        value="{{old('url')}}" maxlength="500" required>
                                 </div>
                             </div>
 
