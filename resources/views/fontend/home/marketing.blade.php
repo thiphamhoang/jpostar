@@ -10,11 +10,15 @@
             @foreach($slide_mList as $key => $slide_m)
                 <a href="{{$slide_m->link}}" class="newindustry-section__item  ">
                     <span class="newindustry-section__top">
-                        <span class="newindustry-section__icon"><img
+                        <span class="newindustry-section__icon">
+                            @if($slide_m->img)
+                            <img
                                 data-src="{{asset('/source/slide/'.$slide_m->img)}}"
                                 alt="{{$slide_m->title}}" width="40px"
                                 src="{{asset('/source/slide/'.$slide_m->img)}}"
-                                class="lazyload" /></span>
+                                class="lazyload" />
+                            @endif
+                        </span>
                     </span>
                     <span class="newindustry-section__name">{{$slide_m->title}}</span>
                    
