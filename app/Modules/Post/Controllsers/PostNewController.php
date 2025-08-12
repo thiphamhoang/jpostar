@@ -343,8 +343,14 @@ class PostNewController extends Controller {
          $post->lp_smarter_slide = $request->lp_smarter_slide;
 
 
-
-
+         $post->da_tongQuan = $request->da_tongQuan;
+         $post->da_tinhNang = $request->da_tinhNang;
+         $post->da_moHinh = $request->da_moHinh;
+         $post->da_chiPhi = $request->da_chiPhi;
+         $post->da_loTrinh = $request->da_loTrinh;
+         $post->da_goiVon = $request->da_goiVon;
+         $post->da_address = $request->da_address;
+         $post->da_date = $request->da_date;
 
 
          $post -> content_2 = $request -> content_2;

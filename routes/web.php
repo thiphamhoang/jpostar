@@ -24,7 +24,7 @@ Route::get('{url_cat}','Controller@get_cat');
 Route::get('{urlPost}.html','Controller@get_post');
 Route::get('{url_cat}','Controller@get_cat');
 
- Route::get('{url_type}/{url_service}.html','Controller@get_service');
+Route::get('{url_type}/{url_service}.html','Controller@get_service');
 
 
 Auth::routes();

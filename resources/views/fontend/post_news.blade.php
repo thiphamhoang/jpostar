@@ -6,9 +6,9 @@
         <div class="main article-page">
             <section class="article-hero" id="top">
 
-                        @foreach($row_head as $row)
-                            @include('fontend/layout/'.$row->style)
-                        @endforeach
+                    @foreach($row_head as $row)
+                        @include('fontend/layout/'.$row->style)
+                    @endforeach
             </section>
             <div class="container">
                 <div class="article-layout" >

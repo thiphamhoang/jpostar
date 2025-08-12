@@ -23,6 +23,11 @@
                         <i class="fas fa-edit"></i> <span>Dịch vụ</span>
                     </a>
                 </li>
+                 <li class="<?php if(Request::segment(5) == 'project'){echo 'active';} ?>">
+                    <a href="{{asset('admin/post/project')}}">
+                        <i class="fas fa-edit"></i> <span>Dự án</span>
+                    </a>
+                </li>
  
             @endcan
 
