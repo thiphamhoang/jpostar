@@ -3,7 +3,7 @@
 <style>
     .msolutions-descr table {
      border-collapse: collapse;
-        max-width: 100%;
+    width: 100%;
     }
     .msolutions-descr table, th, td {
     border: 1px solid rgb(96, 96, 96);
