@@ -69,6 +69,12 @@
                 <div class="msolutions-descr"> <?php echo html_entity_decode($post->da_goiVon); ?></div>
             </div>
         </section>
+        <section class="msolutions-section pt-large" style="padding-bottom:20;">
+            <div class="container">
+                <div class="paidmain-section__title"> Project Introduction</div>
+                <div class="msolutions-descr"> <?php echo html_entity_decode($post->content); ?></div>
+            </div>
+        </section>
 
 
     </div>

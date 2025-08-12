@@ -49,8 +49,15 @@
 </div>
 <div class="col-md-12">
     <div class="form-group">
-        <label><i class="fa fa-align-justify"></i> Gọi vốn::</label>
+        <label><i class="fa fa-align-justify"></i> Gọi vốn:</label>
         <textarea type="textarea" id="da_goiVon" class="form-control" name="da_goiVon"  >{{$post->da_goiVon}}</textarea>
         {{F_tinymce('da_goiVon')}}
+    </div>
+</div>
+<div class="col-md-12">
+    <div class="form-group">
+        <label><i class="fa fa-align-justify"></i> Giới thiệu:</label>
+        <textarea type="textarea" id="content" class="form-control" name="content"  >{{$post->content}}</textarea>
+        {{F_tinymce('content')}}
     </div>
 </div>

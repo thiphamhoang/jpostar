@@ -55,3 +55,10 @@
         {{F_tinymce('da_goiVon')}}
     </div>
 </div>
+<div class="col-md-12">
+    <div class="form-group">
+        <label><i class="fa fa-align-justify"></i> Giới thiệu:</label>
+        <textarea type="textarea" id="content" class="form-control" name="content"  >{{old('content')}}</textarea>
+        {{F_tinymce('content')}}
+    </div>
+</div>

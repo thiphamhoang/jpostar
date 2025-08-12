@@ -107,9 +107,7 @@
                             </h3>
                         </div>
                         <div class="box-body">
-                            <!-- trang thai -->
                             <div class="">
-                                <!-- trang thai -->
                                 <div class="form-group">
                                     <b>Trạng thái: </b> <br />
                                     <div class="custom-control custom-radio custom-control-inline">
