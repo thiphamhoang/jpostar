@@ -59,15 +59,19 @@
                 <div class="paidmain-section__title">Development & Marketing Budget</div>
                 <div class="msolutions-descr"> <?php echo html_entity_decode($post->da_chiPhi); ?></div>
             </div>
-       
+
             <div class="container">
-                <div class="paidmain-section__title">Roadmap</div>
-                <div class="msolutions-descr"> <?php echo html_entity_decode($post->da_loTrinh); ?></div>
-            </div>
-        
-            <div class="container">
-                <div class="paidmain-section__title">Funding Plan</div>
-                <div class="msolutions-descr"> <?php echo html_entity_decode($post->da_goiVon); ?></div>
+                <div style="display: flex; justify-content: space-between">
+                    <div >
+                        <div class="paidmain-section__title">Roadmap</div>
+                        <div class="msolutions-descr"> <?php echo html_entity_decode($post->da_loTrinh); ?></div>
+                    </div>
+                
+                    <div >
+                        <div class="paidmain-section__title">Funding Plan</div>
+                        <div class="msolutions-descr"> <?php echo html_entity_decode($post->da_goiVon); ?></div>
+                    </div>
+                </div>
             </div>
        
             <div class="container">
