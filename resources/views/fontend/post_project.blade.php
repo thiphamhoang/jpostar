@@ -2,13 +2,20 @@
 @section('content')
 <style>
     .msolutions-descr table {
-     border-collapse: collapse;
-    width: 100%;
+        border-collapse: collapse;
+        width: 100%;
     }
-    .msolutions-descr table, th, td {
-    border: 1px solid rgb(96, 96, 96);
-    padding: 10px;
+
+    .msolutions-descr table,
+    th,
+    td {
+        border: 1px solid rgb(96, 96, 96);
+        padding: 10px;
     }
+    .msolutions-descr ul ul {
+        margin-bottom: 20px
+    }
+
 </style>
 
 <div id="mm-0" class="mm-page mm-slideout">
@@ -49,34 +56,46 @@
                     </div>
                 </div>
             </div>
-       
+
             <div class="container">
                 <div class="paidmain-section__title">Estimated Revenue Model</div>
                 <div class="msolutions-descr"> <?php echo html_entity_decode($post->da_moHinh); ?></div>
             </div>
-       
+
             <div class="container">
                 <div class="paidmain-section__title">Development & Marketing Budget</div>
                 <div class="msolutions-descr"> <?php echo html_entity_decode($post->da_chiPhi); ?></div>
             </div>
 
-            <div class="container">
+            <div style="background: #eee; padding: 30px 0px">
+            <div class="container" >
                 <div style="display: flex; justify-content: space-between">
-                    <div >
+                    <div>
                         <div class="paidmain-section__title">Roadmap</div>
                         <div class="msolutions-descr"> <?php echo html_entity_decode($post->da_loTrinh); ?></div>
                     </div>
-                
-                    <div >
+
+                    <div>
                         <div class="paidmain-section__title">Funding Plan</div>
                         <div class="msolutions-descr"> <?php echo html_entity_decode($post->da_goiVon); ?></div>
                     </div>
                 </div>
             </div>
-       
-            <div class="container">
-                <div class="paidmain-section__title"> Project Introduction</div>
-                <div class="msolutions-descr"> <?php echo html_entity_decode($post->content); ?></div>
+            </div>
+
+            
+        
+            <div class="seo-tactics-section pb-large  pt-large" style="margin-top: 20px; color: #121212;">
+                <div class="container">
+                    <h2 class="paidmain-section__title">Project Introduction
+                    </h2>
+                    <div class="seo-tactics-subtitle" style="max-width: 95%;"></div>
+                </div>
+                <div class="container seo-tactics-inner">
+                    <div class="seo-tactics-descr" style="padding: 40px 20px !important; font-size: 16px">
+                        <?php echo html_entity_decode($post->content); ?>
+                    </div>
+                </div>
             </div>
         </section>
 
