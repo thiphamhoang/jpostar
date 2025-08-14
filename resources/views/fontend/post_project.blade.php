@@ -41,7 +41,7 @@
                         <div class="msolutions-descr"> <?php echo html_entity_decode($post->da_tinhNang); ?></div>
                     </div>
 
-                    <div class="paidmain-content-img  wow fadeInUp" style="visibility: visible; animation-name: fadeInUp; text-align: center;  position: unset !important;">
+                    <div class="paidmain-content-img  wow fadeInUp" style="visibility: visible; animation-name: fadeInUp; text-align: center;     position: unset !important;">
                         @if($post->img)
 
 
