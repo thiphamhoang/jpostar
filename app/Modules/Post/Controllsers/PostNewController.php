@@ -145,26 +145,6 @@ class PostNewController extends Controller {
             $img = '';
         }
 
-         if($request -> hasFile('img')){
-            $img_file = $request -> file('img');
-            $exten_img = $img_file -> getClientOriginalExtension();
-            if($exten_img != 'webp' && $exten_img != 'svg' && $exten_img != 'jpg' && $exten_img != 'png' && $exten_img != 'jpeg' && $exten_img != 'JPEG' && $exten_img != 'PNG' && $exten_img != 'JPG') {
-            return redirect()->back() -> with('alert','Lỗi, Bạn chỉ được chọn file ảnh có đuôi là .jpg, .png, .jpeg (phân biệt viết hoa và viết thường)');
-            }
-            $img = $img_file -> getClientOriginalName();
-            $i=1;
-            while(file_exists('source/post/'.$img)){
-                if($i == 1){
-                    $img = str_replace('.','-'.$i++.'.',$img);
-                }else{
-                    $a =$i-1;
-                    $img = str_replace($a.'.',$i++.'.',$img);
-                }
-            }
-            $img_file->move('source/post/',$img);
-        }else{
-            $img = '';
-        }
 
          if($request -> hasFile('lp_img')){
             $lp_img_file = $request -> file('lp_img');
