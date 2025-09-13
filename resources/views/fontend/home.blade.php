@@ -32,10 +32,10 @@
 
                     <div class="hero-section__column-right">
                         <div class="websubscr-hero_images">
-                            <img class="websubscr-hero_image_big lazyload"
+                            <!-- <img class="websubscr-hero_image_big lazyload"
                                 data-src="https://ninjapromo.io/wp-content/uploads/2024/02/hero_home_img.png"
                                 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                style="--smush-placeholder-width: 1247px; --smush-placeholder-aspect-ratio: 1247/1208;" />
+                                style="--smush-placeholder-width: 1247px; --smush-placeholder-aspect-ratio: 1247/1208;" /> -->
                         </div>
                         <div class="mob-only_large">
                             <h1 class="hero-section__title"><span class="gradient-txt_pink">{{$row->title}}</span>{{$row->title_2}}</h1>

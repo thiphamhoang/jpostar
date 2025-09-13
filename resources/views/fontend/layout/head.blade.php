@@ -41,6 +41,12 @@
                     <a href="{{asset('#contactsform')}}" class="btn menu-cta menu-cta_mobile ">Contact Us</a>
                  </div>
             </div>
+            <a href="https://vi.jpostar.finance/">
+                <img src="{{asset('upload/theme/vn.png')}}" alt="language" height="30px" width="40px">
+            </a>
+            <a href="https://jpostar.finance/">
+                <img src="{{asset('upload/theme/en.png')}}" alt="language" height="30px" width="40px">
+            </a>
         </div>
     </header>
 <script>
