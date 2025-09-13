@@ -23,7 +23,7 @@
                                         fill="white" /></svg>
                                 <div class="websubscr-hero_btn-col">
                                     <div class="websubscr-hero_btn-txt">{{$row->des}}</div>
-                                    <a href="#contactsform" class="btn fill-btn_gradient fill-btn_gradient-pink">Contact Us</a>
+                                    <a href="#contactsform" class="btn fill-btn_gradient fill-btn_gradient-pink">Liên hệ</a>
                                 </div>
 
                             </div>
@@ -45,7 +45,7 @@
                                     <path
                                         d="M60.7071 8.70711C61.0976 8.31658 61.0976 7.68342 60.7071 7.29289L54.3432 0.928932C53.9526 0.538408 53.3195 0.538408 52.9289 0.928932C52.5384 1.31946 52.5384 1.95262 52.9289 2.34315L58.5858 8L52.9289 13.6569C52.5384 14.0474 52.5384 14.6805 52.9289 15.0711C53.3195 15.4616 53.9526 15.4616 54.3432 15.0711L60.7071 8.70711ZM0 9H60V7H0L0 9Z"
                                         fill="white" /></svg>
-                                <a href="#contactsform" class="btn fill-btn_gradient fill-btn_gradient-pink">Contact Us</a> </div>
+                                <a href="#contactsform" class="btn fill-btn_gradient fill-btn_gradient-pink">Liên hệ</a> </div>
                         </div>
                     </div>
                 </div>

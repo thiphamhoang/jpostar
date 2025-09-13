@@ -37,7 +37,7 @@
                     </a>
                      <div class=" contact-footer" >
                         <p class="footer__subtitle_2 footer__subtitle_mb">
-                        Contact Us
+                        Liên hệ
                     </p>
                     <div class="info-contact">
                             <?php echo html_entity_decode($row->content) ?>

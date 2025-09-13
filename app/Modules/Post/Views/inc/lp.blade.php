@@ -320,7 +320,7 @@
         </div> --}}
         <div class="col-md-3">
             <label class="font-weight-bold mt-2"> Tên nút</label>
-            <input type="text" class="form-control" name="lp_growth_button" value="Contact us">
+            <input type="text" class="form-control" name="lp_growth_button" value="Liên hệ">
         </div>
         <div class="col-md-3">
             <label class="font-weight-bold mt-2"> Tên ảnh</label>

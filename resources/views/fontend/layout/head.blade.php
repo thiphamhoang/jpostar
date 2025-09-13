@@ -30,7 +30,7 @@
                 </ul>
             </nav>
 
-            <a href="{{asset('#contactsform')}}" class="btn menu-cta" style="padding: 1.0625rem 1rem !important">Contact Us</a>
+            <a href="{{asset('#contactsform')}}" class="btn menu-cta" style="padding: 1.0625rem 1rem !important">Liên hệ</a>
             <a href="#menumobile" id="btnmenumobile" class="btn menu-btn" style="z-index: 99999999;"></a>
             <div class="menumobile menumobile mm-menu mm-menu_offcanvas mm-menu_selected-hover mm-menu_selected-parent mm-menu_theme-dark" id="menumobile">
                 <div class="menumob-wrap">
@@ -38,7 +38,7 @@
                          {{FF_nav_multi_level_mobile($row->f_menu)}}
  
                     </ul>
-                    <a href="{{asset('#contactsform')}}" class="btn menu-cta menu-cta_mobile ">Contact Us</a>
+                    <a href="{{asset('#contactsform')}}" class="btn menu-cta menu-cta_mobile ">Liên hệ</a>
                  </div>
             </div>
             <a href="https://vi.jpostar.finance/">
