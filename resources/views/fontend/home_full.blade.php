@@ -431,7 +431,7 @@
                             cryptocurrency promotion.</span>
                         <div class="mob-only">
                             <span class="btn btn-link_long">
-                                <span>Read more</span>
+                                <span>Xem thêm</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="8" viewBox="0 0 51 8"
                                     fill="none">
                                     <path
@@ -458,7 +458,7 @@
                             expertise.</span>
                         <div class="mob-only">
                             <span class="btn btn-link_long">
-                                <span>Read more</span>
+                                <span>Xem thêm</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="8" viewBox="0 0 51 8"
                                     fill="none">
                                     <path
@@ -486,7 +486,7 @@
                             long-term growth.</span>
                         <div class="mob-only">
                             <span class="btn btn-link_long">
-                                <span>Read more</span>
+                                <span>Xem thêm</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="8" viewBox="0 0 51 8"
                                     fill="none">
                                     <path
@@ -513,7 +513,7 @@
                             boosts engagement and increases customer acquisition.</span>
                         <div class="mob-only">
                             <span class="btn btn-link_long">
-                                <span>Read more</span>
+                                <span>Xem thêm</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="8" viewBox="0 0 51 8"
                                     fill="none">
                                     <path
@@ -539,7 +539,7 @@
                             an effective campaign designed to drive user engagement.</span>
                         <div class="mob-only">
                             <span class="btn btn-link_long">
-                                <span>Read more</span>
+                                <span>Xem thêm</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="8" viewBox="0 0 51 8"
                                     fill="none">
                                     <path
@@ -565,7 +565,7 @@
                             a carefully planned strategy that raises brand awareness.</span>
                         <div class="mob-only">
                             <span class="btn btn-link_long">
-                                <span>Read more</span>
+                                <span>Xem thêm</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="8" viewBox="0 0 51 8"
                                     fill="none">
                                     <path
@@ -591,7 +591,7 @@
                             with a marketing roadmap that drives downloads.</span>
                         <div class="mob-only">
                             <span class="btn btn-link_long">
-                                <span>Read more</span>
+                                <span>Xem thêm</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="8" viewBox="0 0 51 8"
                                     fill="none">
                                     <path
@@ -617,7 +617,7 @@
                             sophisticated marketing techniques that engage users and drive results.</span>
                         <div class="mob-only">
                             <span class="btn btn-link_long">
-                                <span>Read more</span>
+                                <span>Xem thêm</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="8" viewBox="0 0 51 8"
                                     fill="none">
                                     <path
@@ -643,7 +643,7 @@
                             from obscurity to global reach.</span>
                         <div class="mob-only">
                             <span class="btn btn-link_long">
-                                <span>Read more</span>
+                                <span>Xem thêm</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="8" viewBox="0 0 51 8"
                                     fill="none">
                                     <path
@@ -670,7 +670,7 @@
                             campaigns that build relationships and drive conversions.</span>
                         <div class="mob-only">
                             <span class="btn btn-link_long">
-                                <span>Read more</span>
+                                <span>Xem thêm</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="8" viewBox="0 0 51 8"
                                     fill="none">
                                     <path
@@ -697,7 +697,7 @@
                             marketing.</span>
                         <div class="mob-only">
                             <span class="btn btn-link_long">
-                                <span>Read more</span>
+                                <span>Xem thêm</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="8" viewBox="0 0 51 8"
                                     fill="none">
                                     <path
@@ -724,7 +724,7 @@
                             digital marketing strategy designed to bring success from day one.</span>
                         <div class="mob-only">
                             <span class="btn btn-link_long">
-                                <span>Read more</span>
+                                <span>Xem thêm</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="8" viewBox="0 0 51 8"
                                     fill="none">
                                     <path
@@ -769,7 +769,7 @@
                             foster meaningful relationships that build trust.</span>
                         <div class="mob-only">
                             <span class="btn btn-link_long">
-                                <span>Read more</span>
+                                <span>Xem thêm</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="8" viewBox="0 0 51 8"
                                     fill="none">
                                     <path
@@ -796,7 +796,7 @@
                             search results and generate a higher volume of targeted traffic.</span>
                         <div class="mob-only">
                             <span class="btn btn-link_long">
-                                <span>Read more</span>
+                                <span>Xem thêm</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="8" viewBox="0 0 51 8"
                                     fill="none">
                                     <path
@@ -823,7 +823,7 @@
                             specialists with a proven formula for multiplying revenue.</span>
                         <div class="mob-only">
                             <span class="btn btn-link_long">
-                                <span>Read more</span>
+                                <span>Xem thêm</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="8" viewBox="0 0 51 8"
                                     fill="none">
                                     <path
@@ -850,7 +850,7 @@
                             social ads that amplify awareness and propel sales.</span>
                         <div class="mob-only">
                             <span class="btn btn-link_long">
-                                <span>Read more</span>
+                                <span>Xem thêm</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="8" viewBox="0 0 51 8"
                                     fill="none">
                                     <path
@@ -878,7 +878,7 @@
                             web.</span>
                         <div class="mob-only">
                             <span class="btn btn-link_long">
-                                <span>Read more</span>
+                                <span>Xem thêm</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="8" viewBox="0 0 51 8"
                                     fill="none">
                                     <path
@@ -923,7 +923,7 @@
                             exposure and positively influence public opinion.</span>
                         <div class="mob-only">
                             <span class="btn btn-link_long">
-                                <span>Read more</span>
+                                <span>Xem thêm</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="8" viewBox="0 0 51 8"
                                     fill="none">
                                     <path
@@ -950,7 +950,7 @@
                             content through attention-grabbing video production.</span>
                         <div class="mob-only">
                             <span class="btn btn-link_long">
-                                <span>Read more</span>
+                                <span>Xem thêm</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="8" viewBox="0 0 51 8"
                                     fill="none">
                                     <path
@@ -977,7 +977,7 @@
                             and creative video strategy that tells your brand story in a compelling way.</span>
                         <div class="mob-only">
                             <span class="btn btn-link_long">
-                                <span>Read more</span>
+                                <span>Xem thêm</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="8" viewBox="0 0 51 8"
                                     fill="none">
                                     <path
@@ -1004,7 +1004,7 @@
                             crowd with an inspired branding campaign that generates positive PR.</span>
                         <div class="mob-only">
                             <span class="btn btn-link_long">
-                                <span>Read more</span>
+                                <span>Xem thêm</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="8" viewBox="0 0 51 8"
                                     fill="none">
                                     <path
@@ -1050,7 +1050,7 @@
                             relationships with your target audience through strategic community management.</span>
                         <div class="mob-only">
                             <span class="btn btn-link_long">
-                                <span>Read more</span>
+                                <span>Xem thêm</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="8" viewBox="0 0 51 8"
                                     fill="none">
                                     <path
@@ -1077,7 +1077,7 @@
                             intuitive website design that drives conversions.</span>
                         <div class="mob-only">
                             <span class="btn btn-link_long">
-                                <span>Read more</span>
+                                <span>Xem thêm</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="8" viewBox="0 0 51 8"
                                     fill="none">
                                     <path
@@ -1105,7 +1105,7 @@
                             performant.</span>
                         <div class="mob-only">
                             <span class="btn btn-link_long">
-                                <span>Read more</span>
+                                <span>Xem thêm</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="8" viewBox="0 0 51 8"
                                     fill="none">
                                     <path
@@ -1133,7 +1133,7 @@
                             user-friendly digital applications that add value to your business.</span>
                         <div class="mob-only">
                             <span class="btn btn-link_long">
-                                <span>Read more</span>
+                                <span>Xem thêm</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="8" viewBox="0 0 51 8"
                                     fill="none">
                                     <path
@@ -1160,7 +1160,7 @@
                             that set your brand apart in a saturated marketplace.</span>
                         <div class="mob-only">
                             <span class="btn btn-link_long">
-                                <span>Read more</span>
+                                <span>Xem thêm</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="8" viewBox="0 0 51 8"
                                     fill="none">
                                     <path
@@ -1188,7 +1188,7 @@
                             to acquire new revenue streams and propel your business into the future.</span>
                         <div class="mob-only">
                             <span class="btn btn-link_long">
-                                <span>Read more</span>
+                                <span>Xem thêm</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="8" viewBox="0 0 51 8"
                                     fill="none">
                                     <path
@@ -1216,7 +1216,7 @@
                             stratosphere.</span>
                         <div class="mob-only">
                             <span class="btn btn-link_long">
-                                <span>Read more</span>
+                                <span>Xem thêm</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="8" viewBox="0 0 51 8"
                                     fill="none">
                                     <path

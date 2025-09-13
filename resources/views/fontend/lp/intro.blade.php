@@ -12,7 +12,7 @@
                 style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">{{$post->lp_des}}</div>
             <div class="websubscr-hero_btn-group wow fadeInUp" data-wow-delay=".4s"
                 style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
-                <a href="#contactsform" class="btn fill-btn_gradient fill-btn_gradient-pink">Contact Us</a>
+                <a href="#contactsform" class="btn fill-btn_gradient fill-btn_gradient-pink">Liên hệ</a>
                 <div class="websubscr-hero_btn-txt">{{$post->lp_des_2}}</div>
             </div>
         </div>

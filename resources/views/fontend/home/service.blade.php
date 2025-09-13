@@ -26,7 +26,7 @@
                         <span class="newservices-section__txt">{{$slide_s->des}}</span>
                         <div class="mob-only">
                             <span class="btn btn-link_long">
-                                <span>Read more</span>
+                                <span>Xem thêm</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="8" viewBox="0 0 51 8"
                                     fill="none">
                                     <path
