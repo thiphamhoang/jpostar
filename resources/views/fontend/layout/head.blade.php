@@ -30,7 +30,7 @@
                 </ul>
             </nav>
 
-            <a href="{{asset('#contactsform')}}" class="btn menu-cta">Contact Us</a>
+            <a href="{{asset('#contactsform')}}" class="btn menu-cta" style="padding: 1.0625rem 1rem !important">Contact Us</a>
             <a href="#menumobile" id="btnmenumobile" class="btn menu-btn" style="z-index: 99999999;"></a>
             <div class="menumobile menumobile mm-menu mm-menu_offcanvas mm-menu_selected-hover mm-menu_selected-parent mm-menu_theme-dark" id="menumobile">
                 <div class="menumob-wrap">
@@ -42,10 +42,10 @@
                  </div>
             </div>
             <a href="https://vi.jpostar.finance/">
-                <img src="{{asset('upload/theme/vn.png')}}" alt="language" height="30px" width="40px">
+                <img src="{{asset('upload/theme/vn.png')}}" alt="language" height="20px" width="30px">
             </a>
             <a href="https://jpostar.finance/">
-                <img src="{{asset('upload/theme/en.png')}}" alt="language" height="30px" width="40px">
+                <img src="{{asset('upload/theme/en.png')}}" alt="language" height="20px" width="30px">
             </a>
         </div>
     </header>
