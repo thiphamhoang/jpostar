@@ -101,14 +101,14 @@
                     
                    
                         <button class="btn footer__nav-btn js-footer-spoiler-btn" type="button">
-                        {{$_footer_6_type->name}} 
+                        @if(isset($_footer_6_type)){{$_footer_6_type->name}} @endif
                         </button>
                         <div class="footer-menu__list footer-menu__list-company">
                         <p class="footer__subtitle">
-                            {{$_footer_6_type->name}} 
+                           @if(isset($_footer_6_type)) {{$_footer_6_type->name}} @endif
                         </p>
                         <ul id="menu-about" class="footer-menu__list-inner">
-                              {{FF_nav_list($_footer_6)}}
+                               @if(isset($_footer_6)){{FF_nav_list($_footer_6)}}@endif
                         </ul>
                    
                     </div>

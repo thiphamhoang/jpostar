@@ -568,7 +568,20 @@
     <link rel="stylesheet" href="{{asset('wp-content/cache/wpfc-minified/qi1wppyd/6lokc.css')}}">
     <link rel="stylesheet" href="{{asset('wp-content/cache/wpfc-minified/6onkqdaf/6lokc.css')}}">
     <link rel="stylesheet" href="{{asset('style/fontend/style.css')}}">
-
+    <script type="application/ld+json">
+        {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "url": "https://jpostar.finance",
+        "logo": "{{ asset('source/theme/' . $favicon) }}",
+        "name": "JPostar Finance",
+        "sameAs": [
+            "https://facebook.com/jpostar",
+            "https://twitter.com/jpostar",
+            "https://linkedin.com/company/jpostar"
+        ]
+        }
+    </script>
 
 
 
