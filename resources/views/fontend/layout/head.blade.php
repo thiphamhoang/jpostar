@@ -107,11 +107,11 @@
                 <img src="{{ asset('upload/theme/vn.png') }}" alt="vn" height="20px" width="30px">
             </div>
             <div class="language-menu">
-                <a href="https://vi.jpostar.finance/">
-                    <img src="{{ asset('upload/theme/vn.png') }}" alt="vn" height="20px" width="30px">
+                <a href="https://vi.jpostar.finance/"> 
+                    <img src="{{ asset('upload/theme/vn.png') }}" alt="vn" height="20px" width="30px"> Tiếng việt
                 </a>
                 <a href="https://jpostar.finance/">
-                    <img src="{{ asset('upload/theme/en.png') }}" alt="en" height="20px" width="30px">
+                    <img src="{{ asset('upload/theme/en.png') }}" alt="en" height="20px" width="30px"> English
                 </a>
             </div>
         </div>
