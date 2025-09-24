@@ -571,6 +571,20 @@
 
 
 
+     <script type="application/ld+json">
+        {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "url": "https://jpostar.finance",
+        "logo": "{{ asset('source/theme/' . $favicon) }}",
+        "name": "JPostar Finance",
+        "sameAs": [
+            "https://facebook.com/jpostar",
+            "https://twitter.com/jpostar",
+            "https://linkedin.com/company/jpostar"
+        ]
+        }
+    </script>
 
 </head>
 
