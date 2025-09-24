@@ -104,8 +104,7 @@
 
         <div class="language-dropdown">
             <div class="language-btn">
-                <img src="{{ asset('upload/theme/vn.png') }}" alt="vn">
-                Tiếng Việt
+                <img src="{{ asset('upload/theme/vn.png') }}" alt="vn" height="20px" width="30px">
             </div>
             <div class="language-menu">
                 <a href="https://vi.jpostar.finance/">
